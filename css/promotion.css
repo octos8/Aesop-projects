@@ -1,9 +1,7 @@
-/* Promotion page: all selectors are scoped with the promo- prefix. */
+/* Promotion-only styles. Base styles and design tokens come from common.css. */
 .promo-page {
     width: 100%;
     overflow-x: clip;
-    color: #272727;
-    font-family: var(--font-sans);
 }
 
 .promo-section {
@@ -11,11 +9,9 @@
     --promo-bg-end: #f1ece1;
     --promo-accent: #404104;
     --promo-button: #404104;
-    --promo-text: #272727;
     --promo-card-ratio: 1 / 1;
 
     width: 100%;
-    color: var(--promo-text);
 }
 
 .promo-theme-forest {
@@ -69,8 +65,7 @@
     position: absolute;
     top: clamp(15px, 3vw, 58px);
     left: clamp(15px, 2.85vw, 55px);
-    margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: var(--font-serif);
     font-size: clamp(10px, 1.65vw, 32px);
     font-style: italic;
     line-height: 1;
@@ -85,16 +80,12 @@
 }
 
 .promo-hero-title {
-    margin: 0 0 clamp(8px, 1.45vw, 28px);
+    margin-bottom: clamp(8px, 1.45vw, 28px);
     font-size: clamp(14px, 1.7vw, 33px);
-    font-weight: 700;
-    line-height: 1.2;
 }
 
 .promo-hero-description {
-    margin: 0;
     font-size: clamp(9px, 1.15vw, 22px);
-    line-height: 1.45;
     word-break: keep-all;
 }
 
@@ -122,12 +113,11 @@
     aspect-ratio: 4 / 3;
     overflow: hidden;
     border-radius: 8px;
-    background: #fff;
+    background: var(--gray-0);
 }
 
 .promo-set-image img,
 .promo-product-image img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -145,17 +135,8 @@
     min-width: 0;
 }
 
-.promo-set-name,
-.promo-set-name-en,
-.promo-product-name,
-.promo-product-meta,
-.promo-discount {
-    margin: 0;
-}
-
 .promo-set-name {
     font-size: clamp(19px, 1.35vw, 26px);
-    font-weight: 700;
     line-height: 1.35;
     word-break: keep-all;
 }
@@ -170,30 +151,21 @@
     min-width: 0;
 }
 
-.promo-price-list {
-    margin: 0;
-}
-
 .promo-price-row {
     display: grid;
     grid-template-columns: minmax(max-content, 1fr) max-content;
     align-items: baseline;
     gap: 12px;
     font-size: clamp(17px, 1.15vw, 22px);
-    line-height: 1.45;
+    line-height: var(--lh2);
 }
 
 .promo-price-row + .promo-price-row {
     margin-top: 12px;
 }
 
-.promo-price-row dt,
-.promo-price-row dd {
-    margin: 0;
-}
-
 .promo-price-row-original {
-    color: #9d9d9d;
+    color: var(--gray-700);
 }
 
 .promo-price-row-original s {
@@ -201,15 +173,13 @@
 }
 
 .promo-price-row-special {
-    color: #111;
-    font-weight: 700;
+    color: var(--ink);
 }
 
 .promo-discount {
     margin-top: 10px;
     color: var(--promo-accent);
     font-size: clamp(18px, 1.2vw, 23px);
-    font-weight: 700;
     line-height: 1.25;
     text-align: right;
 }
@@ -222,10 +192,10 @@
     margin-top: clamp(34px, 2.35vw, 45px);
     padding: 10px 18px;
     background: var(--promo-button);
-    color: #fff;
+    color: var(--gray-0);
     font-size: clamp(16px, 1vw, 19px);
     font-weight: 500;
-    line-height: 1.2;
+    line-height: var(--lh1);
 }
 
 .promo-products {
@@ -245,7 +215,7 @@
     aspect-ratio: var(--promo-card-ratio);
     overflow: hidden;
     border-radius: 8px;
-    background: #fff;
+    background: var(--gray-0);
 }
 
 .promo-product-info {
@@ -263,7 +233,6 @@
     align-items: flex-end;
     justify-content: center;
     font-size: clamp(16px, 1.05vw, 20px);
-    font-weight: 700;
     line-height: 1.4;
     word-break: keep-all;
 }
@@ -275,12 +244,7 @@
     gap: 0 9px;
     margin-top: 2px;
     font-size: clamp(16px, 1.05vw, 20px);
-    line-height: 1.45;
     white-space: nowrap;
-}
-
-.promo-product-price {
-    font-weight: 700;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -394,7 +358,7 @@
 
     .promo-set-name {
         font-size: clamp(13px, 3.7vw, 16px);
-        line-height: 1.45;
+        line-height: var(--lh2);
     }
 
     .promo-set-name-en {
