@@ -21,7 +21,7 @@ if (productList) {
                     data-name="${name}" data-price="${product.price}" data-order="${index}">
                     <article>
                         <a class="collection-image" href="#" aria-label="${name} 상세 보기">
-                            <img src="./images/product-list/${escapeHtml(product.pthumbFileName)}"
+                            <img src="./img/product-list/${escapeHtml(product.pthumbFileName)}"
                                  alt="${name}" loading="lazy">
                         </a>
                         <div class="collection-info">
