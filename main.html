@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <script src="./js/header.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </head>
 
 <body>
@@ -268,6 +272,216 @@
 
         </div>
     </div>
+
+    <main class="home-page" id="main-content">
+        <!-- 메인 가로 슬라이드 -->
+        <section class="home-hero" aria-labelledby="home-title">
+            <h1 class="sr-only" id="home-title">자연과 감각을 위한 이솝 컬렉션</h1>
+
+            <div class="swiper home-hero-swiper" data-hero-swiper>
+                <div class="swiper-wrapper">
+                    <article class="swiper-slide home-hero-slide">
+                        <img class="home-hero-image" src="./img/main/hero-banner.jpg"
+                            alt="이끼와 식물 사이에 놓인 이솝 아우르너 오 드 퍼퓸">
+                    </article>
+
+                    <article class="swiper-slide home-hero-slide">
+                        <img class="home-hero-image" src="./img/main/main-forest.jpg"
+                            alt="메인 숲이미지">
+                    </article>
+
+                    <article class="swiper-slide home-hero-slide">
+                        <img class="home-hero-image" src="./img/main/main-morning.jpg"
+                            alt="메인 밤이미지">
+                    </article>
+
+                    <article class="swiper-slide home-hero-slide">
+                        <img class="home-hero-image" src="./img/main/main-night.jpg"
+                            alt="메인 밤이미지">
+                    </article>
+                </div>
+                <div class="swiper-pagination home-hero-pagination"></div>
+            </div>
+        </section>
+
+        <!-- 버튼으로 이동하는 캠페인 슬라이드 -->
+        <section class="campaign-showcase" aria-label="추천 컬렉션">
+            <figure class="campaign-photo campaign-photo-forest">
+                <img src="./img/main/new-product pc.jpg" alt="무화과와 흰 꽃이 어우러진 숲의 풍경">
+            </figure>
+
+            <div class="swiper campaign-swiper" data-campaign-swiper>
+                <div class="swiper-wrapper">
+                    <article class="swiper-slide campaign-slide">
+                        <div class="campaign-panel">
+                            <h2>FOREST VEIL</h2>
+                            <img class="campaign-product" src="./img/main/new1.jpg"
+                                alt="포레스트 베일 오 드 퍼퓸">
+                            <p class="campaign-description">숲의 결을 따라 번지는 부드러운 향</p>
+                            <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
+                            <p class="campaign-count">01 / 04</p>
+                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide campaign-slide">
+                        <div class="campaign-panel">
+                            <h2>FOREST VEIL</h2>
+                            <img class="campaign-product campaign-product-blend"
+                                src="./img/main/new2.jpg" alt="포레스트 베일 핸드 워시" loading="lazy">
+                            <p class="campaign-description">숲을 닮은 향을 남기는 부드러운 핸드 워시</p>
+                            <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
+                            <p class="campaign-count">02 / 04</p>
+                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide campaign-slide">
+                        <div class="campaign-panel">
+                            <h2>FOREST VEIL</h2>
+                            <img class="campaign-product campaign-product-blend"
+                                src="./img/main/new3.jpg" alt="포레스트 베일 바디 로션" loading="lazy">
+                            <p class="campaign-description">피부를 유연하게 가꾸는 산뜻한 바디 로션</p>
+                            <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
+                            <p class="campaign-count">03 / 04</p>
+                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                        </div>
+                    </article>
+                    <article class="swiper-slide campaign-slide">
+                        <div class="campaign-panel">
+                            <h2>FOREST VEIL</h2>
+                            <img class="campaign-product campaign-product-blend"
+                                src="./img/main/new4.jpg" alt="포레스트 베일 핸드 크림" loading="lazy">
+                            <p class="campaign-description">손에 수분을 채우는 향기로운 핸드 크림</p>
+                            <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
+                            <p class="campaign-count">04 / 04</p>
+                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                        </div>
+                    </article>
+                </div>
+
+                <button class="campaign-navigation campaign-prev" type="button" aria-label="이전 컬렉션">
+                    <span aria-hidden="true">‹</span>
+                </button>
+                <button class="campaign-navigation campaign-next" type="button" aria-label="다음 컬렉션">
+                    <span aria-hidden="true">›</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 신제품 가로 슬라이드 -->
+        <section class="featured-products" id="new-products" aria-labelledby="featured-products-title">
+            <div class="featured-heading">
+                <h2 id="featured-products-title">BEST SELLER</h2>
+                <span aria-hidden="true"></span>
+                <p>새로운 디자인, 새로운 감각.</p>
+            </div>
+
+            <div class="swiper featured-swiper" data-product-swiper>
+                <div class="swiper-wrapper">
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/1.jpg" alt="레버런스 아로마틱 핸드 워시">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>레버런스 아로마틱 핸드 워시</h3>
+                                <p>베티버와 베르가못 향의 부드러운 각질 케어 핸드 워시</p>
+                                <span>500ml + 30ml</span>
+                                <strong>55,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/3.jpg" alt="페이블 페이셜 세럼" loading="lazy">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>페이블 페이셜 세럼</h3>
+                                <p>피부의 수분 균형과 생기를 되찾아주는 집중 보습 세럼</p>
+                                <span>30ml + 10ml</span>
+                                <strong>89,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/4.jpg" alt="퓨리파잉 페이셜 클렌저" loading="lazy">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>퓨리파잉 페이셜 클렌저</h3>
+                                <p>피부 노폐물을 순하게 씻어내는 데일리 젤 클렌저</p>
+                                <span>200ml + 30ml</span>
+                                <strong>53,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/5.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>테싯 오 드 퍼퓸</h3>
+                                <p>바질과 시트러스, 베티버가 어우러진 생기 있는 향</p>
+                                <span>50ml + 10ml</span>
+                                <strong>175,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/6.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>밸런싱 샴푸</h3>
+                                <p>두피를 산뜻하게 정돈하고 모발에 윤기를 더하는 샴푸</p>
+                                <span>500ml + 30ml</span>
+                                <strong>59,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/7.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>이미디에이트 모이스처 페이셜 미스트</h3>
+                                <p>메마른 피부에 즉각적인 수분을 전하는 페이셜 미스트</p>
+                                <span>100ml + 10ml</span>
+                                <strong>47,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="swiper-slide featured-card">
+                        <a href="#">
+                            <figure class="featured-card-image">
+                                <img src="./img/main/8.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
+                            </figure>
+                            <div class="featured-card-copy">
+                                <h3>파슬리 페이셜 하이드레이팅 크림</h3>
+                                <p>편안한 보습막으로 피부를 보호하는 데일리 페이셜 크림</p>
+                                <span>50ml + 10ml</span>
+                                <strong>78,000원</strong>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="swiper-scrollbar featured-scrollbar"></div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
