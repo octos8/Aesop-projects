@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/shoppingList.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/react.css">
     <script src="./js/header.js" defer></script>
     <script src="./js/product.js" defer></script>
     <script src="./js/product-control.js" defer></script>
@@ -271,124 +273,190 @@
 
         </div>
     </div>
-        <main id="main-content">
-            <!-- 메인 비주얼 -->
-            <section class="product-hero" id="top" aria-labelledby="product-hero-title">
-                <img src="./img/product-list/hero-all-products.png" alt="식물과 함께 진열된 이솝 제품 컬렉션">
+    <main id="main-content">
+        <!-- 메인 비주얼 -->
+        <section class="product-hero" id="top" aria-labelledby="product-hero-title">
+            <img src="./img/product-list/hero-all-products.png" alt="식물과 함께 진열된 이솝 제품 컬렉션">
 
-                <div class="product-hero-copy">
-                    <h1 id="product-hero-title">ALL PRODUCTS</h1>
-                    <p>
-                        식물성 성분과 과학, 감각적인 경험을 담은<br>
-                        이솝의 모든 제품을 한눈에 만나보세요.
-                    </p>
-                </div>
-            </section>
+            <div class="product-hero-copy">
+                <h1 id="product-hero-title">ALL PRODUCTS</h1>
+                <p>
+                    식물성 성분과 과학, 감각적인 경험을 담은<br>
+                    이솝의 모든 제품을 한눈에 만나보세요.
+                </p>
+            </div>
+        </section>
 
-            <!-- 카테고리 -->
-            <section class="category-section common-frame" id="category" aria-labelledby="category-title">
+        <!-- 카테고리 -->
+        <section class="category-section common-frame" id="category" aria-labelledby="category-title">
+            <div class="list-section-heading">
+                <h2 id="category-title">카테고리</h2>
+                <span aria-hidden="true"></span>
+            </div>
+
+            <ul class="category-grid">
+                <li>
+                    <a href="#products" data-category="FRAGRANCE">
+                        <figure>
+                            <img src="./img/product-list/asset-13.png" alt="" loading="lazy">
+                            <figcaption>FRAGRANCE</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="SKIN CARE">
+                        <figure>
+                            <img src="./img/product-list/asset-14.png" alt="" loading="lazy">
+                            <figcaption>SKIN CARE</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="BODY CARE">
+                        <figure>
+                            <img src="./img/product-list/asset-15.png" alt="" loading="lazy">
+                            <figcaption>BODY CARE</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="MIST">
+                        <figure>
+                            <img src="./img/product-list/asset-16.png" alt="" loading="lazy">
+                            <figcaption>MIST</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="MOISTURIZER">
+                        <figure>
+                            <img src="./img/product-list/asset-17.png" alt="" loading="lazy">
+                            <figcaption>MOISTURIZER</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="CLEANSER">
+                        <figure>
+                            <img src="./img/product-list/asset-18.png" alt="" loading="lazy">
+                            <figcaption>CLEANSER</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="HAND CARE">
+                        <figure>
+                            <img src="./img/product-list/asset-19.png" alt="" loading="lazy">
+                            <figcaption>HAND CARE</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products" data-category="HAIR CARE">
+                        <figure>
+                            <img src="./img/product-list/asset-20.png" alt="" loading="lazy">
+                            <figcaption>HAIR CARE</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- New 컬렉션 -->
+        <section class="new-collection common-frame" id="products" aria-labelledby="products-title">
+            <div class="collection-toolbar">
                 <div class="list-section-heading">
-                    <h2 id="category-title">카테고리</h2>
+                    <h2 id="products-title">New 컬렉션</h2>
                     <span aria-hidden="true"></span>
                 </div>
 
-                <ul class="category-grid">
-                    <li>
-                        <a href="#products" data-category="FRAGRANCE">
-                            <figure>
-                                <img src="./img/product-list/asset-13.png" alt="" loading="lazy">
-                                <figcaption>FRAGRANCE</figcaption>
-                            </figure>
-                        </a>
-                    </li>
+                <label class="sort-control">
+                    <span class="sr-only">상품 정렬</span>
+                    <select name="sort" data-product-sort>
+                        <option value="default">기본</option>
+                        <option value="price-low">낮은 가격순</option>
+                        <option value="price-high">높은 가격순</option>
+                        <option value="name">상품명순</option>
+                    </select>
+                </label>
+            </div>
 
-                    <li>
-                        <a href="#products" data-category="SKIN CARE">
-                            <figure>
-                                <img src="./img/product-list/asset-14.png" alt="" loading="lazy">
-                                <figcaption>SKIN CARE</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#products" data-category="BODY CARE">
-                            <figure>
-                                <img src="./img/product-list/asset-15.png" alt="" loading="lazy">
-                                <figcaption>BODY CARE</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#products" data-category="MIST">
-                            <figure>
-                                <img src="./img/product-list/asset-16.png" alt="" loading="lazy">
-                                <figcaption>MIST</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#products" data-category="MOISTURIZER">
-                            <figure>
-                                <img src="./img/product-list/asset-17.png" alt="" loading="lazy">
-                                <figcaption>MOISTURIZER</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#products" data-category="CLEANSER">
-                            <figure>
-                                <img src="./img/product-list/asset-18.png" alt="" loading="lazy">
-                                <figcaption>CLEANSER</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#products" data-category="HAND CARE">
-                            <figure>
-                                <img src="./img/product-list/asset-19.png" alt="" loading="lazy">
-                                <figcaption>HAND CARE</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#products" data-category="HAIR CARE">
-                            <figure>
-                                <img src="./img/product-list/asset-20.png" alt="" loading="lazy">
-                                <figcaption>HAIR CARE</figcaption>
-                            </figure>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- New 컬렉션 -->
-            <section class="new-collection common-frame" id="products" aria-labelledby="products-title">
-                <div class="collection-toolbar">
-                    <div class="list-section-heading">
-                        <h2 id="products-title">New 컬렉션</h2>
-                        <span aria-hidden="true"></span>
+            <ul class="collection-grid grid-list" data-product-list></ul>
+        </section>
+    </main>
+    <!-- PC 푸터 -->
+    <footer>
+        <div class="footer-box">
+            <div class="box-wrap-5">
+                <div class="box one">
+                    <h4 class="t-txt-bold">회사 정보</h4>
+                    <ul>
+                        <li>브랜드 이야기</li>
+                        <li>인재 채용</li>
+                        <li>지속 가능성</li>
+                        <li>프레스</li>
+                    </ul>
+                </div>
+                <div class="box two">
+                    <h4 class="t-txt-bold">고객 지원</h4>
+                    <ul>
+                        <li>문의하기</li>
+                        <li>매장 찾기</li>
+                        <li>배송 및 반품</li>
+                        <li>자주 묻는 질문</li>
+                    </ul>
+                </div>
+                <div class="box three">
+                    <h4 class="t-txt-bold">법률 및 정책</h4>
+                    <ul>
+                        <li>이용약관</li>
+                        <li>개인정보 처리방침</li>
+                        <li>쿠키 정책</li>
+                        <li>판매 조건</li>
+                    </ul>
+                </div>
+                <div class="box cs">
+                    <div class="cs con">
+                        <h4 class="t-txt-bold">고객센터</h4>
+                        <h2 class="t-txt-bold"><a href="tel:18001987">1800-1987</a></h2>
+                        <dl class="cstime">
+                            <dt>운영시간</dt>
+                            <dd class="t-txt-bold">09:30 - 18:00</dd>
+                            <dt>점심시간</dt>
+                            <dd class="t-txt-bold">12:30 - 13:30</dd>
+                            <dt class="t-txt-bold">주말 및 공휴일</dt>
+                            <dd class="t-txt-bold">휴무</dd>
+                        </dl>
                     </div>
-
-                    <label class="sort-control">
-                        <span class="sr-only">상품 정렬</span>
-                        <select name="sort" data-product-sort>
-                            <option value="default">기본</option>
-                            <option value="price-low">낮은 가격순</option>
-                            <option value="price-high">높은 가격순</option>
-                            <option value="name">상품명순</option>
-                        </select>
-                    </label>
+                </div>
+                <div class="box-section">
+                    <div class="logo">
+                        <img src="../footer/img/logo-foot.svg" alt="푸터로고">
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="#"><img src="../footer/img/icon-insta.svg" alt="HF인스타"></a></li>
+                            <li><a href="#"><img src="../footer/img/icon-utube.svg" alt="HF유투브"></a></li>
+                            <li><a href="#"><img src="../footer/img/icon-talk.svg" alt="HF카톡"></a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <ul class="collection-grid grid-list" data-product-list></ul>
-            </section>
-        </main>
+            </div>
+            <div class="copyright">
+                <span>© 2026 Aesop. All rights reserved.</span>
+                <span>취업용도의 이솝 리디자인 포트폴리오 홈페이지입니다.
+                </span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
