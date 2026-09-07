@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesop team project - kks</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <script src="./js/header.js" defer></script>
+</head>
+
+<body>
+    <!-- 데스크탑용 헤더 -->
+    <header class="pc">
+        <div class="common-frame desktop-header-row">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/로고.svg" alt="Aesop 로고">
+                </a>
+            </div>
+            <nav class="desktop-nav" aria-label="주 메뉴">
+                <ul class="gnb" aria-label="주 메뉴">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li>
+                        <a href="./shop.html">NEW</a>
+                    </li>
+                    <li>
+                        <a href="./bestseller.html">BEST SELLER</a>
+                    </li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">전체신제품</a></h4>
+                                </section>
+                                <section>
+                                    <h4><a href="#">퍼퓸</a></h4>
+                                </section>
+                                <section>
+                                    <h4><a href="#">핸드&립</a></h4>
+                                </section>
+                                <section>
+                                    <h4><a href="#">바디&헤어</a></h4>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">PROMOTION</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT</a>
+                        <div class="gnb2depth">
+                            <div class="common-frame">
+                                <section>
+                                    <h4><a href="#">브랜드 소개</a></h4>
+                                </section>
+                                <section>
+                                    <h4><a href="#">브랜드 철학</a></h4>
+                                </section>
+                                <section>
+                                    <h4><a href="#">지속가능성</a></h4>
+                                </section>
+                                <section>
+                                    <h4><a href="#">저널</a></h4>
+                                </section>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="lnb">
+                <ul class="user-menu">
+                    <li>
+                        <a href="#">
+                            <img src="./img/material-symbols-light_search-rounded.svg" alt="검색하기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/stash_person-light.svg" alt="로그인하기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/teenyicons_basket-minus-outline.svg" alt="장바구니보기">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 패드 / 모바일용 헤더 -->
+    <header class="smart-header">
+        <div class="common-frame">
+            <!-- 전체 메뉴 열기 -->
+            <div class="btn-menu">
+                <button type="button" aria-label="전체 메뉴 열기" aria-controls="smart-overlay-menu" aria-expanded="false">
+                    <img src="./img/menu.svg" alt="메뉴버튼">
+                </button>
+            </div>
+            <!-- 모바일 로고 -->
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/로고.svg" alt="Aesop 로고">
+                </a>
+            </div>
+            <!-- 모바일 사용자 메뉴 -->
+            <div class="lnb">
+                <ul class="user-menu">
+                    <li>
+                        <a href="#">
+                            <img src="./img/material-symbols-light_search-rounded.svg" alt="검색하기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/stash_person-light.svg" alt="로그인하기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/teenyicons_basket-minus-outline.svg" alt="장바구니 보기">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 패드 / 모바일 전체 메뉴 -->
+    <div class="smart-overlay-menu" id="smart-overlay-menu" aria-hidden="true">
+        <!-- 모바일 전체 메뉴 상단 -->
+        <div class="smart-overlay-menu-header">
+            <div class="common-frame">
+                <!-- 전체 메뉴 닫기 -->
+                <div class="btn-menu-close">
+                    <button type="button" aria-label="전체 메뉴 닫기">
+                        <img src="./img/btn-close.svg" alt="닫기이미지">
+                    </button>
+                </div>
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./img/로고.svg" alt="Aesop 로고">
+                    </a>
+                </div>
+                <!-- 사용자 메뉴 -->
+                <div class="lnb">
+                    <ul class="user-menu">
+                        <li>
+                            <a href="#">
+                                <img src="./img/material-symbols-light_search-rounded.svg" alt="검색하기">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/stash_person-light.svg" alt="로그인하기">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/teenyicons_basket-minus-outline.svg" alt="장바구니 보기">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 모바일 1뎁스 메뉴 -->
+        <div class="smart-overlay-menu-top">
+            <div class="common-frame">
+                <ul class="gnb-smart" aria-label="모바일 주 메뉴">
+                    <li>
+                        <a href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="./shop.html">NEW</a>
+                    </li>
+                    <li>
+                        <a href="./bestseller.html">BESTSELLER</a>
+                    </li>
+                    <!-- 현재 선택된 메뉴 -->
+                    <li>
+                        <button type="button" class="smart-depth-button" data-menu="store" aria-controls="store-depth"
+                            aria-expanded="false">
+                            <span>STORE</span>
+                            <span class="depth-icon">+</span>
+                        </button>
+                    </li>
+                    <li>
+                        <a href="#">PROMOTION</a>
+                    </li>
+                    <li>
+                        <button type="button" class="smart-depth-button" data-menu="about" aria-controls="about-depth"
+                            aria-expanded="false">
+                            <span>ABOUT</span>
+                            <span class="depth-icon">+</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- 모바일 2뎁스 메뉴 -->
+        <div class="smart-overlay-menu-bottom">
+            <!-- STORE 2뎁스 -->
+            <div class="gnb2depth-smart" id="store-depth" data-depth="store">
+                <div class="common-frame">
+                    <section>
+                        <h4>
+                            <a href="#">전체 신제품</a>
+                        </h4>
+                    </section>
+                    <section>
+                        <h4>
+                            <a href="#">퍼퓸</a>
+                        </h4>
+                    </section>
+
+                    <section>
+                        <h4>
+                            <a href="#">핸드 & 립</a>
+                        </h4>
+                    </section>
+
+                    <section>
+                        <h4>
+                            <a href="#">바디 & 헤어</a>
+                        </h4>
+                    </section>
+                </div>
+            </div>
+            <!-- ABOUT 2뎁스 -->
+            <div class="gnb2depth-smart" id="about-depth" data-depth="about">
+                <div class="common-frame">
+                    <section>
+                        <h4>
+                            <a href="#">브랜드 소개</a>
+                        </h4>
+                    </section>
+
+                    <section>
+                        <h4>
+                            <a href="#">브랜드 철학</a>
+                        </h4>
+                    </section>
+
+                    <section>
+                        <h4>
+                            <a href="#">지속가능성</a>
+                        </h4>
+                    </section>
+
+                    <section>
+                        <h4>
+                            <a href="#">저널</a>
+                        </h4>
+                    </section>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
