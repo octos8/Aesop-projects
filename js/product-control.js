@@ -31,9 +31,11 @@ if (productList) {
                             </p>
                         </div>
                         <label class="product-option">
-                            <span class="sr-only">${name} 용량 선택</span>
+                            <span class="sr-only">${name} 용량 및 수량 선택</span>
                             <select name="option-${index}">
-                                ${product.poptions.map(option => `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`).join('')}
+                                ${product.poptions.flatMap(option => [1, 2, 3, 4].map(quantity =>
+                                    `<option value="${escapeHtml(option)} / ${quantity}개">${escapeHtml(option)} / ${quantity}개</option>`
+                                )).join('')}
                             </select>
                         </label>
                         <button class="add-to-cart" type="button" data-add-to-cart>
@@ -42,6 +44,36 @@ if (productList) {
                     </article>
                 </li>`;
     }).join('');
+
+    productList.addEventListener('click', (event) => {
+        if (event.target.closest('[data-add-to-cart]')) {
+            window.alert('장바구니를 담았습니다.');
+        }
+    });
+
+    // 상세 보기로 이동하기 전에 최근 클릭한 상품을 저장합니다.
+    productList.addEventListener('click', (event) => {
+        const link = event.target.closest('.collection-image');
+        if (!link) return;
+        const card = link.closest('[data-product-card]');
+        const product = productArray[Number(card.dataset.order)];
+        const recentProduct = {
+            name: product.pname,
+            image: `./img/product-list/${product.pthumbFileName}`,
+            price: product.price,
+            option: card.querySelector('select').value
+        };
+        try {
+            const stored = JSON.parse(localStorage.getItem('recentProducts') || '[]');
+            const recent = Array.isArray(stored) ? stored : [];
+            localStorage.setItem('recentProducts', JSON.stringify([
+                recentProduct,
+                ...recent.filter(item => item && item.image !== recentProduct.image)
+            ].slice(0, 12)));
+        } catch {
+            // 저장소를 사용할 수 없어도 상세 페이지로 이동합니다.
+        }
+    });
 
     function sortProducts() {
         const cards = Array.from(productList.children);

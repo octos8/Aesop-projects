@@ -385,7 +385,8 @@
     color: var(--ink);
 }
 
-.review-list {
+.review-list,
+.qna-list {
     display: grid;
     gap: 1rem;
 }
@@ -451,7 +452,7 @@
     justify-content: space-between;
     gap: 1rem;
     padding-bottom: 1.5rem;
-    border-bottom: 2px solid var(--ink);
+    margin-bottom: 1rem;
 }
 
 .qna-heading p {
@@ -466,23 +467,20 @@
 }
 
 .qna-list li {
-    border-bottom: 1px solid var(--purchase-border);
+    background: var(--purchase-card);
 }
 
 .qna-list li > button {
-    display: flex;
     width: 100%;
-    min-height: 5rem;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem 0;
-    background: transparent;
+    border: 0;
+    color: inherit;
+    font: inherit;
     text-align: left;
+    cursor: pointer;
 }
 
 .qna-list b {
-    margin-right: 1rem;
+    margin-bottom: 0.4rem;
     color: var(--purchase-accent);
 }
 
@@ -492,9 +490,35 @@
 }
 
 .qna-list p {
-    padding: 1.5rem 2rem;
-    margin: 0 0 1rem;
-    background: var(--purchase-card);
+    padding: 1.5rem clamp(2rem, 7vw, 9rem) 2rem;
+    margin: 0;
+    border-top: 1px solid var(--purchase-border);
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.qna-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.qna-question::after {
+    content: '+';
+    flex-shrink: 0;
+    color: var(--purchase-accent);
+    font-size: 1.5rem;
+}
+
+.qna-list button[aria-expanded="true"] .qna-question::after {
+    content: '−';
+}
+
+.qna-list button:focus-visible {
+    outline: 2px solid var(--purchase-accent);
+    outline-offset: -2px;
 }
 
 .purchase-toast {
@@ -802,10 +826,13 @@
         flex-direction: column;
     }
 
-    .qna-list li > button {
-        align-items: flex-start;
-        flex-direction: column;
+    .qna-question,
+    .qna-list p {
         font-size: 1.05rem;
+    }
+
+    .qna-list p {
+        padding: 1.5rem;
     }
 
     .purchase-toast {

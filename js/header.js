@@ -1,13 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const openButton = document.querySelector(".btn-menu button");
-    const closeButton = document.querySelector(".btn-menu-close button");
-    const overlay = document.querySelector(".smart-overlay-menu");
-    const depthButtons = [...document.querySelectorAll(".smart-depth-button")];
-    const depthPanels = [...document.querySelectorAll(".gnb2depth-smart")];
+const openButton = document.querySelector(".btn-menu button");
+const closeButton = document.querySelector(".btn-menu-close button");
+const overlay = document.querySelector(".smart-overlay-menu");
+const depthButtons = [...document.querySelectorAll(".smart-depth-button")];
+const depthPanels = [...document.querySelectorAll(".gnb2depth-smart")];
 
-    if (!openButton || !closeButton || !overlay) {
-        return;
-    }
+if (openButton && closeButton && overlay) {
 
     const clearDepth = () => {
         depthButtons.forEach((button) => {
@@ -65,4 +62,4 @@ document.addEventListener("DOMContentLoaded", () => {
             closeMenu();
         }
     });
-});
+}
