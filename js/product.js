@@ -5,7 +5,9 @@ const productArray = [
         "price":  57000,
         "pthumbFileName":  "asset-01.png",
         "poptions":  [
-                         "500g"
+                         "150g",
+                         "250g",
+                         "450g"
                      ]
     },
     {
@@ -13,7 +15,9 @@ const productArray = [
         "price":  58000,
         "pthumbFileName":  "asset-02.png",
         "poptions":  [
-                         "100ml"
+                         "50mL",
+                         "100mL",
+                         "200mL"
                      ]
     },
     {
@@ -21,7 +25,9 @@ const productArray = [
         "price":  49000,
         "pthumbFileName":  "asset-03.png",
         "poptions":  [
-                         "30g"
+                         "15g",
+                         "30g",
+                         "50g"
                      ]
     },
     {
@@ -29,7 +35,9 @@ const productArray = [
         "price":  58000,
         "pthumbFileName":  "asset-04.png",
         "poptions":  [
-                         "100ml"
+                         "50mL",
+                         "100mL",
+                         "200mL"
                      ]
     },
     {
@@ -37,7 +45,9 @@ const productArray = [
         "price":  52000,
         "pthumbFileName":  "asset-05.png",
         "poptions":  [
-                         "120ml"
+                         "60mL",
+                         "120mL",
+                         "500mL"
                      ]
     },
     {
@@ -45,7 +55,9 @@ const productArray = [
         "price":  43000,
         "pthumbFileName":  "asset-06.png",
         "poptions":  [
-                         "100ml"
+                         "50mL",
+                         "100mL",
+                         "200mL"
                      ]
     },
     {
@@ -53,7 +65,9 @@ const productArray = [
         "price":  89000,
         "pthumbFileName":  "asset-07.png",
         "poptions":  [
-                         "60ml"
+                         "30mL",
+                         "60mL",
+                         "100mL"
                      ]
     },
     {
@@ -61,7 +75,9 @@ const productArray = [
         "price":  61000,
         "pthumbFileName":  "asset-08.png",
         "poptions":  [
-                         "500ml"
+                         "150mL",
+                         "350mL",
+                         "450ml"
                      ]
     },
     {
@@ -69,7 +85,9 @@ const productArray = [
         "price":  39000,
         "pthumbFileName":  "asset-09.png",
         "poptions":  [
-                         "10ml"
+                         "10mL",
+                         "15mL",
+                         "20mL"
                      ]
     },
     {
@@ -77,7 +95,9 @@ const productArray = [
         "price":  55000,
         "pthumbFileName":  "asset-10.png",
         "poptions":  [
-                         "350g"
+                         "150g",
+                         "350g",
+                         "450g"
                      ]
     },
     {
@@ -85,7 +105,9 @@ const productArray = [
         "price":  58000,
         "pthumbFileName":  "asset-11.png",
         "poptions":  [
-                         "100ml"
+                         "50mL",
+                         "100mL",
+                         "200mL"
                      ]
     },
     {
@@ -93,7 +115,9 @@ const productArray = [
         "price":  49000,
         "pthumbFileName":  "asset-12.png",
         "poptions":  [
-                         "100g"
+                         "50g",
+                         "100g",
+                         "200g"
                      ]
     }
 ];

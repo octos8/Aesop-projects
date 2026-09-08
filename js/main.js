@@ -1,10 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const SwiperClass = window.Swiper;
+const SwiperClass = window.Swiper;
 
-    if (typeof SwiperClass !== 'function') {
-        console.warn('Swiper를 불러오지 못했습니다. CDN 연결 상태를 확인해주세요.');
-        return;
-    }
+if (typeof SwiperClass !== 'function') {
+    console.warn('Swiper를 불러오지 못했습니다. CDN 연결 상태를 확인해주세요.');
+} else {
 
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const heroElement = document.querySelector('[data-hero-swiper]');
@@ -20,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 enabled: true,
             },
             autoplay: prefersReducedMotion ? false : {
-                delay: 4500,
+                delay: 2500,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
             },
@@ -85,4 +83,4 @@ document.addEventListener('DOMContentLoaded', () => {
             },
         });
     }
-});
+}

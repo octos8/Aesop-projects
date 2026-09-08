@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/react.css">
     <link rel="stylesheet" href="./css/promotion.css">
     <script src="./js/header.js" defer></script>
 </head>
@@ -24,12 +26,12 @@
             </div>
             <nav class="desktop-nav" aria-label="주 메뉴">
                 <ul class="gnb" aria-label="주 메뉴">
-                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./main.html">HOME</a></li>
                     <li>
-                        <a href="./shop.html">NEW</a>
+                        <a href="./shoppingLIst.html">NEW</a>
                     </li>
                     <li>
-                        <a href="./bestseller.html">BEST SELLER</a>
+                        <a href="./shoppingLIst.html">BEST SELLER</a>
                     </li>
                     <li>
                         <a href="#">STORE</a>
@@ -51,7 +53,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">PROMOTION</a>
+                        <a href="./promotion.html">PROMOTION</a>
                     </li>
                     <li>
                         <a href="#">ABOUT</a>
@@ -177,13 +179,13 @@
             <div class="common-frame">
                 <ul class="gnb-smart" aria-label="모바일 주 메뉴">
                     <li>
-                        <a href="./index.html">HOME</a>
+                        <a href="./main.html">HOME</a>
                     </li>
                     <li>
-                        <a href="./shop.html">NEW</a>
+                        <a href="./shoppingLIst.html">NEW</a>
                     </li>
                     <li>
-                        <a href="./bestseller.html">BESTSELLER</a>
+                        <a href="./shoppingLIst.html">BESTSELLER</a>
                     </li>
                     <!-- 현재 선택된 메뉴 -->
                     <li>
@@ -194,7 +196,7 @@
                         </button>
                     </li>
                     <li>
-                        <a href="#">PROMOTION</a>
+                        <a href="./promotion.html">PROMOTION</a>
                     </li>
                     <li>
                         <button type="button" class="smart-depth-button" data-menu="about" aria-controls="about-depth"
@@ -276,7 +278,7 @@
                 <img class="promo-hero-image" src="./img/promotion/promo-01-hero.png" alt="햇살 아래 천과 허브, 돌이 놓인 숲 테마 비주얼">
                 <p class="promo-hero-kicker">promotion 01</p>
                 <div class="promo-hero-copy">
-                    <h1 class="promo-hero-title" id="promo-01-title">숲 · 진정</h1>
+                    <h1 class="promo-hero-title title-1" id="promo-01-title">숲 · 진정</h1>
                     <p class="promo-hero-description">허브와 햇살이 머무는 고요한 순간, 몸과 마음을 편안히 쉬어가세요.</p>
                 </div>
             </div>
@@ -289,7 +291,7 @@
                         </div>
                         <div class="promo-set-details">
                             <div class="promo-set-heading">
-                                <h2 class="promo-set-name">포레스트 캄 에센셜 세트</h2>
+                                <h2 class="promo-set-name title-1">포레스트 캄 에센셜 세트</h2>
                                 <p class="promo-set-name-en" lang="en">Forest Calm Essential Set</p>
                             </div>
                             <div class="promo-price-block">
@@ -298,52 +300,60 @@
                                         <dt>정가</dt>
                                         <dd><s>287,000원</s></dd>
                                     </div>
-                                    <div class="promo-price-row promo-price-row-special">
+                                    <div class="promo-price-row promo-price-row-special title-1">
                                         <dt>특별 할인가</dt>
                                         <dd>244,000원</dd>
                                     </div>
                                 </dl>
-                                <p class="promo-discount">15% OFF</p>
+                                <p class="promo-discount title-1">15% OFF</p>
                             </div>
-                            <button class="promo-buy-button" type="button">세트 구매하기</button>
+                            <a class="promo-buy-button" href="./shoppingLIst.html">세트 구매하기</a>
                         </div>
                     </article>
 
                     <div class="promo-products" aria-label="포레스트 캄 세트 개별 상품">
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-01-product-01.png" alt="포레스트 캄 바디 클렌저">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">포레스트 캄 바디 클렌저</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span aria-hidden="true">/</span><span class="promo-product-price">59,000원</span></p>
+                                <h3 class="promo-product-name title-1">포레스트 캄 바디 클렌저</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">59,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-01-product-02.png" alt="포레스트 캄 바디 밤">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">포레스트 캄 바디 밤</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span aria-hidden="true">/</span><span class="promo-product-price">47,000원</span></p>
+                                <h3 class="promo-product-name title-1">포레스트 캄 바디 밤</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">47,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-01-product-03.png" alt="포레스트 캄 핸드 워시">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">포레스트 캄 핸드 워시</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">500ml</span><span aria-hidden="true">/</span><span class="promo-product-price">53,000원</span></p>
+                                <h3 class="promo-product-name title-1">포레스트 캄 핸드 워시</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">500ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">53,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-01-product-04.png" alt="포레스트 캄 라디언스 세럼">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">포레스트 캄 라디언스 세럼</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">75ml</span><span aria-hidden="true">/</span><span class="promo-product-price">39,000원</span></p>
+                                <h3 class="promo-product-name title-1">포레스트 캄 라디언스 세럼</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">75ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">39,000원</span></p>
                             </div>
                         </article>
                     </div>
@@ -353,10 +363,11 @@
 
         <section class="promo-section promo-theme-citrus" id="promotion-02" aria-labelledby="promo-02-title">
             <div class="promo-hero">
-                <img class="promo-hero-image" src="./img/promotion/promo-02-hero.png" alt="아침 햇살 아래 시트러스 제품과 식물이 놓인 테마 비주얼" loading="lazy">
+                <img class="promo-hero-image" src="./img/promotion/promo-02-hero.png"
+                    alt="아침 햇살 아래 시트러스 제품과 식물이 놓인 테마 비주얼" loading="lazy">
                 <p class="promo-hero-kicker">promotion 02</p>
                 <div class="promo-hero-copy">
-                    <h1 class="promo-hero-title" id="promo-02-title">아침 · 리프레싱</h1>
+                    <h1 class="promo-hero-title title-1" id="promo-02-title">아침 · 리프레싱</h1>
                     <p class="promo-hero-description">상쾌한 시트러스와 싱그러운 식물의 향으로 하루를 깨웁니다.</p>
                 </div>
             </div>
@@ -369,7 +380,7 @@
                         </div>
                         <div class="promo-set-details">
                             <div class="promo-set-heading">
-                                <h2 class="promo-set-name">시트러스 가든 에센셜 세트</h2>
+                                <h2 class="promo-set-name title-1">시트러스 가든 에센셜 세트</h2>
                                 <p class="promo-set-name-en" lang="en">Citrus Garden Essential Set</p>
                             </div>
                             <div class="promo-price-block">
@@ -378,52 +389,60 @@
                                         <dt>정가</dt>
                                         <dd><s>229,000원</s></dd>
                                     </div>
-                                    <div class="promo-price-row promo-price-row-special">
+                                    <div class="promo-price-row promo-price-row-special title-1">
                                         <dt>특별 할인가</dt>
                                         <dd>194,650원</dd>
                                     </div>
                                 </dl>
-                                <p class="promo-discount">15% OFF</p>
+                                <p class="promo-discount title-1">15% OFF</p>
                             </div>
-                            <button class="promo-buy-button" type="button">세트 구매하기</button>
+                            <a class="promo-buy-button" href="./shoppingLIst.html">세트 구매하기</a>
                         </div>
                     </article>
 
                     <div class="promo-products" aria-label="시트러스 가든 세트 개별 상품">
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-02-product-01.png" alt="시트러스 바디오일" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">시트러스 바디오일</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span aria-hidden="true">/</span><span class="promo-product-price">53,000원</span></p>
+                                <h3 class="promo-product-name title-1">시트러스 바디오일</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">53,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-02-product-02.png" alt="시트러스 아로마틱 핸드 워시" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">시트러스 아로마틱 핸드 워시</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">500ml</span><span aria-hidden="true">/</span><span class="promo-product-price">38,000원</span></p>
+                                <h3 class="promo-product-name title-1">시트러스 아로마틱 핸드 워시</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">500ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">38,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-02-product-03.png" alt="시트러스 퓨어 래디언스 세럼" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">시트러스 퓨어 래디언스 세럼</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">30ml</span><span aria-hidden="true">/</span><span class="promo-product-price">89,000원</span></p>
+                                <h3 class="promo-product-name title-1">시트러스 퓨어 래디언스 세럼</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">30ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">89,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-02-product-04.png" alt="시트러스 린드 바디 밤" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">시트러스 린드 바디 밤</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span aria-hidden="true">/</span><span class="promo-product-price">49,000원</span></p>
+                                <h3 class="promo-product-name title-1">시트러스 린드 바디 밤</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">49,000원</span></p>
                             </div>
                         </article>
                     </div>
@@ -433,10 +452,11 @@
 
         <section class="promo-section promo-theme-relaxing" id="promotion-03" aria-labelledby="promo-03-title">
             <div class="promo-hero">
-                <img class="promo-hero-image" src="./img/promotion/promo-03-hero.png" alt="침구 위 수면 노트와 보랏빛 안대가 놓인 밤 테마 비주얼" loading="lazy">
-                <p class="promo-hero-kicker">promotion 03</p>
-                <div class="promo-hero-copy">
-                    <h1 class="promo-hero-title" id="promo-03-title">밤 · 릴렉싱</h1>
+                <img class="promo-hero-image" src="./img/promotion/promo-03-hero.png"
+                    alt="침구 위 수면 노트와 보랏빛 안대가 놓인 밤 테마 비주얼" loading="lazy">
+                <p class="promo-hero-kicker sr-only">promotion 03</p>
+                <div class="promo-hero-copy sr-only">
+                    <h1 class="promo-hero-title title-1" id="promo-03-title">밤 · 릴렉싱</h1>
                     <p class="promo-hero-description">라벤더의 그윽한 향이 고요한 휴식을 드립니다.</p>
                 </div>
             </div>
@@ -449,7 +469,7 @@
                         </div>
                         <div class="promo-set-details">
                             <div class="promo-set-heading">
-                                <h2 class="promo-set-name">릴렉싱 에센셜 세트</h2>
+                                <h2 class="promo-set-name title-1">릴렉싱 에센셜 세트</h2>
                                 <p class="promo-set-name-en" lang="en">Relaxing Essential Set</p>
                             </div>
                             <div class="promo-price-block">
@@ -458,52 +478,60 @@
                                         <dt>정가</dt>
                                         <dd><s>348,000원</s></dd>
                                     </div>
-                                    <div class="promo-price-row promo-price-row-special">
+                                    <div class="promo-price-row promo-price-row-special title-1">
                                         <dt>특별 할인가</dt>
                                         <dd>295,000원</dd>
                                     </div>
                                 </dl>
-                                <p class="promo-discount">15% OFF</p>
+                                <p class="promo-discount title-1">15% OFF</p>
                             </div>
-                            <button class="promo-buy-button" type="button">세트 구매하기</button>
+                            <a class="promo-buy-button" href="./shoppingLIst.html">세트 구매하기</a>
                         </div>
                     </article>
 
                     <div class="promo-products" aria-label="릴렉싱 세트 개별 상품">
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-03-product-01.png" alt="이스트로스 바디 밤" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">이스트로스 바디 밤</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span aria-hidden="true">/</span><span class="promo-product-price">47,000원</span></p>
+                                <h3 class="promo-product-name title-1">이스트로스 바디 밤</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">47,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-03-product-02.png" alt="이스트로스 룸 스프레이" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">이스트로스 룸 스프레이</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span aria-hidden="true">/</span><span class="promo-product-price">76,000원</span></p>
+                                <h3 class="promo-product-name title-1">이스트로스 룸 스프레이</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">100ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">76,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-03-product-03.png" alt="이스트로스 캔들" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">이스트로스 캔들</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">300g</span><span aria-hidden="true">/</span><span class="promo-product-price">115,000원</span></p>
+                                <h3 class="promo-product-name title-1">이스트로스 캔들</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">300g</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">115,000원</span></p>
                             </div>
                         </article>
                         <article class="promo-product-card">
-                            <div class="promo-product-image">
+                            <a class="promo-product-image" href="./shoppingLIst.html">
                                 <img src="./img/promotion/promo-03-product-04.png" alt="이스트로스 룸 디퓨저" loading="lazy">
-                            </div>
+                            </a>
                             <div class="promo-product-info">
-                                <h3 class="promo-product-name">이스트로스 룸 디퓨저</h3>
-                                <p class="promo-product-meta"><span class="promo-volume">200ml</span><span aria-hidden="true">/</span><span class="promo-product-price">110,000원</span></p>
+                                <h3 class="promo-product-name title-1">이스트로스 룸 디퓨저</h3>
+                                <p class="promo-product-meta"><span class="promo-volume">200ml</span><span
+                                        aria-hidden="true">/</span><span
+                                        class="promo-product-price title-1">110,000원</span></p>
                             </div>
                         </article>
                     </div>
@@ -511,6 +539,72 @@
             </div>
         </section>
     </main>
+        <!-- PC 푸터 -->
+    <footer>
+        <div class="footer-box">
+            <div class="box-wrap-5">
+                <div class="box one">
+                    <h4 class="t-txt-bold">회사 정보</h4>
+                    <ul>
+                        <li>브랜드 이야기</li>
+                        <li>인재 채용</li>
+                        <li>지속 가능성</li>
+                        <li>프레스</li>
+                    </ul>
+                </div>
+                <div class="box two">
+                    <h4 class="t-txt-bold">고객 지원</h4>
+                    <ul>
+                        <li>문의하기</li>
+                        <li>매장 찾기</li>
+                        <li>배송 및 반품</li>
+                        <li>자주 묻는 질문</li>
+                    </ul>
+                </div>
+                <div class="box three">
+                    <h4 class="t-txt-bold">법률 및 정책</h4>
+                    <ul>
+                        <li>이용약관</li>
+                        <li>개인정보 처리방침</li>
+                        <li>쿠키 정책</li>
+                        <li>판매 조건</li>
+                    </ul>
+                </div>
+                <div class="box cs">
+                    <div class="cs con">
+                        <h4 class="t-txt-bold">고객센터</h4>
+                        <h2 class="t-txt-bold"><a href="tel:18001987">1800-1987</a></h2>
+                        <dl class="cstime">
+                            <dt>운영시간</dt>
+                            <dd class="t-txt-bold">09:30 - 18:00</dd>
+                            <dt>점심시간</dt>
+                            <dd class="t-txt-bold">12:30 - 13:30</dd>
+                            <dt class="t-txt-bold">주말 및 공휴일</dt>
+                            <dd class="t-txt-bold">휴무</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="box-section">
+                    <div class="logo">
+                        <img src="./img/footer/logo-foot.svg" alt="푸터로고">
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="https://www.instagram.com/aesop/"><img src="./img/footer/icon-insta.svg" alt="HF인스타"></a></li>
+                            <li><a href="https://www.youtube.com/@aesopskincare"><img src="./img/footer/icon-utube.svg" alt="HF유투브"></a></li>
+                            <li><a href="https://pf.kakao.com/_BxdYjT"><img src="./img/footer/icon-talk.svg" alt="HF카톡"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <span>© 2026 Aesop. All rights reserved.</span>
+                <span>취업용도의 이솝 리디자인 포트폴리오 홈페이지입니다.
+                </span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

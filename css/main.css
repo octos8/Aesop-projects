@@ -35,6 +35,13 @@
     overflow: hidden;
 }
 
+.home-hero-link,
+.home-hero-slide picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .home-hero-image {
     width: 100%;
     height: 100%;
@@ -156,6 +163,23 @@
 
 .campaign-photo-forest img {
     object-position: left center;
+    transform-origin: center;
+    will-change: transform;
+    animation: campaign-forest-drift 14s ease-in-out infinite alternate;
+}
+
+@keyframes campaign-forest-drift {
+    0% {
+        transform: scale(1.04) translate3d(0, 0, 0);
+    }
+
+    48% {
+        transform: scale(1.11) translate3d(-1.8%, -0.8%, 0);
+    }
+
+    100% {
+        transform: scale(1.08) translate3d(1.5%, 0.6%, 0);
+    }
 }
 
 .campaign-photo-aurner img {
@@ -379,7 +403,7 @@
 
 @media (hover: hover) {
     .featured-card:hover .featured-card-image img {
-        transform: scale(1.025);
+        transform: scale(1.05);
     }
 
     .campaign-link:hover {
@@ -454,16 +478,12 @@
 
 @media (max-width: 768px) {
     .home-hero-swiper {
-        height: 44rem;
-        aspect-ratio: auto;
+        height: auto;
+        aspect-ratio: 402 / 214;
     }
 
     .home-hero-image {
         object-position: 50% center;
-    }
-
-    .home-hero-slide:nth-child(2) .home-hero-image {
-        object-position: 28% center;
     }
 
     .home-hero-product-slide {
@@ -601,6 +621,11 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+    .campaign-photo-forest img {
+        animation: none;
+        transform: none;
+    }
+
     .featured-card-image img,
     .home-hero-product-copy a {
         transition: none;

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/react.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/header.js" defer></script>
@@ -27,12 +29,12 @@
             </div>
             <nav class="desktop-nav" aria-label="주 메뉴">
                 <ul class="gnb" aria-label="주 메뉴">
-                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./main.html">HOME</a></li>
                     <li>
-                        <a href="./shop.html">NEW</a>
+                        <a href="./shoppingLIst.html">NEW</a>
                     </li>
                     <li>
-                        <a href="./bestseller.html">BEST SELLER</a>
+                        <a href="./shoppingLIst.html">BEST SELLER</a>
                     </li>
                     <li>
                         <a href="#">STORE</a>
@@ -54,7 +56,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">PROMOTION</a>
+                        <a href="./promotion.html">PROMOTION</a>
                     </li>
                     <li>
                         <a href="#">ABOUT</a>
@@ -180,13 +182,13 @@
             <div class="common-frame">
                 <ul class="gnb-smart" aria-label="모바일 주 메뉴">
                     <li>
-                        <a href="./index.html">HOME</a>
+                        <a href="./main.html">HOME</a>
                     </li>
                     <li>
-                        <a href="./shop.html">NEW</a>
+                        <a href="./shoppingLIst.html">NEW</a>
                     </li>
                     <li>
-                        <a href="./bestseller.html">BESTSELLER</a>
+                        <a href="./shoppingLIst.html">BESTSELLER</a>
                     </li>
                     <!-- 현재 선택된 메뉴 -->
                     <li>
@@ -197,7 +199,7 @@
                         </button>
                     </li>
                     <li>
-                        <a href="#">PROMOTION</a>
+                        <a href="./promotion.html">PROMOTION</a>
                     </li>
                     <li>
                         <button type="button" class="smart-depth-button" data-menu="about" aria-controls="about-depth"
@@ -281,28 +283,57 @@
             <div class="swiper home-hero-swiper" data-hero-swiper>
                 <div class="swiper-wrapper">
                     <article class="swiper-slide home-hero-slide">
-                        <img class="home-hero-image" src="./img/main/hero-banner.jpg"
-                            alt="이끼와 식물 사이에 놓인 이솝 아우르너 오 드 퍼퓸">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="./img/main/her0-banner%20-%20mo.jpg">
+                            <img class="home-hero-image" src="./img/main/hero-banner.jpg"
+                                alt="이끼와 식물 사이에 놓인 이솝 아우르너 오 드 퍼퓸">
+                        </picture>
                     </article>
 
                     <article class="swiper-slide home-hero-slide">
-                        <img class="home-hero-image" src="./img/main/main-forest.jpg"
-                            alt="메인 숲이미지">
+                        <a class="home-hero-link" href="./promotion.html" aria-label="숲 프로모션 보기">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./img/main/main-forest-mo.jpg">
+                                <img class="home-hero-image" src="./img/main/main-forest.jpg" alt="메인 숲이미지">
+                            </picture>
+                        </a>
                     </article>
 
                     <article class="swiper-slide home-hero-slide">
-                        <img class="home-hero-image" src="./img/main/main-morning.jpg"
-                            alt="메인 밤이미지">
+                        <a class="home-hero-link" href="./promotion.html" aria-label="아침 프로모션 보기">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./img/main/main-morning-mo.jpg">
+                                <img class="home-hero-image" src="./img/main/main-morning.jpg" alt="메인 아침이미지">
+                            </picture>
+                        </a>
                     </article>
 
                     <article class="swiper-slide home-hero-slide">
-                        <img class="home-hero-image" src="./img/main/main-night.jpg"
-                            alt="메인 밤이미지">
+                        <a class="home-hero-link" href="./promotion.html" aria-label="밤 프로모션 보기">
+                            <picture>
+                                <source media="(max-width: 768px)" srcset="./img/main/main-night-mo.jpg">
+                                <img class="home-hero-image" src="./img/main/main-night.jpg" alt="메인 밤이미지">
+                            </picture>
+                        </a>
                     </article>
                 </div>
                 <div class="swiper-pagination home-hero-pagination"></div>
             </div>
         </section>
+
+        <!-- PC 띠배너 -->
+        <div class="t-banner">
+            <div class="icon"><img src="./img/footer/leaf.svg" alt="잎사귀모양"></div>
+            <div class="t-txt">
+                <h3>일상을 채우는</h3>
+                <h3 class="t-txt-bold">이솝의 프로모션 모음</h3>
+            </div>
+            <div class="t-button">
+                <a href="./promotion.html">
+                    <h4 class="t-txt-bold">혜택 전체보기</h4>
+                </a>
+            </div>
+        </div>
 
         <!-- 버튼으로 이동하는 캠페인 슬라이드 -->
         <section class="campaign-showcase" aria-label="추천 컬렉션">
@@ -315,47 +346,46 @@
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product" src="./img/main/new1.jpg"
-                                alt="포레스트 베일 오 드 퍼퓸">
+                            <img class="campaign-product" src="./img/main/new1.jpg" alt="포레스트 베일 오 드 퍼퓸">
                             <p class="campaign-description">숲의 결을 따라 번지는 부드러운 향</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">01 / 04</p>
-                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                            <a class="campaign-link" href="./shoppingLIst.html">신제품 보러가기</a>
                         </div>
                     </article>
 
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product campaign-product-blend"
-                                src="./img/main/new2.jpg" alt="포레스트 베일 핸드 워시" loading="lazy">
+                            <img class="campaign-product campaign-product-blend" src="./img/main/new2.jpg"
+                                alt="포레스트 베일 핸드 워시" loading="lazy">
                             <p class="campaign-description">숲을 닮은 향을 남기는 부드러운 핸드 워시</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">02 / 04</p>
-                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                            <a class="campaign-link" href="./shoppingLIst.html">신제품 보러가기</a>
                         </div>
                     </article>
 
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product campaign-product-blend"
-                                src="./img/main/new3.jpg" alt="포레스트 베일 바디 로션" loading="lazy">
+                            <img class="campaign-product campaign-product-blend" src="./img/main/new3.jpg"
+                                alt="포레스트 베일 바디 로션" loading="lazy">
                             <p class="campaign-description">피부를 유연하게 가꾸는 산뜻한 바디 로션</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">03 / 04</p>
-                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                            <a class="campaign-link" href="./shoppingLIst.html">신제품 보러가기</a>
                         </div>
                     </article>
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product campaign-product-blend"
-                                src="./img/main/new4.jpg" alt="포레스트 베일 핸드 크림" loading="lazy">
+                            <img class="campaign-product campaign-product-blend" src="./img/main/new4.jpg"
+                                alt="포레스트 베일 핸드 크림" loading="lazy">
                             <p class="campaign-description">손에 수분을 채우는 향기로운 핸드 크림</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">04 / 04</p>
-                            <a class="campaign-link" href="#new-products">제품 보러가기</a>
+                            <a class="campaign-link" href="./shoppingLIst.html">신제품 보러가기</a>
                         </div>
                     </article>
                 </div>
@@ -380,7 +410,7 @@
             <div class="swiper featured-swiper" data-product-swiper>
                 <div class="swiper-wrapper">
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/1.jpg" alt="레버런스 아로마틱 핸드 워시">
                             </figure>
@@ -394,7 +424,7 @@
                     </article>
 
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/3.jpg" alt="페이블 페이셜 세럼" loading="lazy">
                             </figure>
@@ -408,7 +438,7 @@
                     </article>
 
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/4.jpg" alt="퓨리파잉 페이셜 클렌저" loading="lazy">
                             </figure>
@@ -422,7 +452,7 @@
                     </article>
 
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/5.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
                             </figure>
@@ -436,7 +466,7 @@
                     </article>
 
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/6.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
                             </figure>
@@ -450,7 +480,7 @@
                     </article>
 
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/7.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
                             </figure>
@@ -464,7 +494,7 @@
                     </article>
 
                     <article class="swiper-slide featured-card">
-                        <a href="#">
+                        <a href="./shoppingLIst.html">
                             <figure class="featured-card-image">
                                 <img src="./img/main/8.jpg" alt="테싯 오 드 퍼퓸" loading="lazy">
                             </figure>
@@ -482,6 +512,72 @@
             </div>
         </section>
     </main>
+    <!-- PC 푸터 -->
+    <footer>
+        <div class="footer-box">
+            <div class="box-wrap-5">
+                <div class="box one">
+                    <h4 class="t-txt-bold">회사 정보</h4>
+                    <ul>
+                        <li>브랜드 이야기</li>
+                        <li>인재 채용</li>
+                        <li>지속 가능성</li>
+                        <li>프레스</li>
+                    </ul>
+                </div>
+                <div class="box two">
+                    <h4 class="t-txt-bold">고객 지원</h4>
+                    <ul>
+                        <li>문의하기</li>
+                        <li>매장 찾기</li>
+                        <li>배송 및 반품</li>
+                        <li>자주 묻는 질문</li>
+                    </ul>
+                </div>
+                <div class="box three">
+                    <h4 class="t-txt-bold">법률 및 정책</h4>
+                    <ul>
+                        <li>이용약관</li>
+                        <li>개인정보 처리방침</li>
+                        <li>쿠키 정책</li>
+                        <li>판매 조건</li>
+                    </ul>
+                </div>
+                <div class="box cs">
+                    <div class="cs con">
+                        <h4 class="t-txt-bold">고객센터</h4>
+                        <h2 class="t-txt-bold"><a href="tel:18001987">1800-1987</a></h2>
+                        <dl class="cstime">
+                            <dt>운영시간</dt>
+                            <dd class="t-txt-bold">09:30 - 18:00</dd>
+                            <dt>점심시간</dt>
+                            <dd class="t-txt-bold">12:30 - 13:30</dd>
+                            <dt class="t-txt-bold">주말 및 공휴일</dt>
+                            <dd class="t-txt-bold">휴무</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="box-section">
+                    <div class="logo">
+                        <img src="./img/footer/logo-foot.svg" alt="푸터로고">
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li><a href="https://www.instagram.com/aesop/"><img src="./img/footer/icon-insta.svg" alt="HF인스타"></a></li>
+                            <li><a href="https://www.youtube.com/@aesopskincare"><img src="./img/footer/icon-utube.svg" alt="HF유투브"></a></li>
+                            <li><a href="https://pf.kakao.com/_BxdYjT"><img src="./img/footer/icon-talk.svg" alt="HF카톡"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <span>© 2026 Aesop. All rights reserved.</span>
+                <span>취업용도의 이솝 리디자인 포트폴리오 홈페이지입니다.
+                </span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

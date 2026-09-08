@@ -1,45 +1,11 @@
-/* Promotion page: all selectors are scoped with the promo- prefix. */
+/* Promotion-only styles. Base styles and design tokens come from common.css. */
 .promo-page {
     width: 100%;
     overflow-x: clip;
-    color: #272727;
-    font-family: var(--font-sans);
 }
 
 .promo-section {
-    --promo-bg-start: #dedaae;
-    --promo-bg-end: #f1ece1;
-    --promo-accent: #404104;
-    --promo-button: #404104;
-    --promo-text: #272727;
-    --promo-card-ratio: 1 / 1;
-
     width: 100%;
-    color: var(--promo-text);
-}
-
-.promo-theme-forest {
-    --promo-bg-start: #dedaae;
-    --promo-bg-end: #f1ece1;
-    --promo-accent: #404104;
-    --promo-button: #404104;
-    --promo-card-ratio: 1 / 1;
-}
-
-.promo-theme-citrus {
-    --promo-bg-start: #f1cec1;
-    --promo-bg-end: #fee8d3;
-    --promo-accent: #d0872f;
-    --promo-button: #e59739;
-    --promo-card-ratio: 19 / 20;
-}
-
-.promo-theme-relaxing {
-    --promo-bg-start: #ecdddc;
-    --promo-bg-end: #f1ece1;
-    --promo-accent: #3b1a3e;
-    --promo-button: #62425f;
-    --promo-card-ratio: 19 / 20;
 }
 
 .promo-hero {
@@ -67,11 +33,10 @@
 
 .promo-hero-kicker {
     position: absolute;
-    top: clamp(15px, 3vw, 58px);
-    left: clamp(15px, 2.85vw, 55px);
-    margin: 0;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(10px, 1.65vw, 32px);
+    top: clamp(0.9375rem, 3vw, 3.625rem);
+    left: clamp(0.9375rem, 2.85vw, 3.4375rem);
+    font-family: var(--font-serif);
+    font-size: clamp(0.625rem, 1.65vw, 2rem);
     font-style: italic;
     line-height: 1;
     white-space: nowrap;
@@ -80,35 +45,43 @@
 .promo-hero-copy {
     position: absolute;
     top: 57%;
-    left: clamp(39px, 7.55vw, 145px);
-    max-width: min(47vw, 820px);
+    left: clamp(2.4375rem, 7.55vw, 9.0625rem);
+    max-width: min(47vw, 51.25rem);
 }
 
 .promo-hero-title {
-    margin: 0 0 clamp(8px, 1.45vw, 28px);
-    font-size: clamp(14px, 1.7vw, 33px);
-    font-weight: 700;
-    line-height: 1.2;
+    margin-bottom: clamp(0.5rem, 1.45vw, 1.75rem);
+    font-size: clamp(0.875rem, 1.7vw, 2.0625rem);
 }
 
 .promo-hero-description {
-    margin: 0;
-    font-size: clamp(9px, 1.15vw, 22px);
-    line-height: 1.45;
+    font-size: clamp(0.5625rem, 1.15vw, 1.375rem);
     word-break: keep-all;
 }
 
 .promo-content {
-    padding: clamp(180px, 14.85vw, 285px) clamp(48px, 4.7vw, 90px) clamp(180px, 12vw, 230px);
-    background: linear-gradient(180deg, var(--promo-bg-start) 0%, var(--promo-bg-end) 100%);
+    padding: 6rem;
+    background: linear-gradient(180deg, var(--main-100) 0%, var(--main-0) 100%);
+}
+
+.promo-theme-forest .promo-content {
+    background: linear-gradient(135deg, #dedaae 0%, var(--main-0) 100%);
+}
+
+.promo-theme-citrus .promo-content {
+    background: linear-gradient(135deg, #f1cec1 0%, #fee8d3 100%);
+}
+
+.promo-theme-relaxing .promo-content {
+    background: linear-gradient(135deg, #ecdddc 0%, #f1ece1 100%);
 }
 
 .promo-layout {
     display: grid;
     grid-template-columns: minmax(0, 0.955fr) minmax(0, 1fr);
-    gap: clamp(64px, 6.67vw, 128px);
+    gap: clamp(4rem, 6.67vw, 8rem);
     width: 100%;
-    max-width: 1740px;
+    max-width: 108.75rem;
     margin: 0 auto;
 }
 
@@ -121,13 +94,12 @@
     width: 100%;
     aspect-ratio: 4 / 3;
     overflow: hidden;
-    border-radius: 8px;
-    background: #fff;
+    border-radius: 0.5rem;
+    background: var(--gray-0);
 }
 
 .promo-set-image img,
 .promo-product-image img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -136,33 +108,24 @@
 
 .promo-set-details {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(250px, 0.72fr);
-    gap: 0 clamp(24px, 2.5vw, 48px);
-    margin-top: clamp(46px, 3.75vw, 72px);
+    grid-template-columns: minmax(0, 1fr) minmax(15.625rem, 0.72fr);
+    gap: 0 clamp(1.5rem, 2.5vw, 3rem);
+    margin-top: clamp(2.875rem, 3.75vw, 4.5rem);
 }
 
 .promo-set-heading {
     min-width: 0;
 }
 
-.promo-set-name,
-.promo-set-name-en,
-.promo-product-name,
-.promo-product-meta,
-.promo-discount {
-    margin: 0;
-}
-
 .promo-set-name {
-    font-size: clamp(19px, 1.35vw, 26px);
-    font-weight: 700;
+    font-size: clamp(1.1875rem, 1.35vw, 1.625rem);
     line-height: 1.35;
     word-break: keep-all;
 }
 
 .promo-set-name-en {
-    margin-top: 3px;
-    font-size: clamp(15px, 1.05vw, 20px);
+    margin-top: 0.1875rem;
+    font-size: clamp(0.9375rem, 1.05vw, 1.25rem);
     line-height: 1.4;
 }
 
@@ -170,68 +133,60 @@
     min-width: 0;
 }
 
-.promo-price-list {
-    margin: 0;
-}
-
 .promo-price-row {
     display: grid;
     grid-template-columns: minmax(max-content, 1fr) max-content;
     align-items: baseline;
-    gap: 12px;
-    font-size: clamp(17px, 1.15vw, 22px);
-    line-height: 1.45;
+    gap: 0.75rem;
+    font-size: clamp(1.0625rem, 1.15vw, 1.375rem);
+    line-height: var(--lh2);
 }
 
 .promo-price-row + .promo-price-row {
-    margin-top: 12px;
-}
-
-.promo-price-row dt,
-.promo-price-row dd {
-    margin: 0;
+    margin-top: 0.75rem;
 }
 
 .promo-price-row-original {
-    color: #9d9d9d;
+    color: var(--gray-700);
 }
 
 .promo-price-row-original s {
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 0.0625rem;
 }
 
 .promo-price-row-special {
-    color: #111;
-    font-weight: 700;
+    color: var(--ink);
 }
 
 .promo-discount {
-    margin-top: 10px;
-    color: var(--promo-accent);
-    font-size: clamp(18px, 1.2vw, 23px);
-    font-weight: 700;
+    margin-top: 0.625rem;
+    color: var(--main-900);
+    font-size: clamp(1.125rem, 1.2vw, 1.4375rem);
     line-height: 1.25;
     text-align: right;
 }
 
 .promo-buy-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     grid-column: 2;
     justify-self: end;
-    width: min(100%, 230px);
-    min-height: 50px;
-    margin-top: clamp(34px, 2.35vw, 45px);
-    padding: 10px 18px;
-    background: var(--promo-button);
-    color: #fff;
-    font-size: clamp(16px, 1vw, 19px);
+    width: min(100%, 14.375rem);
+    min-height: 3.125rem;
+    margin-top: clamp(2.125rem, 2.35vw, 2.8125rem);
+    padding: 0.625rem 1.125rem;
+    background: var(--main-900);
+    color: var(--gray-0);
+    font-size: clamp(1rem, 1vw, 1.1875rem);
     font-weight: 500;
-    line-height: 1.2;
+    line-height: var(--lh1);
 }
 
 .promo-products {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: clamp(54px, 4vw, 78px) clamp(32px, 3.33vw, 64px);
+    gap: clamp(3.375rem, 4vw, 4.875rem) clamp(2rem, 3.33vw, 4rem);
     align-content: start;
 }
 
@@ -241,11 +196,17 @@
 }
 
 .promo-product-image {
+    display: block;
     width: 100%;
-    aspect-ratio: var(--promo-card-ratio);
+    aspect-ratio: 1 / 1;
     overflow: hidden;
-    border-radius: 8px;
-    background: #fff;
+    border-radius: 0.5rem;
+    background: var(--gray-0);
+}
+
+.promo-theme-citrus .promo-product-image,
+.promo-theme-relaxing .promo-product-image {
+    aspect-ratio: 19 / 20;
 }
 
 .promo-product-info {
@@ -253,7 +214,7 @@
     flex: 1;
     flex-direction: column;
     align-items: center;
-    margin-top: clamp(14px, 1.25vw, 24px);
+    margin-top: clamp(0.875rem, 1.25vw, 1.5rem);
     text-align: center;
 }
 
@@ -262,8 +223,7 @@
     min-height: 1.4em;
     align-items: flex-end;
     justify-content: center;
-    font-size: clamp(16px, 1.05vw, 20px);
-    font-weight: 700;
+    font-size: clamp(1rem, 1.05vw, 1.25rem);
     line-height: 1.4;
     word-break: keep-all;
 }
@@ -272,74 +232,69 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0 9px;
-    margin-top: 2px;
-    font-size: clamp(16px, 1.05vw, 20px);
-    line-height: 1.45;
+    gap: 0 0.5625rem;
+    margin-top: 0.125rem;
+    font-size: clamp(1rem, 1.05vw, 1.25rem);
     white-space: nowrap;
-}
-
-.promo-product-price {
-    font-weight: 700;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .promo-content {
-        padding: clamp(96px, 12vw, 144px) clamp(28px, 5vw, 60px) clamp(120px, 15vw, 180px);
+        padding: clamp(6rem, 12vw, 9rem) clamp(1.75rem, 5vw, 3.75rem) clamp(7.5rem, 15vw, 11.25rem);
     }
 
     .promo-layout {
         grid-template-columns: minmax(0, 0.96fr) minmax(0, 1fr);
-        gap: clamp(28px, 4vw, 48px);
+        gap: clamp(1.75rem, 4vw, 3rem);
     }
 
     .promo-set-details {
-        grid-template-columns: minmax(0, 1fr) minmax(145px, 1fr);
-        gap: 0 clamp(12px, 2vw, 24px);
-        margin-top: clamp(30px, 4vw, 48px);
+        grid-template-columns: minmax(0, 1fr) minmax(9.0625rem, 1fr);
+        gap: 0 clamp(0.75rem, 2vw, 1.5rem);
+        margin-top: clamp(1.875rem, 4vw, 3rem);
     }
 
     .promo-set-name {
-        font-size: clamp(15px, 1.8vw, 20px);
+        font-size: clamp(0.9375rem, 1.8vw, 1.25rem);
     }
 
     .promo-set-name-en {
-        font-size: clamp(12px, 1.45vw, 16px);
+        font-size: clamp(0.75rem, 1.45vw, 1rem);
     }
 
     .promo-price-row {
-        gap: 5px;
-        font-size: clamp(13px, 1.5vw, 17px);
+        gap: 0.3125rem;
+        font-size: clamp(0.8125rem, 1.5vw, 1.0625rem);
     }
 
     .promo-price-row + .promo-price-row {
-        margin-top: 8px;
+        margin-top: 0.5rem;
     }
 
     .promo-discount {
-        margin-top: 7px;
-        font-size: clamp(14px, 1.7vw, 18px);
+        margin-top: 0.4375rem;
+        font-size: clamp(0.875rem, 1.7vw, 1.125rem);
     }
 
     .promo-buy-button {
-        width: clamp(130px, 18vw, 180px);
-        min-height: 40px;
-        margin-top: clamp(22px, 3vw, 34px);
-        padding-block: 8px;
-        font-size: clamp(13px, 1.5vw, 16px);
+        width: clamp(8.125rem, 18vw, 11.25rem);
+        min-height: 2.5rem;
+        margin-top: clamp(1.375rem, 3vw, 2.125rem);
+        padding-block: 0.5rem;
+        font-size: clamp(0.8125rem, 1.5vw, 1rem);
     }
 
     .promo-products {
-        gap: clamp(34px, 4.2vw, 50px) clamp(18px, 2.8vw, 32px);
+        gap: clamp(2.125rem, 4.2vw, 3.125rem) clamp(1.125rem, 2.8vw, 2rem);
     }
 
     .promo-product-info {
-        margin-top: clamp(10px, 1.6vw, 18px);
+        margin-top: clamp(0.625rem, 1.6vw, 1.125rem);
     }
 
     .promo-product-name,
     .promo-product-meta {
-        font-size: clamp(12px, 1.5vw, 16px);
+        font-size: clamp(0.75rem, 1.5vw, 1rem);
     }
 
     .promo-product-name {
@@ -347,7 +302,7 @@
     }
 
     .promo-product-meta {
-        gap: 0 6px;
+        gap: 0 0.375rem;
     }
 }
 
@@ -357,29 +312,29 @@
     }
 
     .promo-hero-kicker {
-        top: clamp(12px, 3.75vw, 16px);
-        left: clamp(14px, 3.75vw, 18px);
-        font-size: clamp(9px, 2.55vw, 11px);
+        top: clamp(1rem, 3.75vw, 1.3333rem);
+        left: clamp(1.1667rem, 3.75vw, 1.5rem);
+        font-size: clamp(0.75rem, 2.55vw, 0.9167rem);
     }
 
     .promo-hero-copy {
         top: 57%;
-        left: clamp(32px, 9.7vw, 42px);
+        left: clamp(2.6667rem, 9.7vw, 3.5rem);
         max-width: 53vw;
     }
 
     .promo-hero-title {
-        margin-bottom: clamp(7px, 2.25vw, 10px);
-        font-size: clamp(12px, 3.45vw, 15px);
+        margin-bottom: clamp(0.5833rem, 2.25vw, 0.8333rem);
+        font-size: clamp(1rem, 3.45vw, 1.25rem);
     }
 
     .promo-hero-description {
-        font-size: clamp(8px, 2.35vw, 10px);
+        font-size: clamp(0.6667rem, 2.35vw, 0.8333rem);
         line-height: 1.35;
     }
 
     .promo-content {
-        padding: clamp(88px, 29.8vw, 120px) clamp(18px, 4.65vw, 20px) clamp(112px, 30vw, 128px);
+        padding: clamp(7.3333rem, 29.8vw, 10rem) clamp(1.5rem, 4.65vw, 1.6667rem) clamp(9.3333rem, 30vw, 10.6667rem);
     }
 
     .promo-layout {
@@ -387,29 +342,29 @@
     }
 
     .promo-set-details {
-        grid-template-columns: minmax(0, 0.95fr) minmax(140px, 1.05fr);
-        gap: 0 12px;
-        margin-top: clamp(48px, 13.9vw, 58px);
+        grid-template-columns: minmax(0, 0.95fr) minmax(11.6667rem, 1.05fr);
+        gap: 0 1rem;
+        margin-top: clamp(4rem, 13.9vw, 4.8333rem);
     }
 
     .promo-set-name {
-        font-size: clamp(13px, 3.7vw, 16px);
-        line-height: 1.45;
+        font-size: clamp(1.0833rem, 3.7vw, 1.3333rem);
+        line-height: var(--lh2);
     }
 
     .promo-set-name-en {
-        margin-top: 2px;
-        font-size: clamp(10px, 3vw, 13px);
+        margin-top: 0.1667rem;
+        font-size: clamp(0.8333rem, 3vw, 1.0833rem);
         line-height: 1.4;
     }
 
     .promo-price-row {
-        gap: 5px;
-        font-size: clamp(12px, 3.45vw, 15px);
+        gap: 0.4167rem;
+        font-size: clamp(1rem, 3.45vw, 1.25rem);
     }
 
     .promo-price-row + .promo-price-row {
-        margin-top: 7px;
+        margin-top: 0.5833rem;
     }
 
     .promo-price-row dt,
@@ -418,42 +373,42 @@
     }
 
     .promo-discount {
-        margin-top: 7px;
-        font-size: clamp(13px, 3.7vw, 16px);
+        margin-top: 0.5833rem;
+        font-size: clamp(1.0833rem, 3.7vw, 1.3333rem);
     }
 
     .promo-buy-button {
-        width: 130px;
-        min-height: 29px;
-        margin-top: clamp(24px, 7vw, 30px);
-        padding: 5px 10px;
-        font-size: clamp(12px, 3.45vw, 15px);
+        width: 10.8333rem;
+        min-height: 2.4167rem;
+        margin-top: clamp(2rem, 7vw, 2.5rem);
+        padding: 0.4167rem 0.8333rem;
+        font-size: clamp(1rem, 3.45vw, 1.25rem);
     }
 
     .promo-products {
-        gap: clamp(36px, 10.5vw, 45px) clamp(28px, 12vw, 48px);
-        margin-top: clamp(96px, 27vw, 112px);
+        gap: clamp(3rem, 10.5vw, 3.75rem) clamp(2.3333rem, 12vw, 4rem);
+        margin-top: clamp(8rem, 27vw, 9.3333rem);
     }
 
     .promo-product-image {
-        border-radius: 6px;
+        border-radius: 0.5rem;
     }
 
     .promo-product-info {
-        margin-top: clamp(11px, 3.25vw, 14px);
+        margin-top: clamp(0.9167rem, 3.25vw, 1.1667rem);
     }
 
     .promo-product-name {
         min-height: 2.8em;
         align-items: flex-start;
-        font-size: clamp(12px, 3.35vw, 14px);
+        font-size: clamp(1rem, 3.35vw, 1.1667rem);
         line-height: 1.4;
     }
 
     .promo-product-meta {
-        gap: 0 6px;
-        margin-top: 1px;
-        font-size: clamp(12px, 3.35vw, 14px);
+        gap: 0 0.5rem;
+        margin-top: 0.0833rem;
+        font-size: clamp(1rem, 3.35vw, 1.1667rem);
         line-height: 1.4;
     }
 }
@@ -463,3 +418,4 @@
         overflow-x: hidden;
     }
 }
+
