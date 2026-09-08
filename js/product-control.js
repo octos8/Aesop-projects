@@ -20,7 +20,7 @@ if (productList) {
         return `<li class="collection-card" data-product-card
                     data-name="${name}" data-price="${product.price}" data-order="${index}">
                     <article>
-                        <a class="collection-image" href="#" aria-label="${name} 상세 보기">
+                        <a class="collection-image" href="./purchase.html" aria-label="${name} 상세 보기">
                             <img src="./img/product-list/${escapeHtml(product.pthumbFileName)}"
                                  alt="${name}" loading="lazy">
                         </a>

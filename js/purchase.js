@@ -1,47 +1,46 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const overlayMenu = document.querySelector(".smart-overlay-menu");
-    const menuOpenButton = document.querySelector(".btn-menu button");
-    const menuCloseButton = document.querySelector(".btn-menu-close button");
-    const mobileDepthButtons = [...document.querySelectorAll(".smart-depth-button")];
+const overlayMenu = document.querySelector(".smart-overlay-menu");
+const menuOpenButton = document.querySelector(".btn-menu button");
+const menuCloseButton = document.querySelector(".btn-menu-close button");
+const mobileDepthButtons = [...document.querySelectorAll(".smart-depth-button")];
 
-    const setMenuOpen = (isOpen) => {
-        if (!overlayMenu) return;
-        overlayMenu.classList.toggle("on", isOpen);
-        overlayMenu.setAttribute("aria-hidden", String(!isOpen));
-        menuOpenButton?.setAttribute("aria-expanded", String(isOpen));
-        document.body.classList.toggle("menu-open", isOpen);
-        if (isOpen) menuCloseButton?.focus();
-        else menuOpenButton?.focus();
-    };
+const setMenuOpen = (isOpen) => {
+    if (!overlayMenu) return;
+    overlayMenu.classList.toggle("on", isOpen);
+    overlayMenu.setAttribute("aria-hidden", String(!isOpen));
+    menuOpenButton?.setAttribute("aria-expanded", String(isOpen));
+    document.body.classList.toggle("menu-open", isOpen);
+    if (isOpen) menuCloseButton?.focus();
+    else menuOpenButton?.focus();
+};
 
-    menuOpenButton?.addEventListener("click", () => setMenuOpen(true));
-    menuCloseButton?.addEventListener("click", () => setMenuOpen(false));
+menuOpenButton?.addEventListener("click", () => setMenuOpen(true));
+menuCloseButton?.addEventListener("click", () => setMenuOpen(false));
 
-    mobileDepthButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-            const menuName = button.dataset.menu;
-            const parent = button.closest("li");
-            const panel = document.querySelector(`[data-depth="${menuName}"]`);
-            const willOpen = button.getAttribute("aria-expanded") !== "true";
+mobileDepthButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const menuName = button.dataset.menu;
+        const parent = button.closest("li");
+        const panel = document.querySelector(`[data-depth="${menuName}"]`);
+        const willOpen = button.getAttribute("aria-expanded") !== "true";
 
-            mobileDepthButtons.forEach((item) => {
-                const active = item === button && willOpen;
-                item.setAttribute("aria-expanded", String(active));
-                item.closest("li")?.classList.toggle("on", active);
-            });
-            document.querySelectorAll("[data-depth]").forEach((item) => item.classList.remove("on"));
-            parent?.classList.toggle("on", willOpen);
-            panel?.classList.toggle("on", willOpen);
+        mobileDepthButtons.forEach((item) => {
+            const active = item === button && willOpen;
+            item.setAttribute("aria-expanded", String(active));
+            item.closest("li")?.classList.toggle("on", active);
         });
+        document.querySelectorAll("[data-depth]").forEach((item) => item.classList.remove("on"));
+        parent?.classList.toggle("on", willOpen);
+        panel?.classList.toggle("on", willOpen);
     });
+});
 
-    document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && overlayMenu?.classList.contains("on")) setMenuOpen(false);
-    });
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && overlayMenu?.classList.contains("on")) setMenuOpen(false);
+});
 
-    const form = document.querySelector("[data-product-form]");
+const form = document.querySelector("[data-product-form]");
 
-    if (!form) return;
+if (form) {
 
     const mainImage = document.querySelector("[data-gallery-main]");
     const thumbnails = [...document.querySelectorAll(".product-thumbnail")];
@@ -237,4 +236,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     activateTab("review");
     updateOrder();
-});
+}

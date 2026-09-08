@@ -360,15 +360,15 @@
 }
 
 .product-community {
-    padding-top: clamp(28rem, 72vw, 90rem);
-    padding-bottom: clamp(7rem, 12vw, 12rem);
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .community-tabs {
     display: grid;
     width: min(34rem, 100%);
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto clamp(5rem, 9vw, 9rem);
+    margin: 0 auto 6rem;
 }
 
 .community-tab {
