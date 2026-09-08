@@ -38,8 +38,8 @@
 
 .product-purchase-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(30rem, 1fr);
-    align-items: start;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
     gap: clamp(3rem, 7vw, 8rem);
 }
 
@@ -104,6 +104,10 @@
 }
 
 .product-order {
+    display: flex;
+    min-height: 0;
+    flex-direction: column;
+    justify-content: space-between;
     padding-top: clamp(0.5rem, 1.5vw, 1.5rem);
 }
 
@@ -449,9 +453,7 @@
 .qna-heading {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding-bottom: 1.5rem;
+    justify-content: flex-end;
     margin-bottom: 1rem;
 }
 
@@ -646,7 +648,7 @@
 
 @media (max-width: 1200px) {
     .product-purchase-grid {
-        grid-template-columns: minmax(0, 1fr) minmax(25rem, 0.9fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 3rem;
     }
 
@@ -670,12 +672,42 @@
     }
 
     .product-purchase-grid {
-        grid-template-columns: minmax(0, 1fr) minmax(22rem, 0.95fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 2rem;
     }
 
     .product-price-row {
-        min-height: 8.5rem;
+        min-height: 6.5rem;
+    }
+
+    .size-options {
+        margin-bottom: 1rem;
+    }
+
+    .size-option {
+        min-height: 3.5rem;
+    }
+
+    .quantity-control {
+        min-height: 2.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .order-total {
+        min-height: 4rem;
+    }
+
+    .order-actions {
+        margin-bottom: 1rem;
+    }
+
+    .order-actions button {
+        min-height: 3.5rem;
+        font-size: 1rem;
+    }
+
+    .purchase-benefits > div {
+        min-height: 2.25rem;
     }
 
     .product-price {
@@ -734,6 +766,8 @@
     }
 
     .product-order {
+        display: block;
+        min-height: 0;
         padding-top: 0;
     }
 

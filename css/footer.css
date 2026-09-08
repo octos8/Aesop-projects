@@ -24,6 +24,7 @@
 /* PC 푸터 */
 
 footer{
+    position: relative;
     width:100%;
     max-width:1920px;
     height:399px;
@@ -36,6 +37,41 @@ footer{
     box-sizing: border-box;
     background-color: #000;
     color:#fff;
+}
+
+.back-to-top {
+    position: absolute;
+    top: -1.75rem;
+    right: clamp(1rem, 3vw, 3rem);
+    z-index: 2;
+    display: none;
+    place-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0;
+    border: 1px solid #c9c6bc;
+    border-radius: 50%;
+    background: #f1ece1;
+    color: #222;
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 12%);
+}
+
+.purchase-page .back-to-top {
+    display: grid;
+}
+
+.back-to-top:hover {
+    background: #d8d5ca;
+}
+
+.back-to-top:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 3px;
 }
 
 .footer-box{

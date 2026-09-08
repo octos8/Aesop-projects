@@ -18,7 +18,7 @@ if (typeof SwiperClass !== 'function') {
                 enabled: true,
             },
             autoplay: prefersReducedMotion ? false : {
-                delay: 4500,
+                delay: 2500,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
             },

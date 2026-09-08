@@ -31,11 +31,11 @@ if (productList) {
                             </p>
                         </div>
                         <label class="product-option">
-                            <span class="sr-only">${name} 용량 및 수량 선택</span>
+                            <span class="sr-only">${name} 용량 선택</span>
                             <select name="option-${index}">
-                                ${product.poptions.flatMap(option => [1, 2, 3, 4].map(quantity =>
-                                    `<option value="${escapeHtml(option)} / ${quantity}개">${escapeHtml(option)} / ${quantity}개</option>`
-                                )).join('')}
+                                ${product.poptions.map(option =>
+                                    `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`
+                                ).join('')}
                             </select>
                         </label>
                         <button class="add-to-cart" type="button" data-add-to-cart>

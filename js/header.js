@@ -1,3 +1,20 @@
+const pageFooter = document.querySelector('footer');
+if (pageFooter && !pageFooter.querySelector('.back-to-top')) {
+    const topButton = document.createElement('button');
+    topButton.type = 'button';
+    topButton.className = 'back-to-top';
+    topButton.setAttribute('aria-label', '페이지 맨 위로 이동');
+    topButton.title = '위로 가기';
+    topButton.textContent = '↑';
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'
+        });
+    });
+    pageFooter.append(topButton);
+}
+
 const openButton = document.querySelector(".btn-menu button");
 const closeButton = document.querySelector(".btn-menu-close button");
 const overlay = document.querySelector(".smart-overlay-menu");
