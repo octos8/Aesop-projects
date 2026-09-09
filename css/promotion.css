@@ -15,6 +15,7 @@
     --promo-gap: 2rem;
     --promo-detail-gap: 1rem;
     --promo-hero-height: 12rem;
+    margin: 0 auto;
 }
 
 .promo-section {
@@ -142,10 +143,18 @@
 
 .promo-set-details {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13.75rem), 1fr));
+    grid-template-columns: minmax(0, 1fr);
     gap: var(--promo-detail-gap);
     margin-top: var(--promo-gap);
     color: #000;
+}
+
+.promo-set-info {
+    display: flex;
+    justify-content: space-between;
+    min-width: 0;
+    gap: 1rem;
+    text-wrap: nowrap;
 }
 
 .promo-set-heading {
@@ -177,7 +186,7 @@
     line-height: var(--lh2);
 }
 
-.promo-price-row + .promo-price-row {
+.promo-price-row+.promo-price-row {
     margin-top: 0.75rem;
 }
 
@@ -295,10 +304,6 @@
     grid-template-columns: minmax(0, 1fr);
 }
 
-.promo-buy-button {
-    width: 100%;
-}
-
 @media (min-width: 320px) {
     .promo-page {
         --promo-body: 1.0833rem;
@@ -315,7 +320,7 @@
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 402px) {
     .promo-page {
         --promo-body: 1.1667rem;
         --promo-title: 2rem;
@@ -330,8 +335,9 @@
         --promo-hero-height: 17rem;
     }
 
-    .promo-buy-button {
-        width: min(100%, 14.375rem);
+    .promo-set-info {
+        text-wrap: nowrap;
+        gap: 1rem;
     }
 }
 

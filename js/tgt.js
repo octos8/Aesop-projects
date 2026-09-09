@@ -7,7 +7,7 @@ const viewButtons = together?.querySelectorAll('[data-tgt-view]');
 if (viewButtons?.length) {
     const emptyMessage = document.createElement('p');
     emptyMessage.className = 'tgt-empty';
-    emptyMessage.textContent = '아직 최근에 본 제품이 없어요.';
+    emptyMessage.textContent = '아직 최근에 본 제품이 없습니다.';
     emptyMessage.hidden = true;
     emptyMessage.setAttribute('role', 'status');
     slider.after(emptyMessage);

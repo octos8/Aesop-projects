@@ -36,6 +36,10 @@ body{
     color:#7C7C7C;
 }
 
+.tgt-txt button {
+    background: transparent;
+}
+
 .tgt-empty {
     width: 100%;
     margin: 0;
