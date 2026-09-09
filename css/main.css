@@ -147,21 +147,33 @@
     height: 100%;
 }
 
-.motion-img{
-    width: 100%;
+/* forest 영역 */
+.campaign-photo-forest{
+    position: relative;
     overflow: hidden;
 }
+.campaign-photo{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
 
-.motion-img video{
+.campaign-photo video{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+/* 모바일 / 태블릿 대응 */
+@media (max-width: 1024px){
+    .campaign-photo video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 @keyframes campaign-forest-drift {
