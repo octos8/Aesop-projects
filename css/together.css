@@ -7,11 +7,13 @@ body{
 }
 
 .together{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 6rem 0;
+    padding:2rem 0;
+    margin: 8rem 0;
+    /* border:1px solid red; */
 }
 
 .tgt-top ul{
@@ -34,35 +36,18 @@ body{
     color:#7C7C7C;
 }
 
-.tgt-txt > li {
-    padding: 0 2rem 1rem;
-}
-
-.tgt-txt button {
-    border: 0;
-    padding: 0;
-    background: transparent;
-    color: inherit;
-    font: inherit;
-    font-size: var(--fs-h3, 1.5625rem);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.tgt-txt button:focus-visible {
-    outline: 2px solid currentColor;
-    outline-offset: 5px;
-}
-
-.tgt-img .tgt-recent-card {
-    flex: 0 0 280px;
-    max-width: 75vw;
-}
-
-.tgt-recent-card img {
+.tgt-empty {
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
+    margin: 0;
+    padding: 4rem 1rem;
+    color: #7c7c7c;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.tgt-img[hidden],
+.tgt-empty[hidden] {
+    display: none;
 }
 
 .tgt-img ul{

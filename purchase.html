@@ -17,6 +17,7 @@
     <script src="./js/tgt.js" defer></script>
     <script src="./js/header.js" defer></script>
     <script src="./js/purchase.js" defer></script>
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body class="purchase-page">
@@ -410,10 +411,10 @@
             <div class="tgt-top">
                 <ul class="tgt-txt">
                     <li class="tgt-underline">
-                        <h3><b>함께 보면 좋은 제품</b></h3>
+                        <h3><button type="button" data-tgt-view="recommended" aria-pressed="true">함께 보면 좋은 제품</button></h3>
                     </li>
                     <li class="tgt-color">
-                        <h3><b>최근 본 제품</b></h3>
+                        <h3><button type="button" data-tgt-view="recent" aria-pressed="false">최근 본 제품</button></h3>
                     </li>
                 </ul>
             </div>
@@ -550,17 +551,17 @@
                     <button type="button" data-qna-write>문의 작성</button>
                 </div>
                 <ol class="qna-list">
-                    <li><button class="review-card" type="button" aria-expanded="false" aria-controls="qna-answer-1">
+                    <li><button class="review-card qna" type="button" aria-expanded="false" aria-controls="qna-answer-1">
                             <span class="review-meta"><b>답변완료</b><time datetime="2026-08-25">2026.08.25</time></span>
                             <span class="qna-question">민감한 피부에도 사용할 수 있나요?</span></button>
                         <p id="qna-answer-1" hidden>개인별 피부 상태에 따라 차이가 있을 수 있으므로, 처음 사용하실 때는 팔 안쪽에 소량 테스트한 뒤 사용해 주세요.</p>
                     </li>
-                    <li><button class="review-card" type="button" aria-expanded="false" aria-controls="qna-answer-2">
+                    <li><button class="review-card qna" type="button" aria-expanded="false" aria-controls="qna-answer-2">
                             <span class="review-meta"><b>답변완료</b><time datetime="2026-08-20">2026.08.20</time></span>
                             <span class="qna-question">선물 포장을 선택할 수 있나요?</span></button>
                         <p id="qna-answer-2" hidden>구매 영역의 선물 아이콘을 선택하면 선물 포장 옵션이 주문에 포함됩니다.</p>
                     </li>
-                    <li><button class="review-card" type="button" aria-expanded="false" aria-controls="qna-answer-3">
+                    <li><button class="review-card qna" type="button" aria-expanded="false" aria-controls="qna-answer-3">
                             <span class="review-meta"><b>답변완료</b><time datetime="2026-08-12">2026.08.12</time></span>
                             <span class="qna-question">500mL 용량도 같은 향인가요?</span></button>
                         <p id="qna-answer-3" hidden>네, 용량과 관계없이 만다린 필, 시더 아틀라스, 캐럿 시드의 동일한 아로마를 경험하실 수 있습니다.</p>
