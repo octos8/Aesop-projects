@@ -190,6 +190,11 @@ if (form) {
         else showToast("주문서 연결 전 상품 확인 단계입니다.");
     });
 
+    // 모달 내용이 아닌 어두운 배경을 누르면 닫습니다.
+    dialog?.addEventListener("click", (event) => {
+        if (event.target === dialog) dialog.close("cancel");
+    });
+
     document.querySelector("[data-order-confirm]")?.addEventListener("click", () => {
         showToast("주문서 페이지 연결 전 데모 화면입니다.");
     });
