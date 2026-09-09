@@ -260,4 +260,33 @@ body {
         grid-template-columns: minmax(0, 1fr);
         padding-top: 0.75rem;
     }
+
+    .tgt-top {
+        width: 100%;
+        padding-inline: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .tgt-top ul {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .tgt-txt > li {
+        flex: 0 0 auto;
+        min-width: 0;
+        padding: 0 0.25rem 0.75rem;
+    }
+
+    .tgt-top h3,
+    .tgt-txt button {
+        font-size: 1rem;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow-wrap: normal;
+        word-break: keep-all;
+    }
 }

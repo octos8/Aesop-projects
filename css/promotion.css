@@ -4,18 +4,17 @@
     font-size: var(--promo-body);
     line-height: 1.45;
     overflow-wrap: anywhere;
-    --promo-body: 1rem;
-    --promo-title: 1.6667rem;
-    --promo-kicker: 1.5rem;
-    --promo-description: 1rem;
-    --promo-name: 1.25rem;
-    --promo-price: 1.1667rem;
-    --promo-space: 1rem;
-    --promo-section-space: 2.6667rem;
-    --promo-gap: 2rem;
-    --promo-detail-gap: 1rem;
-    --promo-hero-height: 12rem;
-    margin: 0 auto;
+    --promo-body: 1.25rem;
+    --promo-title: 2.8125rem;
+    --promo-kicker: 3.125rem;
+    --promo-description: 1.875rem;
+    --promo-name: 1.625rem;
+    --promo-price: 1.4375rem;
+    --promo-space: 5rem;
+    --promo-section-space: 6rem;
+    --promo-gap: 6rem;
+    --promo-detail-gap: 3rem;
+    --promo-hero-height: 32rem;
 }
 
 .promo-section {
@@ -216,7 +215,7 @@
     justify-content: center;
     grid-column: 1 / -1;
     justify-self: end;
-    width: min(100%, 14.375rem);
+    width: 45%;
     min-height: 3.75rem;
     margin-top: var(--promo-detail-gap);
     padding: 0.625rem 1.125rem;
@@ -224,11 +223,7 @@
     color: var(--gray-0);
     font-size: var(--promo-body);
     font-weight: 500;
-    line-height: var(--lh1);
-}
-
-.promo-buy-button.one {
-    background: var(--main-900);
+    text-wrap: nowrap;
 }
 
 .promo-buy-button.two {
@@ -298,63 +293,8 @@
     margin: 0;
 }
 
-/* Mobile first: sizes and spacing use rem at five breakpoints. */
-.promo-layout,
-.promo-products {
-    grid-template-columns: minmax(0, 1fr);
-}
-
-@media (min-width: 320px) {
-    .promo-page {
-        --promo-body: 1.0833rem;
-        --promo-title: 1.8333rem;
-        --promo-name: 1.3333rem;
-        --promo-price: 1.25rem;
-        --promo-space: 1.25rem;
-        --promo-section-space: 3rem;
-        --promo-hero-height: 14rem;
-    }
-
-    .promo-products {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (min-width: 402px) {
-    .promo-page {
-        --promo-body: 1.1667rem;
-        --promo-title: 2rem;
-        --promo-kicker: 1.75rem;
-        --promo-description: 1.0833rem;
-        --promo-name: 1.5rem;
-        --promo-price: 1.3333rem;
-        --promo-space: 2rem;
-        --promo-section-space: 4rem;
-        --promo-gap: 3rem;
-        --promo-detail-gap: 1.5rem;
-        --promo-hero-height: 17rem;
-    }
-
-    .promo-set-info {
-        text-wrap: nowrap;
-        gap: 1rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .promo-page {
-        --promo-title: 2.1667rem;
-        --promo-kicker: 2rem;
-        --promo-description: 1.1667rem;
-        --promo-space: 2.5rem;
-        --promo-section-space: 4.5rem;
-        --promo-gap: 3.5rem;
-        --promo-detail-gap: 1.75rem;
-        --promo-hero-height: 21rem;
-    }
-}
-
-@media (min-width: 1024px) {
+/* Responsive promotion layout: large to small so narrower rules win. */
+@media (max-width: 1024px) {
     .promo-page {
         --promo-body: 1.125rem;
         --promo-title: 2.25rem;
@@ -370,22 +310,89 @@
     }
 
     .promo-layout {
-        grid-template-columns: minmax(0, 0.955fr) minmax(0, 1fr);
+        display: flex;
+        flex-direction: column;
     }
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 768px) {
     .promo-page {
-        --promo-body: 1.25rem;
-        --promo-title: 2.8125rem;
-        --promo-kicker: 3.125rem;
-        --promo-description: 1.875rem;
-        --promo-name: 1.625rem;
-        --promo-price: 1.4375rem;
-        --promo-space: 5rem;
-        --promo-section-space: 6rem;
-        --promo-gap: 6rem;
-        --promo-detail-gap: 3rem;
-        --promo-hero-height: 32rem;
+        --promo-title: 2.1667rem;
+        --promo-kicker: 2rem;
+        --promo-description: 1.1667rem;
+        --promo-space: 2.5rem;
+        --promo-section-space: 4.5rem;
+        --promo-gap: 3.5rem;
+        --promo-detail-gap: 1.75rem;
+        --promo-hero-height: 21rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .promo-set-info {
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    html,
+    body {
+        min-width: 0;
+    }
+
+    .promo-page {
+        --promo-space: 7.5vw;
+        --promo-section-space: 13.5vw;
+        --promo-gap: 10.5vw;
+        --promo-detail-gap: 5.25vw;
+        --promo-hero-height: 63vw;
+    }
+
+    .promo-buy-button {
+        width: 40%;
+        min-width: 0;
+        min-height: 0;
+        aspect-ratio: 2 / 1;
+        padding: 0.25rem 0.5rem;
+        box-sizing: border-box;
+        line-height: 1.2;
+        white-space: normal;
+        overflow-wrap: normal;
+        word-break: keep-all;
+    }
+}
+@media (max-width: 240px) {
+    .promo-page {
+        --promo-body: 1rem;
+        --promo-title: 1.6667rem;
+        --promo-kicker: 1.5rem;
+        --promo-description: 1rem;
+        --promo-name: 1.25rem;
+        --promo-price: 1.1667rem;
+    }
+
+    .promo-set-info {
+        text-wrap: nowrap;
+    }
+
+    .promo-price-block {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .promo-price-row dt {
+        min-width: 0;
+        white-space: normal;
+    }
+
+    .promo-price-row dd,
+    .promo-discount {
+        white-space: nowrap;
+    }
+
+
+    .promo-products {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
