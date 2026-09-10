@@ -129,7 +129,7 @@ body {
     }
 
     .box-wrap-5 {
-        grid-template-columns: minmax(0, 1fr);
+        grid-template-columns: minmax(2, 1fr);
         gap: 2.5rem;
     }
 
