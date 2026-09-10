@@ -449,6 +449,7 @@ button.review-card.qna {
     width: 8.75rem;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .review-body p {
