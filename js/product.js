@@ -42,10 +42,11 @@ const productArray = [
     },
     {
         "pname":  "선릿 보태니컬 바디 밤",
-        "price":  52000,
+        "price":  49400,
         "pthumbFileName":  "asset-05.png",
+        "poptionPrices": [49400, 135000],
+        "poptionOriginalPrices": [52000, 135000],
         "poptions":  [
-                         "60mL",
                          "120mL",
                          "500mL"
                      ]
@@ -121,3 +122,21 @@ const productArray = [
                      ]
     }
 ];
+
+// 첫 용량의 가격을 기준으로, 대용량일수록 단위당 가격을 낮춥니다.
+function getProductOriginalPrice(product, size) {
+    const optionIndex = product.poptions.indexOf(size);
+    const optionPrice = product.poptionOriginalPrices?.[optionIndex];
+    if (Number.isFinite(optionPrice)) return optionPrice;
+    const baseAmount = Number.parseFloat(product.poptions[0]);
+    const amount = Number.parseFloat(size);
+    if (size === product.poptions[0]) return product.price;
+    return Math.round(product.price * Math.pow(amount / baseAmount, 0.75) / 1000) * 1000;
+}
+
+function getProductOptionPrice(product, size) {
+    const optionIndex = product.poptions.indexOf(size);
+    const optionPrice = product.poptionPrices?.[optionIndex];
+    if (Number.isFinite(optionPrice)) return optionPrice;
+    return Math.round(getProductOriginalPrice(product, size) * 0.95);
+}
