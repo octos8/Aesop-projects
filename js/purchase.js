@@ -195,6 +195,7 @@ if (form) {
     [...document.querySelectorAll(".review-list li")].forEach((review, index) => {
         if (isSunlitBalm) return;
         if (index >= community.reviews.length) { review.remove(); return; }
+        review.querySelector(".review-meta strong").textContent = community.reviewAuthors[index];
         if (index > 0) {
             const stars = review.querySelector(".review-stars");
             stars.innerHTML = "★★★★<i>★</i>";
