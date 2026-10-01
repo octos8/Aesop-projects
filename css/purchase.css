@@ -419,14 +419,21 @@ button.review-card.qna {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 0.84rem;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.review-meta strong {
+    font-weight: 400;
 }
 
 .review-stars {
-    margin-bottom: 0.4rem;
-    color: var(--purchase-accent);
-    font-size: 1.25rem;
-    letter-spacing: 0.12em;
+    margin-bottom: 4px;
+    color: #bd7448;
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .review-stars i {
@@ -1051,7 +1058,7 @@ body.purchase-page .product-purchase {
     }
 
     .review-stars {
-        font-size: 1.5rem;
+        font-size: 22px;
     }
 
     .review-body {

@@ -38,15 +38,29 @@ const productCommunityRows = {
 };
 
 const reviewAuthorSurnames = ["김", "이", "박", "최", "정", "강", "조", "윤", "장", "임", "한", "오", "서", "신", "권", "황", "안", "송", "유", "홍"];
-const reviewAuthorEndings = ["민", "진", "영", "수", "현", "희", "은", "우", "연", "호", "아", "준"];
+const reviewAuthorEndingGroups = [
+    ["민", "서", "준"], ["영", "호", "은"], ["진", "아", "혁"],
+    ["수", "린", "우"], ["현", "희", "연"], ["윤", "석", "미"],
+    ["경", "빈", "원"], ["솔", "정", "훈"], ["율", "나", "재"],
+    ["주", "겸", "혜"], ["성", "하", "림"], ["욱", "예", "찬"],
+    ["연", "준", "경"], ["호", "민", "솔"], ["은", "혁", "주"],
+    ["아", "석", "율"], ["린", "영", "겸"], ["우", "정", "미"],
+    ["희", "원", "훈"], ["서", "진", "나"], ["빈", "수", "재"],
+    ["윤", "혜", "찬"], ["현", "림", "예"], ["성", "욱", "하"],
+    ["경", "아", "우"], ["주", "혁", "서"], ["민", "혜", "석"],
+    ["솔", "준", "희"], ["정", "율", "영"], ["린", "호", "원"],
+    ["훈", "은", "빈"], ["미", "겸", "진"], ["재", "연", "윤"],
+    ["예", "수", "성"], ["찬", "나", "현"], ["하", "경", "욱"],
+    ["림", "솔", "민"], ["석", "희", "재"], ["원", "서", "호"],
+    ["혜", "우", "영"]
+];
 
 const productCommunities = Object.fromEntries(Object.entries(productCommunityRows).map(([id, row], productIndex) => [id, {
     reviews: row.slice(0, 3),
     reviewAuthors: row.slice(0, 3).map((_, reviewIndex) => {
         const authorIndex = productIndex * 3 + reviewIndex;
         const surname = reviewAuthorSurnames[authorIndex % reviewAuthorSurnames.length];
-        const ending = reviewAuthorEndings[(authorIndex + Math.floor(authorIndex / reviewAuthorSurnames.length)) % reviewAuthorEndings.length];
-        return `${surname}*${ending}님`;
+        return `${surname}**님`;
     }),
     qna: [row.slice(3, 5), row.slice(5, 7), row.slice(7, 9)]
 }]));
