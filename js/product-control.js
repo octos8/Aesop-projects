@@ -64,7 +64,11 @@ if (productList) {
 
     productList.addEventListener('click', (event) => {
         if (event.target.closest('[data-add-to-cart]')) {
-            window.alert('장바구니를 담았습니다.');
+            const card = event.target.closest('[data-product-card]');
+            const index = Number(card.dataset.order);
+            const product = productArray[index];
+            const option = card.querySelector('select').value;
+            window.shopCart?.add({ id: `new-${index + 1}`, name: product.pname, option, price: getProductOptionPrice(product, option), quantity: 1 });
         }
     });
 

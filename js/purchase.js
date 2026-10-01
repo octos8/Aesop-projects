@@ -350,6 +350,13 @@ if (form) {
     });
 
     document.querySelector("[data-add-cart]")?.addEventListener("click", () => {
+        window.shopCart?.add({
+            id: product?.id ?? "new-5",
+            name: product?.name ?? "선릿 보태니컬 바디 밤",
+            option: selectedSize,
+            price: selectedPrice,
+            quantity
+        });
         const counts = [...document.querySelectorAll(".cart-count")];
         const current = Number(counts[0]?.textContent || 0) + quantity;
         counts.forEach((count) => {
@@ -378,7 +385,14 @@ if (form) {
     });
 
     document.querySelector("[data-order-confirm]")?.addEventListener("click", () => {
-        showToast("주문서 페이지 연결 전 데모 화면입니다.");
+        dialog?.close();
+        window.shopCart?.checkout({
+            id: product?.id ?? "new-5",
+            name: product?.name ?? "선릿 보태니컬 바디 밤",
+            option: selectedSize,
+            price: selectedPrice,
+            quantity
+        });
     });
 
     const tabs = [...document.querySelectorAll("[data-tab]")];
