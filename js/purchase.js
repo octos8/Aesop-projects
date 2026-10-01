@@ -198,7 +198,7 @@ if (form) {
         review.querySelector(".review-meta strong").textContent = community.reviewAuthors[index];
         if (index > 0) {
             const stars = review.querySelector(".review-stars");
-            stars.innerHTML = "★★★★<i>★</i>";
+            stars.textContent = "★★★★";
             stars.setAttribute("aria-label", "별점 4점");
         }
         const body = review.querySelector(".review-body");
