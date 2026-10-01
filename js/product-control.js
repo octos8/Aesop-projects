@@ -17,17 +17,18 @@ if (productList) {
     // 상품 데이터를 기존 New 컬렉션 카드 구조로 출력합니다.
     productList.innerHTML = productArray.map((product, index) => {
         const name = escapeHtml(product.pname);
+        const price = getProductOptionPrice(product, product.poptions[0]);
         return `<li class="collection-card" data-product-card
-                    data-name="${name}" data-price="${product.price}" data-order="${index}">
+                    data-name="${name}" data-price="${price}" data-order="${index}">
                     <article>
-                        <a class="collection-image" href="./purchase.html" aria-label="${name} 상세 보기">
+                        <a class="collection-image" href="./purchase.html?product=new-${index + 1}&amp;option=${encodeURIComponent(product.poptions[0])}" aria-label="${name} 상세 보기">
                             <img src="./img/product-list/${escapeHtml(product.pthumbFileName)}"
                                  alt="${name}" loading="lazy">
                         </a>
                         <div class="collection-info">
-                            <h3>${name}</h3>
+                            <h3><a class="collection-product-link" href="./purchase.html?product=new-${index + 1}&amp;option=${encodeURIComponent(product.poptions[0])}">${name}</a></h3>
                             <p class="collection-price">
-                                <strong>${formatPrice(product.price)}</strong><span>원</span>
+                                <strong>${formatPrice(price)}</strong><span>원</span>
                             </p>
                         </div>
                         <label class="product-option">
@@ -45,6 +46,22 @@ if (productList) {
                 </li>`;
     }).join('');
 
+    // 선택한 용량을 링크에 반영해 새 탭에서도 같은 옵션으로 열립니다.
+    productList.addEventListener('change', (event) => {
+        const select = event.target.closest('select');
+        if (!select) return;
+        const card = select.closest('[data-product-card]');
+        const product = productArray[Number(card.dataset.order)];
+        const price = getProductOptionPrice(product, select.value);
+        card.dataset.price = String(price);
+        card.querySelector('.collection-price strong').textContent = formatPrice(price);
+        const href = `./purchase.html?product=new-${Number(card.dataset.order) + 1}&option=${encodeURIComponent(select.value)}`;
+        card.querySelectorAll('.collection-image, .collection-product-link').forEach(link => {
+            link.href = href;
+        });
+        if (productSort) sortProducts();
+    });
+
     productList.addEventListener('click', (event) => {
         if (event.target.closest('[data-add-to-cart]')) {
             window.alert('장바구니를 담았습니다.');
@@ -53,14 +70,14 @@ if (productList) {
 
     // 상세 보기로 이동하기 전에 최근 클릭한 상품을 저장합니다.
     productList.addEventListener('click', (event) => {
-        const link = event.target.closest('.collection-image');
+        const link = event.target.closest('.collection-image, .collection-product-link');
         if (!link) return;
         const card = link.closest('[data-product-card]');
         const product = productArray[Number(card.dataset.order)];
         const recentProduct = {
             name: product.pname,
             image: `./img/product-list/${product.pthumbFileName}`,
-            price: product.price,
+            price: getProductOptionPrice(product, card.querySelector('select').value),
             option: card.querySelector('select').value
         };
         try {

@@ -1,0 +1,276 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Three supporting texture, botanical and atmosphere gallery photos per promotion product and set",
+  "photos": [
+    {
+      "id": "forest-cleanser",
+      "n": 2,
+      "filename": "forest-cleanser-2-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Thin transparent cleanser gel smear on smooth ivory ceramic with just a few microscopic air bubbles, modest realistic amount. Mood: calm muted forest greens, warm neutral oatmeal and limestone, soft diffused morning daylight. Avoid citrus fruits, food, excessive foliage or theatrical forest scenery."
+    },
+    {
+      "id": "forest-balm",
+      "n": 2,
+      "filename": "forest-balm-2-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: A single small ivory balm smear with a soft spatula ridge on matte beige ceramic, realistic cream. Mood: calm muted forest greens, warm neutral oatmeal and limestone, soft diffused morning daylight. Avoid citrus fruits, food, excessive foliage or theatrical forest scenery."
+    },
+    {
+      "id": "forest-hand-wash",
+      "n": 2,
+      "filename": "forest-hand-wash-2-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Small thin amber hand cleansing gel smear on ivory ceramic, subtle bubbles and watery edges, realistic. Mood: calm muted forest greens, warm neutral oatmeal and limestone, soft diffused morning daylight. Avoid citrus fruits, food, excessive foliage or theatrical forest scenery."
+    },
+    {
+      "id": "forest-cleanser",
+      "n": 3,
+      "filename": "forest-cleanser-3-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Fresh rosemary and a single geranium leaf on naturally folded oatmeal linen, restrained macro photograph. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-cleanser",
+      "n": 4,
+      "filename": "forest-cleanser-4-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: A small patch of fine cleansing foam beside clear water on a pale stone wash ledge, single rosemary sprig, close-up. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-balm",
+      "n": 3,
+      "filename": "forest-balm-3-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Cypress foliage and a small weathered sandalwood fragment on neutral linen, close-up, spare arrangement. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-balm",
+      "n": 4,
+      "filename": "forest-balm-4-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Warm oatmeal towel folds and a sage leaf on pale limestone with delicate leaf shadows, close-up. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-hand-wash",
+      "n": 3,
+      "filename": "forest-hand-wash-3-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Two patchouli leaves with cedarwood shaving on oatmeal linen, spare botanical still life. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-hand-wash",
+      "n": 4,
+      "filename": "forest-hand-wash-4-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Fine soap bubbles along the edge of a shallow water puddle on pale limestone, forest leaf shadows, intimate wash ritual. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-serum",
+      "n": 2,
+      "filename": "forest-serum-2-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Three small nearly clear serum droplets on a clean matte ivory tile, realistic contact angle, not huge jelly blobs. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-serum",
+      "n": 3,
+      "filename": "forest-serum-3-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: One geranium leaf with tiny dew drops on neutral linen, macro detail of veins. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-serum",
+      "n": 4,
+      "filename": "forest-serum-4-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Clear water reflections gently falling over pale stone with a small soft green leaf at the edge, minimalist skincare still life. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-set",
+      "n": 2,
+      "filename": "forest-set-2-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Carefully spaced rosemary, geranium and cypress sprigs on pale linen and a small stone slab, elegant overhead botanical still life. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-set",
+      "n": 3,
+      "filename": "forest-set-3-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Three separate small cosmetic texture samples: thin clear gel, tiny ivory cream smear, nearly clear serum drop on ivory ceramic, refined macro. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "forest-set",
+      "n": 4,
+      "filename": "forest-set-4-v2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Quiet forest wellness wash ledge of pale stone with folded oatmeal towel and softly blurred foliage, intimate close-up. Mood: Muted forest olive greens and warm neutral oatmeal limestone, gentle diffused morning daylight. Absolutely no citrus fruit, no blossoms copied from other campaigns, no giant forest scenery. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-oil",
+      "n": 2,
+      "filename": "citrus-oil-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: A thin golden body oil streak with two small drops on a smooth ivory ceramic tile, realistic liquid reflection. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-oil",
+      "n": 3,
+      "filename": "citrus-oil-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: One fresh lemon cut in half and a restrained curl of citrus peel with a green leaf on cream linen, macro still life. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-oil",
+      "n": 4,
+      "filename": "citrus-oil-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Sunlight through clear water creates soft golden caustics on warm limestone beside a folded linen towel, simple close-up. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-hand-wash",
+      "n": 2,
+      "filename": "citrus-hand-wash-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Thin translucent pale amber gel smear with fine tiny bubbles on cream ceramic, realistic small quantity. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-hand-wash",
+      "n": 3,
+      "filename": "citrus-hand-wash-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: A loose curl of orange peel and a small petitgrain twig with glossy leaves on pale stone, simple botanical close-up. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-hand-wash",
+      "n": 4,
+      "filename": "citrus-hand-wash-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Fine cleansing foam meeting clear water on warm stone, soft citrus leaf shadows, close-up fresh wash ritual. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-serum",
+      "n": 2,
+      "filename": "citrus-serum-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Three small light golden serum droplets on matte ivory tile, subtle glints, realistic liquid. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-serum",
+      "n": 3,
+      "filename": "citrus-serum-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Close-up lemon peel surface beside a single fresh green citrus leaf on cream linen, natural restrained botanical detail. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-serum",
+      "n": 4,
+      "filename": "citrus-serum-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Gentle light refraction through one clear glass dish containing a little water onto peach limestone, a tiny leaf at edge. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-balm",
+      "n": 2,
+      "filename": "citrus-balm-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: A small creamy ivory balm swipe with smooth soft ridge on pale terracotta ceramic tile, real cosmetic texture. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-balm",
+      "n": 3,
+      "filename": "citrus-balm-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Fresh orange peel curls and one green leaf on cream linen, warm restrained macro photograph. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-balm",
+      "n": 4,
+      "filename": "citrus-balm-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Sunlit folded cream linen towel on pale stone beside a small citrus peel, calm body care atmosphere. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-set",
+      "n": 2,
+      "filename": "citrus-set-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: One lemon half, small orange peel curl, two glossy citrus leaves spaced on cream linen and pale stone, overhead minimal arrangement. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-set",
+      "n": 3,
+      "filename": "citrus-set-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Tiny golden oil drop, thin transparent gel swipe, small ivory cream smear separately arranged on a smooth beige ceramic tile, realistic. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "citrus-set",
+      "n": 4,
+      "filename": "citrus-set-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Quiet sunlit warm stone wash ledge with a cream towel and a citrus leaf shadow, simple close-up. Mood: Soft warm golden morning daylight, cream linen, pale peach limestone, restrained citrus yellow and natural green, avoid dark forest or purple palette. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-balm",
+      "n": 2,
+      "filename": "relaxing-balm-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: One small ivory cream balm smear on warm grey ceramic with a soft ridge, realistic cream surface. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-balm",
+      "n": 3,
+      "filename": "relaxing-balm-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Three natural lavender sprigs on neutral oatmeal linen, restrained close-up. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-balm",
+      "n": 4,
+      "filename": "relaxing-balm-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Soft folded linen towel on warm stone in quiet evening light, a single lavender sprig at edge. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-spray",
+      "n": 2,
+      "filename": "relaxing-spray-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Fine sparse airborne water mist visible in a soft sidelight above a neutral linen fold, realistic fine spray, subtle. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-spray",
+      "n": 3,
+      "filename": "relaxing-spray-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Natural lavender florets and stem macro on warm grey stone, spare organic composition. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-spray",
+      "n": 4,
+      "filename": "relaxing-spray-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Quiet evening linen bedding folds with delicate window light, hint of dusty mauve shadow, close-up. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-candle",
+      "n": 2,
+      "filename": "relaxing-candle-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Close-up ivory candle wax surface with one cotton wick and a small physically realistic flame, unbranded simple wax. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-candle",
+      "n": 3,
+      "filename": "relaxing-candle-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Dry lavender and a small warm wood fragment on oatmeal linen, close-up, minimal. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-candle",
+      "n": 4,
+      "filename": "relaxing-candle-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Warm flickering candlelight softly illuminating linen and textured warm grey stone, candle itself outside frame, intimate evening still life. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-diffuser",
+      "n": 2,
+      "filename": "relaxing-diffuser-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Few slim natural rattan reed tips diagonally resting on warm grey stone beside a tiny clear aromatic oil drop, minimal. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-diffuser",
+      "n": 3,
+      "filename": "relaxing-diffuser-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: A lavender sprig beside a small natural cedarwood fragment on neutral linen, close-up. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-diffuser",
+      "n": 4,
+      "filename": "relaxing-diffuser-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Quiet bedside stone surface with folded cream linen and soft evening shadow, subtle dusty mauve reflected light, uncluttered. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-set",
+      "n": 2,
+      "filename": "relaxing-set-2.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Three lavender sprigs, a small wood fragment and slim rattan reeds carefully spaced on linen, minimalist overhead evening still life. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-set",
+      "n": 3,
+      "filename": "relaxing-set-3.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Tiny ivory balm smear, a clear fine liquid drop, an ivory wax fragment on grey ceramic, separate refined macro texture samples. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    },
+    {
+      "id": "relaxing-set",
+      "n": 4,
+      "filename": "relaxing-set-4.png",
+      "prompt": "Create ONE square photorealistic premium botanical ecommerce detail photograph. Natural believable physical textures, editorial restraint, uncluttered close framing, soft realistic shadows, no excessive glossy CGI, no enormous gel blobs. NO packaged products, bottles, tubes, jars, labels, letters, logos, typography, people, collage or watermark. This is a texture or botanical atmosphere supporting photo; the real product packshot is supplied separately on the website. Plants are mood props, not ingredient claims. Reference image is photographic style only; do not copy its objects. Scene: Calm close-up bedroom linen folds softly illuminated by warm candlelight outside frame, dusty lavender evening shadows. Mood: Quiet realistic early evening, warm ivory and warm grey with restrained dusty lavender shadows, soft window light or soft amber lamplight. Avoid saturated purple, fantasy fog, glitter, citrus fruits. Photograph looks like a real macro still life shot with a high quality camera, not a 3D render. Square full-bleed image, no frame."
+    }
+  ]
+}

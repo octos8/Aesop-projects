@@ -1,0 +1,336 @@
+{
+  "tool": "built-in image_gen",
+  "promptTemplate": "Use case: photorealistic-natural. Asset type: supporting gallery photo {slot} for {name}, a botanical personal care portfolio. Create one square full-bleed premium editorial still life photograph. Subject: {subject}. The image should be tactile, photorealistic and elegantly composed, closely framed for a square product-detail gallery. Restrained warm ivory, beige, linen and natural botanical colors, soft directional window light, gentle natural shadows, refined skincare editorial aesthetic. This is an illustrative mood photo, not a statement of actual ingredients. No product packaging, bottles, labels, text, logos, people, collage, grids, borders or watermark.",
+  "images": [
+    {
+      "file": "reverence-hand-wash-2.png",
+      "slot": 2,
+      "name": "레버런스 아로마틱 핸드 워시",
+      "subject": "translucent olive-green hand cleansing gel in a glossy ribbon with tiny exfoliating specks on ivory ceramic",
+      "prompt": "Use case: photorealistic-natural. Create one square full-bleed premium botanical skincare editorial macro photograph, no collage, no borders, no text or packaging. Subject: translucent olive-green hand cleansing gel in a smooth glossy ribbon with tiny exfoliating specks, on warm ivory ceramic. For the supporting texture image of a vetiver and bergamot aromatic hand wash. Soft natural window light, tactile realistic texture, restrained beige and earthy palette, elegant minimal composition matching skincare texture photography. No people, logos, labels, bottles."
+    },
+    {
+      "file": "reverence-hand-wash-3.png",
+      "slot": 3,
+      "name": "레버런스 아로마틱 핸드 워시",
+      "subject": "fresh sliced bergamot citrus with green peel on pale linen"
+    },
+    {
+      "file": "reverence-hand-wash-4.png",
+      "slot": 4,
+      "name": "레버런스 아로마틱 핸드 워시",
+      "subject": "tangled dried vetiver roots on warm limestone"
+    },
+    {
+      "file": "fable-serum-2.png",
+      "slot": 2,
+      "name": "페이블 페이셜 세럼",
+      "subject": "clear amber facial serum drops and a delicate liquid swirl on ivory glass"
+    },
+    {
+      "file": "fable-serum-3.png",
+      "slot": 3,
+      "name": "페이블 페이셜 세럼",
+      "subject": "fresh green botanical leaves with dew on pale stone"
+    },
+    {
+      "file": "fable-serum-4.png",
+      "slot": 4,
+      "name": "페이블 페이셜 세럼",
+      "subject": "soft morning sunlight passing through clear glass and a water droplet on beige linen"
+    },
+    {
+      "file": "purifying-cleanser-2.png",
+      "slot": 2,
+      "name": "퓨리파잉 페이셜 클렌저",
+      "subject": "transparent pale honey facial cleansing gel forming a glossy spiral on ivory ceramic"
+    },
+    {
+      "file": "purifying-cleanser-3.png",
+      "slot": 3,
+      "name": "퓨리파잉 페이셜 클렌저",
+      "subject": "fresh green cleansing-inspired botanical leaves on cream linen"
+    },
+    {
+      "file": "purifying-cleanser-4.png",
+      "slot": 4,
+      "name": "퓨리파잉 페이셜 클렌저",
+      "subject": "delicate airy cleansing foam bubbles on a wet pale limestone surface"
+    },
+    {
+      "file": "tacit-perfume-2.png",
+      "slot": 2,
+      "name": "테싯 오 드 퍼퓸",
+      "subject": "sunlit golden fragrance liquid and a single clear droplet on translucent glass"
+    },
+    {
+      "file": "tacit-perfume-3.png",
+      "slot": 3,
+      "name": "테싯 오 드 퍼퓸",
+      "subject": "fresh basil leaves beside sliced green citrus on pale limestone"
+    },
+    {
+      "file": "tacit-perfume-4.png",
+      "slot": 4,
+      "name": "테싯 오 드 퍼퓸",
+      "subject": "dried vetiver roots and curled citrus peel on warm linen"
+    },
+    {
+      "file": "balancing-shampoo-2.png",
+      "slot": 2,
+      "name": "밸런싱 샴푸",
+      "subject": "pale amber shampoo gel in a smooth glossy swirl on white ceramic"
+    },
+    {
+      "file": "balancing-shampoo-3.png",
+      "slot": 3,
+      "name": "밸런싱 샴푸",
+      "subject": "fresh green herb sprigs with dew on cream linen"
+    },
+    {
+      "file": "balancing-shampoo-4.png",
+      "slot": 4,
+      "name": "밸런싱 샴푸",
+      "subject": "fine white shampoo foam beside flowing clear water over beige stone"
+    },
+    {
+      "file": "immediate-mist-2.png",
+      "slot": 2,
+      "name": "이미디에이트 모이스처 페이셜 미스트",
+      "subject": "tiny mist droplets beading on translucent frosted glass"
+    },
+    {
+      "file": "immediate-mist-3.png",
+      "slot": 3,
+      "name": "이미디에이트 모이스처 페이셜 미스트",
+      "subject": "dewy green leaves on light beige limestone"
+    },
+    {
+      "file": "immediate-mist-4.png",
+      "slot": 4,
+      "name": "이미디에이트 모이스처 페이셜 미스트",
+      "subject": "delicate suspended water droplets above pale linen in soft morning light"
+    },
+    {
+      "file": "parsley-cream-2.png",
+      "slot": 2,
+      "name": "파슬리 페이셜 하이드레이팅 크림",
+      "subject": "rich ivory facial moisturizer sculpted into a smooth cream swirl"
+    },
+    {
+      "file": "parsley-cream-3.png",
+      "slot": 3,
+      "name": "파슬리 페이셜 하이드레이팅 크림",
+      "subject": "fresh parsley leaves and delicate stems on pale linen"
+    },
+    {
+      "file": "parsley-cream-4.png",
+      "slot": 4,
+      "name": "파슬리 페이셜 하이드레이팅 크림",
+      "subject": "green botanical leaves with a clear dew drop on warm ivory stone"
+    },
+    {
+      "file": "new-1-2.png",
+      "slot": 2,
+      "name": "미네랄 배스 솔트",
+      "subject": "coarse white mineral bath salt crystals piled on a shallow ivory ceramic dish"
+    },
+    {
+      "file": "new-1-3.png",
+      "slot": 3,
+      "name": "미네랄 배스 솔트",
+      "subject": "scattered translucent salt crystals and smooth pale stones on linen"
+    },
+    {
+      "file": "new-1-4.png",
+      "slot": 4,
+      "name": "미네랄 배스 솔트",
+      "subject": "warm bath water ripples beside white mineral crystals on limestone"
+    },
+    {
+      "file": "new-2-2.png",
+      "slot": 2,
+      "name": "아로마틱 필로우 미스트",
+      "subject": "fine clear mist droplets sparkling on frosted glass in calm evening light"
+    },
+    {
+      "file": "new-2-3.png",
+      "slot": 3,
+      "name": "아로마틱 필로우 미스트",
+      "subject": "dried lavender sprigs and woody twigs on beige linen"
+    },
+    {
+      "file": "new-2-4.png",
+      "slot": 4,
+      "name": "아로마틱 필로우 미스트",
+      "subject": "a folded natural linen pillow with a subtle botanical shadow in warm evening light"
+    },
+    {
+      "file": "new-3-2.png",
+      "slot": 2,
+      "name": "솔리드 퍼퓸 밤",
+      "subject": "pale golden waxy solid fragrance balm with a softly sculpted smooth texture"
+    },
+    {
+      "file": "new-3-3.png",
+      "slot": 3,
+      "name": "솔리드 퍼퓸 밤",
+      "subject": "dry woody aromatic shavings on cream linen"
+    },
+    {
+      "file": "new-3-4.png",
+      "slot": 4,
+      "name": "솔리드 퍼퓸 밤",
+      "subject": "warm golden resin-like translucent stones beside a tiny botanical sprig on limestone"
+    },
+    {
+      "file": "new-4-2.png",
+      "slot": 2,
+      "name": "카밍 바디 오일",
+      "subject": "clear golden body oil pooling into a smooth drop on ivory ceramic"
+    },
+    {
+      "file": "new-4-3.png",
+      "slot": 3,
+      "name": "카밍 바디 오일",
+      "subject": "soft green botanical sprigs on beige linen"
+    },
+    {
+      "file": "new-4-4.png",
+      "slot": 4,
+      "name": "카밍 바디 오일",
+      "subject": "amber oil droplets catching warm window light on clear glass"
+    },
+    {
+      "file": "new-6-2.png",
+      "slot": 2,
+      "name": "모닝 듀 하이드레이팅 페이셜 미스트",
+      "subject": "fine translucent water droplets on pale frosted glass at dawn"
+    },
+    {
+      "file": "new-6-3.png",
+      "slot": 3,
+      "name": "모닝 듀 하이드레이팅 페이셜 미스트",
+      "subject": "fresh green leaves covered in morning dew on ivory stone"
+    },
+    {
+      "file": "new-6-4.png",
+      "slot": 4,
+      "name": "모닝 듀 하이드레이팅 페이셜 미스트",
+      "subject": "clear water ripples and soft pale green plant shadows on beige linen"
+    },
+    {
+      "file": "new-7-2.png",
+      "slot": 2,
+      "name": "퍼스트 라이트 비타민 페이셜 세럼",
+      "subject": "pale golden facial serum flowing in a glossy ribbon on ivory ceramic"
+    },
+    {
+      "file": "new-7-3.png",
+      "slot": 3,
+      "name": "퍼스트 라이트 비타민 페이셜 세럼",
+      "subject": "bright sliced citrus and curled citrus peel on cream linen"
+    },
+    {
+      "file": "new-7-4.png",
+      "slot": 4,
+      "name": "퍼스트 라이트 비타민 페이셜 세럼",
+      "subject": "golden liquid droplets on clear glass with gentle early morning sunlight"
+    },
+    {
+      "file": "new-8-2.png",
+      "slot": 2,
+      "name": "시트러스 어웨이크닝 바디 클렌저",
+      "subject": "transparent amber body cleansing gel swirling on ivory ceramic"
+    },
+    {
+      "file": "new-8-3.png",
+      "slot": 3,
+      "name": "시트러스 어웨이크닝 바디 클렌저",
+      "subject": "fresh orange and lemon slices on pale linen"
+    },
+    {
+      "file": "new-8-4.png",
+      "slot": 4,
+      "name": "시트러스 어웨이크닝 바디 클렌저",
+      "subject": "airy white cleansing bubbles beside curled citrus peel on warm limestone"
+    },
+    {
+      "file": "new-9-2.png",
+      "slot": 2,
+      "name": "셀레네 펄스 포인트 롤온",
+      "subject": "small clear aromatic oil droplets on ivory glass"
+    },
+    {
+      "file": "new-9-3.png",
+      "slot": 3,
+      "name": "셀레네 펄스 포인트 롤온",
+      "subject": "dry woody shavings and a quiet green botanical sprig on linen"
+    },
+    {
+      "file": "new-9-4.png",
+      "slot": 4,
+      "name": "셀레네 펄스 포인트 롤온",
+      "subject": "cool moonlit-looking shadows on pale linen beside smooth grey stones"
+    },
+    {
+      "file": "new-10-2.png",
+      "slot": 2,
+      "name": "힙노스 미네랄 배스 솔트",
+      "subject": "coarse white and warm grey bath salt crystals in a small ivory ceramic dish"
+    },
+    {
+      "file": "new-10-3.png",
+      "slot": 3,
+      "name": "힙노스 미네랄 배스 솔트",
+      "subject": "mineral salt crystals beside dry lavender sprigs on beige linen"
+    },
+    {
+      "file": "new-10-4.png",
+      "slot": 4,
+      "name": "힙노스 미네랄 배스 솔트",
+      "subject": "calm bath water ripples with soft evening shadows on limestone"
+    },
+    {
+      "file": "new-11-2.png",
+      "slot": 2,
+      "name": "솜누스 필로우 앤 린넨 미스트",
+      "subject": "fine aromatic mist droplets on frosted glass in warm evening light"
+    },
+    {
+      "file": "new-11-3.png",
+      "slot": 3,
+      "name": "솜누스 필로우 앤 린넨 미스트",
+      "subject": "delicate dried botanical sprigs on cream linen"
+    },
+    {
+      "file": "new-11-4.png",
+      "slot": 4,
+      "name": "솜누스 필로우 앤 린넨 미스트",
+      "subject": "folded natural linen bedding and soft botanical shadows at dusk"
+    },
+    {
+      "file": "new-12-2.png",
+      "slot": 2,
+      "name": "베스퍼 오버나이트 바디 밤",
+      "subject": "dense ivory body balm with a rich sculpted creamy swirl on ceramic"
+    },
+    {
+      "file": "new-12-3.png",
+      "slot": 3,
+      "name": "베스퍼 오버나이트 바디 밤",
+      "subject": "woody botanical twigs on warm linen with amber evening light"
+    },
+    {
+      "file": "new-12-4.png",
+      "slot": 4,
+      "name": "베스퍼 오버나이트 바디 밤",
+      "subject": "soft beige linen folds beside a small smooth dollop of ivory balm"
+    }
+  ],
+  "unchangedImages": [
+    "../buy-info/cream.jpg",
+    "../buy-info/orenge.jpg",
+    "../buy-info/tree.jpg"
+  ]
+}
