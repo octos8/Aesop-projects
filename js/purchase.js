@@ -177,79 +177,45 @@ if (form) {
         summary.querySelector("img").alt = product.name;
         summary.querySelector("strong").textContent = product.name;
 
+        document.querySelector("#story-title").textContent = `${product.name} 상세 설명`;
+
         if (product.promotion) {
-            const storyImages = document.querySelector(".product-story-images");
-            document.querySelector("#story-title").textContent = `${product.name} 상세 설명`;
-            const hero = document.createElement("img");
-            hero.src = `./img/promotion/promo-${product.promotion}-hero.png`;
-            hero.alt = `${product.category} 컬렉션`;
-            hero.loading = "lazy";
-            storyImages.replaceChildren(hero);
             if (product.asset === "set") {
-                const contents = document.createElement("p");
-                contents.className = "forest-set-contents";
-                contents.textContent = promotionProducts.filter(item => item.promotion === product.promotion && item.asset !== "set").map(item => `${item.name} ${item.size}`).join(" · ");
-                storyImages.append(contents);
                 form.querySelector(".buy-button").textContent = "세트 구매하기";
             }
         }
 
-        // 포트폴리오용 예시 후기를 선택한 제품에 맞춰 표시합니다.
-        const community = {
-            "reverence-hand-wash": {
-                reviews: ["손을 씻을 때 베티버 향이 은은하게 남아서 좋아요.", "욕실에 두고 쓰기 편하고, 씻은 뒤 산뜻한 사용감이 마음에 들어요.", "핸드 워시를 선물하고 싶어서 선택했어요. 패키지도 마음에 들어요."],
-                question: "어떤 향의 핸드 워시인가요?", answer: "베티버와 베르가못 향의 각질 케어 핸드 워시입니다."
-            },
-            "fable-serum": {
-                reviews: ["세안 후 세럼을 바르고 크림으로 마무리하고 있어요.", "피부가 건조하게 느껴질 때 보습 단계에 사용하기 좋아요.", "작은 구성도 함께 있어 여행할 때 챙기기 편해요."],
-                question: "스킨케어의 어느 단계에 사용하나요?", answer: "세안 후 보습 단계에서 사용하는 페이셜 세럼입니다. 자세한 사용 순서는 제품의 안내를 확인해 주세요."
-            },
-            "purifying-cleanser": {
-                reviews: ["매일 세안할 때 사용하는 젤 클렌저로 선택했어요.", "세안 후 산뜻한 느낌이 마음에 들어요.", "본품과 작은 구성이 함께 있어 나누어 사용하기 편해요."],
-                question: "어떤 제형의 클렌저인가요?", answer: "피부 노폐물을 씻어내는 데일리 젤 클렌저입니다."
-            },
-            "tacit-perfume": {
-                reviews: ["시트러스와 바질 향의 조합이 마음에 들어요.", "외출 전에 사용하는 향수로 잘 쓰고 있어요.", "작은 구성은 가방에 넣어 다니기 편해요."],
-                question: "테싯은 어떤 향인가요?", answer: "바질, 시트러스, 베티버가 어우러진 향의 오 드 퍼퓸입니다."
-            },
-            "balancing-shampoo": {
-                reviews: ["머리를 감고 난 뒤 산뜻한 느낌이 좋아요.", "욕실에 두고 매일 사용하는 샴푸로 골랐어요.", "작은 구성도 함께 있어서 여행용으로 챙겼어요."],
-                question: "바디 워시로도 사용할 수 있나요?", answer: "두피와 모발을 씻는 샴푸 제품입니다. 제품에 안내된 용도와 사용 방법에 맞게 사용해 주세요."
-            },
-            "immediate-mist": {
-                reviews: ["피부가 건조하게 느껴질 때 미스트를 챙겨 쓰고 있어요.", "책상에 두고 사용하기 편해서 마음에 들어요.", "작은 구성은 외출할 때 휴대하기 좋아요."],
-                question: "어떤 용도로 사용하는 제품인가요?", answer: "메마른 피부에 수분을 전하는 페이셜 미스트입니다. 사용 방법은 제품의 안내를 확인해 주세요."
-            },
-            "parsley-cream": {
-                reviews: ["스킨케어 마지막 단계에 크림을 바르고 있어요.", "매일 쓰는 보습 크림으로 선택했어요. 사용감이 마음에 들어요.", "작은 구성도 있어서 여행할 때 챙기기 좋아요."],
-                question: "얼굴에 사용하는 크림인가요?", answer: "피부 보습을 위한 데일리 페이셜 크림입니다. 제품에 안내된 사용 방법에 따라 사용해 주세요."
-            }
-        }[product.id] ?? {
-            reviews: [`${product.name}의 패키지가 마음에 들어요.`, "원하는 용량을 선택할 수 있어서 편해요.", "선물용으로 선택했어요."],
-            question: "어떤 용량을 선택할 수 있나요?",
-            answer: `${product.options.map(option => option.size).join(", ")} 중에서 선택하실 수 있습니다.`
-        };
-        const notice = document.createElement("p");
-        notice.textContent = `${product.name} · 아래 후기와 Q&A는 포트폴리오용 예시입니다.`;
-        document.querySelector(".community-tabs").after(notice);
-        const reviews = [...document.querySelectorAll(".review-list li")];
-        reviews.forEach((review, index) => {
-            if (index >= community.reviews.length) { review.remove(); return; }
-            review.querySelector(".review-body img")?.remove();
-            review.querySelector(".review-body p").textContent = community.reviews[index];
-        });
-        const questions = document.querySelectorAll(".qna-list li");
-        const qna = [
-            [community.question, community.answer],
-            ["어떤 용량으로 구성되어 있나요?", `${product.name}은 ${product.options.map(option => option.size).join(", ")} 용량 중에서 선택하실 수 있습니다.`],
-            ["선물 포장을 선택할 수 있나요?", "구매 영역의 선물 아이콘을 선택하면 주문에 선물 포장 옵션이 반영됩니다."]
-        ];
-        questions.forEach((item, index) => {
-            item.querySelector(".qna-question").textContent = qna[index][0];
-            item.querySelector("p").textContent = qna[index][1];
-        });
     }
 
+    const communityId = product?.id ?? "new-5";
+    const isSunlitBalm = communityId === "new-5";
+    document.body.classList.toggle("is-sunlit-balm", isSunlitBalm);
+    const community = productCommunities[communityId] ?? productCommunities["new-5"];
+    const reviewPhotos = (productReviewPhotos[communityId] ?? []).map(name => `./img/reviews/${name}.png`);
+    [...document.querySelectorAll(".review-list li")].forEach((review, index) => {
+        if (isSunlitBalm) return;
+        if (index >= community.reviews.length) { review.remove(); return; }
+        if (index > 0) {
+            const stars = review.querySelector(".review-stars");
+            stars.innerHTML = "★★★★<i>★</i>";
+            stars.setAttribute("aria-label", "별점 4점");
+        }
+        const body = review.querySelector(".review-body");
+        body.querySelector("img")?.remove();
+        body.querySelector("p").textContent = community.reviews[index];
+        const photo = index === 0 ? reviewPhotos[0] : index === 2 ? reviewPhotos[1] : null;
+        if (photo) {
+            const image = document.createElement("img");
+            image.src = photo;
+            image.alt = `${product?.name ?? "선릿 보태니컬 바디 밤"} 후기 사진`;
+            image.loading = "lazy";
+            body.prepend(image);
+        }
+    });
+    document.querySelectorAll(".qna-list li").forEach((item, index) => {
+        item.querySelector(".qna-question").textContent = community.qna[index][0];
+        item.querySelector("p").textContent = community.qna[index][1];
+    });
     const mainImage = document.querySelector("[data-gallery-main]");
     const thumbnails = [...document.querySelectorAll(".product-thumbnail")];
     const sizeOptions = [...document.querySelectorAll(".size-option")];

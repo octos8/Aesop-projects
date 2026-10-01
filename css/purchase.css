@@ -438,27 +438,86 @@ button.review-card.qna {
     margin-top: 0.25rem;
 }
 
-.review-body {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: end;
-    gap: clamp(1.5rem, 3vw, 3rem);
+.review-list .review-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
 
-.review-body img {
-    width: 8.75rem;
+.review-list .review-body img {
+    width: 150px;
+    max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
-.review-body p {
+.review-list .review-body p {
     margin: 0;
-    font-size: 0.9rem;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.review-list .review-card {
+    height: auto;
+    min-height: 17rem;
+    padding-block: 20px;
 }
 
 .review-body p:only-child {
     grid-column: 1 / -1;
+}
+
+/* 선릿 보태니컬 바디 밤의 원래 후기 5개 레이아웃 */
+body.is-sunlit-balm .product-community {
+    padding-inline: 16px;
+}
+
+body.is-sunlit-balm .review-list {
+    gap: 16px;
+}
+
+body.is-sunlit-balm .review-list .review-card {
+    grid-template-columns: 152px minmax(0, 1fr);
+    gap: 32px;
+    min-height: 278px;
+    padding: 32px clamp(24px, 8vw, 144px);
+    background: #e3ddd1;
+}
+
+body.is-sunlit-balm .review-meta {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+body.is-sunlit-balm .review-meta strong {
+    font-weight: 400;
+}
+
+body.is-sunlit-balm .review-stars {
+    margin-bottom: 4px;
+    color: #bd7448;
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+body.is-sunlit-balm .review-list .review-body img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    body.is-sunlit-balm .review-list .review-card {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        min-height: 0;
+        padding: 28px 24px;
+    }
 }
 
 .qna-heading {
