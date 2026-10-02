@@ -1,0 +1,675 @@
+{
+  "rendering": [
+    {
+      "id": "new-1",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "150g",
+          "price": 54150,
+          "original": 57000
+        },
+        {
+          "size": "250g",
+          "price": 79800,
+          "original": 84000
+        },
+        {
+          "size": "450g",
+          "price": 123500,
+          "original": 130000
+        }
+      ]
+    },
+    {
+      "id": "new-2",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50mL",
+          "price": 55100,
+          "original": 58000
+        },
+        {
+          "size": "100mL",
+          "price": 93100,
+          "original": 98000
+        },
+        {
+          "size": "200mL",
+          "price": 155800,
+          "original": 164000
+        }
+      ]
+    },
+    {
+      "id": "new-3",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "15g",
+          "price": 46550,
+          "original": 49000
+        },
+        {
+          "size": "30g",
+          "price": 77900,
+          "original": 82000
+        },
+        {
+          "size": "50g",
+          "price": 114950,
+          "original": 121000
+        }
+      ]
+    },
+    {
+      "id": "new-4",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50mL",
+          "price": 55100,
+          "original": 58000
+        },
+        {
+          "size": "100mL",
+          "price": 93100,
+          "original": 98000
+        },
+        {
+          "size": "200mL",
+          "price": 155800,
+          "original": 164000
+        }
+      ]
+    },
+    {
+      "id": "new-6",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50mL",
+          "price": 40850,
+          "original": 43000
+        },
+        {
+          "size": "100mL",
+          "price": 68400,
+          "original": 72000
+        },
+        {
+          "size": "200mL",
+          "price": 115900,
+          "original": 122000
+        }
+      ]
+    },
+    {
+      "id": "new-7",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "30mL",
+          "price": 84550,
+          "original": 89000
+        },
+        {
+          "size": "60mL",
+          "price": 142500,
+          "original": 150000
+        },
+        {
+          "size": "100mL",
+          "price": 209000,
+          "original": 220000
+        }
+      ]
+    },
+    {
+      "id": "new-8",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "150mL",
+          "price": 57950,
+          "original": 61000
+        },
+        {
+          "size": "350mL",
+          "price": 109250,
+          "original": 115000
+        },
+        {
+          "size": "450ml",
+          "price": 132050,
+          "original": 139000
+        }
+      ]
+    },
+    {
+      "id": "new-9",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "10mL",
+          "price": 37050,
+          "original": 39000
+        },
+        {
+          "size": "15mL",
+          "price": 50350,
+          "original": 53000
+        },
+        {
+          "size": "20mL",
+          "price": 62700,
+          "original": 66000
+        }
+      ]
+    },
+    {
+      "id": "new-10",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "150g",
+          "price": 52250,
+          "original": 55000
+        },
+        {
+          "size": "350g",
+          "price": 98800,
+          "original": 104000
+        },
+        {
+          "size": "450g",
+          "price": 118750,
+          "original": 125000
+        }
+      ]
+    },
+    {
+      "id": "new-11",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50mL",
+          "price": 55100,
+          "original": 58000
+        },
+        {
+          "size": "100mL",
+          "price": 93100,
+          "original": 98000
+        },
+        {
+          "size": "200mL",
+          "price": 155800,
+          "original": 164000
+        }
+      ]
+    },
+    {
+      "id": "new-12",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50g",
+          "price": 46550,
+          "original": 49000
+        },
+        {
+          "size": "100g",
+          "price": 77900,
+          "original": 82000
+        },
+        {
+          "size": "200g",
+          "price": 132050,
+          "original": 139000
+        }
+      ]
+    },
+    {
+      "id": "reverence-hand-wash",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "500mL",
+          "price": 52250,
+          "original": 55000
+        },
+        {
+          "size": "250mL",
+          "price": 26125,
+          "original": 27500
+        }
+      ]
+    },
+    {
+      "id": "fable-serum",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "30mL",
+          "price": 84550,
+          "original": 89000
+        },
+        {
+          "size": "60mL",
+          "price": 169100,
+          "original": 178000
+        }
+      ]
+    },
+    {
+      "id": "purifying-cleanser",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "200mL",
+          "price": 50350,
+          "original": 53000
+        },
+        {
+          "size": "100mL",
+          "price": 25175,
+          "original": 26500
+        }
+      ]
+    },
+    {
+      "id": "tacit-perfume",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50mL",
+          "price": 166250,
+          "original": 175000
+        },
+        {
+          "size": "100mL",
+          "price": 332500,
+          "original": 350000
+        }
+      ]
+    },
+    {
+      "id": "balancing-shampoo",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "500mL",
+          "price": 56050,
+          "original": 59000
+        },
+        {
+          "size": "250mL",
+          "price": 28025,
+          "original": 29500
+        }
+      ]
+    },
+    {
+      "id": "immediate-mist",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100mL",
+          "price": 44650,
+          "original": 47000
+        },
+        {
+          "size": "50mL",
+          "price": 22325,
+          "original": 23500
+        }
+      ]
+    },
+    {
+      "id": "parsley-cream",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "50mL",
+          "price": 74100,
+          "original": 78000
+        },
+        {
+          "size": "100mL",
+          "price": 148200,
+          "original": 156000
+        }
+      ]
+    },
+    {
+      "id": "forest-cleanser",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100ml",
+          "price": 59000,
+          "original": 59000
+        }
+      ]
+    },
+    {
+      "id": "forest-balm",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100ml",
+          "price": 47000,
+          "original": 47000
+        }
+      ]
+    },
+    {
+      "id": "forest-hand-wash",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "500ml",
+          "price": 53000,
+          "original": 53000
+        }
+      ]
+    },
+    {
+      "id": "forest-serum",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "75ml",
+          "price": 39000,
+          "original": 39000
+        }
+      ]
+    },
+    {
+      "id": "forest-set",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "1세트",
+          "price": 244000,
+          "original": 287000
+        }
+      ]
+    },
+    {
+      "id": "citrus-oil",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100ml",
+          "price": 53000,
+          "original": 53000
+        }
+      ]
+    },
+    {
+      "id": "citrus-hand-wash",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "500ml",
+          "price": 38000,
+          "original": 38000
+        }
+      ]
+    },
+    {
+      "id": "citrus-serum",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "30ml",
+          "price": 89000,
+          "original": 89000
+        }
+      ]
+    },
+    {
+      "id": "citrus-balm",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100ml",
+          "price": 49000,
+          "original": 49000
+        }
+      ]
+    },
+    {
+      "id": "citrus-set",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "1세트",
+          "price": 194650,
+          "original": 229000
+        }
+      ]
+    },
+    {
+      "id": "relaxing-balm",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100ml",
+          "price": 47000,
+          "original": 47000
+        }
+      ]
+    },
+    {
+      "id": "relaxing-spray",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "100ml",
+          "price": 76000,
+          "original": 76000
+        }
+      ]
+    },
+    {
+      "id": "relaxing-candle",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "300g",
+          "price": 115000,
+          "original": 115000
+        }
+      ]
+    },
+    {
+      "id": "relaxing-diffuser",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "200ml",
+          "price": 110000,
+          "original": 110000
+        }
+      ]
+    },
+    {
+      "id": "relaxing-set",
+      "sections": 4,
+      "images": 5,
+      "options": [
+        {
+          "size": "1세트",
+          "price": 295000,
+          "original": 348000
+        }
+      ]
+    }
+  ],
+  "newImages": [
+    {
+      "file": "img/product-gallery/forest-veil-perfume-2.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1960850
+    },
+    {
+      "file": "img/product-gallery/forest-veil-perfume-3.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2542275
+    },
+    {
+      "file": "img/product-gallery/forest-veil-perfume-4.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2307433
+    },
+    {
+      "file": "img/buy-info/forest-veil-perfume-1.png",
+      "width": 823,
+      "height": 1912,
+      "bytes": 2050056
+    },
+    {
+      "file": "img/buy-info/forest-veil-perfume-2.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2102544
+    },
+    {
+      "file": "img/buy-info/forest-veil-perfume-3.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2213103
+    },
+    {
+      "file": "img/buy-info/forest-veil-perfume-4.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2154433
+    },
+    {
+      "file": "img/product-gallery/forest-veil-hand-wash-2.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1935162
+    },
+    {
+      "file": "img/product-gallery/forest-veil-hand-wash-3.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2215021
+    },
+    {
+      "file": "img/product-gallery/forest-veil-hand-wash-4.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2351347
+    },
+    {
+      "file": "img/buy-info/forest-veil-hand-wash-1.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2093895
+    },
+    {
+      "file": "img/buy-info/forest-veil-hand-wash-2.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2162165
+    },
+    {
+      "file": "img/buy-info/forest-veil-hand-wash-3.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2263351
+    },
+    {
+      "file": "img/buy-info/forest-veil-hand-wash-4.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2314714
+    },
+    {
+      "file": "img/product-gallery/forest-veil-body-lotion-2.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1835499
+    },
+    {
+      "file": "img/product-gallery/forest-veil-body-lotion-3.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2408076
+    },
+    {
+      "file": "img/product-gallery/forest-veil-body-lotion-4.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2245301
+    },
+    {
+      "file": "img/buy-info/forest-veil-body-lotion-1.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2044227
+    },
+    {
+      "file": "img/buy-info/forest-veil-body-lotion-2.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 1981105
+    },
+    {
+      "file": "img/buy-info/forest-veil-body-lotion-3.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2215513
+    },
+    {
+      "file": "img/buy-info/forest-veil-body-lotion-4.png",
+      "width": 823,
+      "height": 1911,
+      "bytes": 2286195
+    }
+  ],
+  "sunlitGuard": "passed",
+  "missingAssets": []
+}

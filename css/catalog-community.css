@@ -1,0 +1,31 @@
+/* 선릿 바디 밤과 같은 후기 카드 구성을 다른 상품에 적용합니다. */
+body.is-catalog-community .product-community { padding-inline: 16px; }
+body.is-catalog-community .review-list { gap: 16px; }
+body.is-catalog-community .review-list .review-card {
+    grid-template-columns: 152px minmax(0, 1fr);
+    gap: 32px;
+    height: auto;
+    min-height: 278px;
+    padding: 32px clamp(24px, 8vw, 144px);
+    background: #e3ddd1;
+}
+body.is-catalog-community .review-meta { font-size: 13px; line-height: 1.4; }
+body.is-catalog-community .review-meta strong { font-weight: 400; }
+body.is-catalog-community .review-stars {
+    margin-bottom: 4px;
+    color: #bd7448;
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 1;
+    white-space: nowrap;
+}
+body.is-catalog-community .review-list .review-body img { width: 150px; height: 150px; border-radius: 8px; }
+@media (max-width: 768px) {
+    body.is-catalog-community .review-list .review-card {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        min-height: 0;
+        padding: 28px 24px;
+    }
+}
+

@@ -2,6 +2,11 @@
     const form = document.querySelector('.account-form');
     const status = document.querySelector('.account-status');
     const tabs = [...document.querySelectorAll('[data-mode]')];
+    document.querySelectorAll('[data-provider]').forEach(button => {
+        button.addEventListener('click', () => {
+            status.textContent = `${button.dataset.provider} 로그인 서비스 연결을 준비 중입니다. 더 좋은 모습으로 곧 업데이트하겠습니다.`;
+        });
+    });
     function activate(mode) {
         const signup = mode === 'signup';
         tabs.forEach(tab => { const active = tab.dataset.mode === mode; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1; });

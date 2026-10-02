@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <script src="./js/header.js" defer></script>
     <link rel="stylesheet" href="./css/user-menu.css?v=20261001">
-    <script src="./js/shop-products.js?v=20261001" defer></script>
+    <script src="./js/shop-products.js?v=20261002-catalog-v2" defer></script>
     <script src="./js/user-menu.js?v=20261001" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
     <script src="./js/main.js" defer></script>
@@ -55,7 +55,7 @@
                 <ul class="gnb" aria-label="주 메뉴">
                     <li><a href="./index.html">HOME</a></li>
                     <li>
-                        <a href="./shoppingLIst.html">NEW</a>
+                        <a href="./shoppingLIst.html#products">NEW</a>
                     </li>
                     <li>
                         <a href="./shoppingLIst.html">BEST SELLER</a>
@@ -209,7 +209,7 @@
                         <a href="./index.html">HOME</a>
                     </li>
                     <li>
-                        <a href="./shoppingLIst.html">NEW</a>
+                        <a href="./shoppingLIst.html#products">NEW</a>
                     </li>
                     <li>
                         <a href="./shoppingLIst.html">BESTSELLER</a>
@@ -360,7 +360,7 @@
         </div>
 
         <!-- 버튼으로 이동하는 캠페인 슬라이드 -->
-        <section class="campaign-showcase" aria-label="추천 컬렉션">
+        <section class="campaign-showcase" id="new-collection" aria-label="추천 컬렉션">
             <figure class="campaign-photo campaign-photo-forest">
                 <video autoplay muted loop playsinline>
                     <source src="./img/botanical_motion_loop.mp4" type="video/mp4">
@@ -372,7 +372,9 @@
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product" src="./img/main/new1.jpg" alt="포레스트 베일 오 드 퍼퓸">
+                            <a class="campaign-product-link" href="./purchase.html?product=forest-veil-perfume" aria-label="포레스트 베일 오 드 퍼퓸 구매 페이지 보기">
+                                <img class="campaign-product" src="./img/main/new1.jpg" alt="포레스트 베일 오 드 퍼퓸">
+                            </a>
                             <p class="campaign-description">숲의 결을 따라 번지는 부드러운 향</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">01 / 04</p>
@@ -383,8 +385,10 @@
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product campaign-product-blend" src="./img/main/new2.jpg"
-                                alt="포레스트 베일 핸드 워시" loading="lazy">
+                            <a class="campaign-product-link" href="./purchase.html?product=forest-veil-hand-wash" aria-label="포레스트 베일 핸드 워시 구매 페이지 보기">
+                                <img class="campaign-product campaign-product-blend" src="./img/main/new2.jpg"
+                                    alt="포레스트 베일 핸드 워시" loading="lazy">
+                            </a>
                             <p class="campaign-description">숲을 닮은 향을 남기는 부드러운 핸드 워시</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">02 / 04</p>
@@ -395,8 +399,10 @@
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product campaign-product-blend" src="./img/main/new3.jpg"
-                                alt="포레스트 베일 바디 로션" loading="lazy">
+                            <a class="campaign-product-link" href="./purchase.html?product=forest-veil-body-lotion" aria-label="포레스트 베일 바디 로션 구매 페이지 보기">
+                                <img class="campaign-product campaign-product-blend" src="./img/main/new3.jpg"
+                                    alt="포레스트 베일 바디 로션" loading="lazy">
+                            </a>
                             <p class="campaign-description">피부를 유연하게 가꾸는 산뜻한 바디 로션</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">03 / 04</p>
@@ -406,8 +412,10 @@
                     <article class="swiper-slide campaign-slide">
                         <div class="campaign-panel">
                             <h2>FOREST VEIL</h2>
-                            <img class="campaign-product campaign-product-blend" src="./img/main/new4.jpg"
-                                alt="포레스트 베일 핸드 크림" loading="lazy">
+                            <a class="campaign-product-link" href="./purchase.html?product=forest-veil-hand-cream" aria-label="포레스트 베일 핸드 크림 구매 페이지 보기">
+                                <img class="campaign-product campaign-product-blend" src="./img/main/new4.jpg"
+                                    alt="포레스트 베일 핸드 크림" loading="lazy">
+                            </a>
                             <p class="campaign-description">손에 수분을 채우는 향기로운 핸드 크림</p>
                             <p class="campaign-notes">CEDAR · FIG LEAF · WHITE MUSK</p>
                             <p class="campaign-count">04 / 04</p>

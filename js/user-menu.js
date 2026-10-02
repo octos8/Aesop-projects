@@ -11,6 +11,33 @@
     dialog.innerHTML = '<button type="button" class="shop-close" aria-label="닫기">×</button><div class="shop-dialog-content"></div>';
     document.body.append(dialog);
     const content = dialog.querySelector('.shop-dialog-content');
+    const preparationDialog = document.createElement('dialog');
+    preparationDialog.className = 'shop-dialog shop-preparation-dialog';
+    preparationDialog.setAttribute('aria-labelledby', 'preparation-title');
+    preparationDialog.setAttribute('aria-describedby', 'preparation-description');
+    preparationDialog.innerHTML = '<button type="button" class="shop-close" aria-label="닫기">×</button><h2 id="preparation-title"><strong>현재 준비 중인 페이지입니다.</strong></h2><p id="preparation-description">더 좋은 모습으로 곧 업데이트하겠습니다.</p>';
+    document.body.append(preparationDialog);
+    preparationDialog.querySelector('.shop-close').addEventListener('click', () => preparationDialog.close());
+    document.querySelectorAll('.gnb > li > a, .gnb-smart > li > a, .smart-depth-button[data-menu="about"], .gnb2depth-smart[data-depth="about"] a').forEach(link => {
+        const menuName = link.textContent.replace(/\s+/g, '').toUpperCase();
+        if (menuName !== 'BESTSELLER' && menuName !== 'ABOUT' && !link.matches('[data-menu="about"], .gnb2depth-smart[data-depth="about"] a')) return;
+        link.setAttribute('aria-haspopup', 'dialog');
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            if (!preparationDialog.open) preparationDialog.showModal();
+        }, true);
+    });
+    document.querySelectorAll('.gnb > li').forEach(item => {
+        if (item.querySelector(':scope > a')?.textContent.trim().toUpperCase() !== 'ABOUT') return;
+        item.querySelectorAll('.gnb2depth a').forEach(link => {
+            link.setAttribute('aria-haspopup', 'dialog');
+            link.addEventListener('click', event => {
+                event.preventDefault();
+                if (!preparationDialog.open) preparationDialog.showModal();
+            });
+        });
+    });
     dialog.querySelector('.shop-close').addEventListener('click', () => dialog.close());
     dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
     dialog.addEventListener('close', () => document.body.classList.remove('shop-dialog-open'));
@@ -97,9 +124,32 @@
         open() { renderCart(); open(); },
         checkout(item) { renderCheckout([item]); }
     };
-    function search() {
-        content.innerHTML = '<h2>상품 검색</h2><form class="shop-search-form"><label for="shop-search">찾으시는 상품을 입력해주세요.</label><div><input id="shop-search" type="search" placeholder="상품명 검색" required autocomplete="off"><button class="shop-primary" type="submit">검색</button></div></form><div class="shop-search-results" aria-live="polite"></div>';
-        const form = content.querySelector('form'); const input = form.querySelector('input'); const results = content.querySelector('.shop-search-results');
+    const searchPanels = [];
+    function setupSearch(link) {
+        const header = link.closest('header, .smart-overlay-menu-header');
+        if (!header) return;
+        const panel = document.createElement('section');
+        panel.className = 'shop-inline-search';
+        panel.id = `product-search-${searchPanels.length}`;
+        panel.hidden = true;
+        panel.setAttribute('aria-label', '상품 검색');
+        panel.innerHTML = `<div class="common-frame"><form class="shop-search-form" role="search"><label for="${panel.id}-input">찾으시는 상품을 입력해주세요.</label><div><input id="${panel.id}-input" type="search" placeholder="상품명 검색" required autocomplete="off"><button class="shop-primary" type="submit">검색</button></div></form><div class="shop-search-results" aria-live="polite"></div></div>`;
+        header.append(panel);
+        const form = panel.querySelector('form'); const input = form.querySelector('input'); const results = panel.querySelector('.shop-search-results');
+        const close = () => { panel.hidden = true; link.setAttribute('aria-expanded', 'false'); };
+        searchPanels.push({ close });
+        link.href = `#${panel.id}`;
+        link.setAttribute('aria-controls', panel.id);
+        link.setAttribute('aria-expanded', 'false');
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            const shouldOpen = panel.hidden;
+            searchPanels.forEach(searchPanel => searchPanel.close());
+            if (shouldOpen) { panel.hidden = false; link.setAttribute('aria-expanded', 'true'); input.focus(); }
+        });
+        panel.addEventListener('keydown', event => {
+            if (event.key === 'Escape') { event.stopPropagation(); close(); link.focus(); }
+        });
         form.addEventListener('submit', event => {
             event.preventDefault(); const normalize = text => text.toLowerCase().replace(/\s+/g, ''); const query = normalize(input.value); if (!query) { input.focus(); return; }
             const matches = window.shopProducts.filter(product => normalize(product.name).includes(query));
@@ -107,14 +157,15 @@
             results.replaceChildren();
             if (!matches.length) { results.innerHTML = '<p class="shop-empty">검색 결과가 없습니다.<br><span>다른 검색어로 다시 검색해보세요.</span></p>'; return; }
             matches.forEach(product => { const link = document.createElement('a'); link.className = 'shop-search-result'; link.href = `./purchase.html?product=${encodeURIComponent(product.id)}`; const img = document.createElement('img'); img.src = product.image; img.alt = ''; const name = document.createElement('span'); name.textContent = product.name; link.append(img, name); results.append(link); });
-        }); open(); input.focus();
+        });
     }
     document.querySelectorAll('.user-menu a').forEach(link => {
         const image = link.querySelector('img'); const alt = image?.alt || '';
         if (alt.includes('로그인')) { link.href = './login.html'; return; }
-        if (alt.includes('검색') || alt.includes('장바구니')) {
-            link.href = alt.includes('검색') ? '#product-search' : '#shopping-cart'; link.setAttribute('aria-haspopup', 'dialog');
-            link.addEventListener('click', event => { event.preventDefault(); alt.includes('검색') ? search() : window.shopCart.open(); });
+        if (alt.includes('검색')) { setupSearch(link); return; }
+        if (alt.includes('장바구니')) {
+            link.href = '#shopping-cart'; link.setAttribute('aria-haspopup', 'dialog');
+            link.addEventListener('click', event => { event.preventDefault(); window.shopCart.open(); });
         }
     });
 })();

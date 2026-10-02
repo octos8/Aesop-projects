@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",()=>{window.renderProductStory({id:new URLSearchParams(location.search).get("product")||"forest-set"});const section=Number(new URLSearchParams(location.search).get("slot")||1);document.querySelector(".product-story-images").children[section-1]?.scrollIntoView();});

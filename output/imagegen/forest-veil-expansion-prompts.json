@@ -1,0 +1,189 @@
+{
+  "method": "built-in image_gen",
+  "pricing": "User-authorized concept prices for three new Forest Veil products",
+  "jobs": [
+    {
+      "key": "forest-veil-perfume-gallery-2",
+      "destination": "img/product-gallery/forest-veil-perfume-2.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Macro close-up of small realistic clear fragrant liquid droplets on ivory glass and warm limestone, subtle reflection, no hands. Reference bottle softly out of focus at edge. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-perfume-gallery-3",
+      "destination": "img/product-gallery/forest-veil-perfume-3.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Cedar wood, cedar sprigs and one fig leaf on natural oatmeal linen, soft leafy shadows; no product packaging. Fragrance mood props only. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-perfume-gallery-4",
+      "destination": "img/product-gallery/forest-veil-perfume-4.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Exact reference perfume bottle fully visible on a limestone shelf beside cedar wood with green leafy shadows, elegant quiet still life, label readable. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-perfume-detail-1",
+      "destination": "img/buy-info/forest-veil-perfume-1.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Eau de Parfum reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Hero panel: product fully visible large on the right on limestone pedestal, heading and description on the left. Text: \"Aēsop Fragrance\"; \"Forest Veil Eau de Parfum\"; \"숲의 결을 따라\n번지는 부드러운 향\"; \"숲의 결을 따라 번지는 부드러운 향\"; \"CEDAR · FIG LEAF · WHITE MUSK\"; \"50 mL / 100 mL\"."
+    },
+    {
+      "key": "forest-veil-perfume-detail-2",
+      "destination": "img/buy-info/forest-veil-perfume-2.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Eau de Parfum reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Ritual panel: large botanical still life with perfume bottle and cedar wood in the lower half, elegant title/copy upper half. Text: \"A MOMENT OF FOREST VEIL\"; \"하루의 시작에\n머무는 숲의 잔향\"; \"숲의 결을 따라 번지는 부드러운 향\"; \"FOREST VEIL EAU DE PARFUM\"; \"50 mL / 100 mL\"."
+    },
+    {
+      "key": "forest-veil-perfume-detail-3",
+      "destination": "img/buy-info/forest-veil-perfume-3.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-3.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Eau de Parfum reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Description and instructions panel. Reference image 3 is the layout structure ONLY: product top right beside small fragrant liquid droplets, title top left, three numbered points middle, texture and instructions bottom. Text: \"PRODUCT DESCRIPTION\"; \"Forest Veil Eau de Parfum\"; \"숲의 결을 따라 번지는 부드러운 향\"; \"PRODUCT POINT\"; \"Point 01\"; \"부드러운 향의 시작\"; \"숲의 결을 따라 번지는 부드러운 향\"; \"Point 02\"; \"숲을 닮은 향\"; \"CEDAR · FIG LEAF · WHITE MUSK\"; \"Point 03\"; \"두 가지 용량\"; \"50 mL / 100 mL\"; \"TEXTURE\"; \"Light · Airy · Aromatic\"; \"HOW TO USE\"; \"손목과 목 주변에 소량을 분사해 주세요.\n눈과 얼굴을 향해 분사하지 마세요.\"; \"50 mL / 100 mL\"."
+    },
+    {
+      "key": "forest-veil-perfume-detail-4",
+      "destination": "img/buy-info/forest-veil-perfume-4.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new1.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Eau de Parfum product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Eau de Parfum reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Closing fragrance panel matching reference 2 palette. Actual product fully visible on stone in lower half beside cedar wood, cedar sprig and fig leaf, top has headings and three scent notes. Text: \"FOREST VEIL\"; \"숲의 향을 곁에\"; \"CEDAR\"; \"차분한 우디 향\"; \"FIG LEAF\"; \"싱그러운 초록의 향\"; \"WHITE MUSK\"; \"부드럽게 남는 잔향\"; \"숲의 결을 따라 번지는 부드러운 향\"; \"50 mL / 100 mL\"."
+    },
+    {
+      "key": "forest-veil-hand-wash-gallery-2",
+      "destination": "img/product-gallery/forest-veil-hand-wash-2.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Macro photograph of a modest glossy translucent sage cleansing gel smear on ivory ceramic, tiny bubbles. Reference pump bottle blurred at corner. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-hand-wash-gallery-3",
+      "destination": "img/product-gallery/forest-veil-hand-wash-3.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Cedar wood and a fig leaf on oatmeal linen in dappled warm daylight; no packaging. Fragrance mood props only. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-hand-wash-gallery-4",
+      "destination": "img/product-gallery/forest-veil-hand-wash-4.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Cropped adult hands gently lathering small natural soap bubbles beside the exact reference pump hand wash bottle on a warm stone basin ledge. Natural hands, label readable. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-hand-wash-detail-1",
+      "destination": "img/buy-info/forest-veil-hand-wash-1.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Hand Wash reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Hero panel: product fully visible large on the right on limestone pedestal, heading and description on the left. Text: \"Aēsop Hand Care\"; \"Forest Veil Hand Wash\"; \"손을 씻는 순간에\n차분한 숲의 향\"; \"숲을 닮은 향을 남기는 부드러운 핸드 워시\"; \"CEDAR · FIG LEAF · WHITE MUSK\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-hand-wash-detail-2",
+      "destination": "img/buy-info/forest-veil-hand-wash-2.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Hand Wash reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Ritual panel: large cropped adult hands washing at warm stone basin, beside reference hand wash bottle in the lower half, elegant title/copy upper half. Text: \"A MOMENT OF FOREST VEIL\"; \"매일의 손 씻기에\n향기로운 휴식\"; \"숲을 닮은 향을 남기는 부드러운 핸드 워시\"; \"FOREST VEIL HAND WASH\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-hand-wash-detail-3",
+      "destination": "img/buy-info/forest-veil-hand-wash-3.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-3.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Hand Wash reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Description and instructions panel. Reference image 3 is the layout structure ONLY: product top right beside small cleansing gel swipe, title top left, three numbered points middle, texture and instructions bottom. Text: \"PRODUCT DESCRIPTION\"; \"Forest Veil Hand Wash\"; \"숲을 닮은 향을 남기는 부드러운 핸드 워시\"; \"PRODUCT POINT\"; \"Point 01\"; \"매일의 손 세정\"; \"숲을 닮은 향을 남기는 부드러운 핸드 워시\"; \"Point 02\"; \"숲을 닮은 향\"; \"CEDAR · FIG LEAF · WHITE MUSK\"; \"Point 03\"; \"두 가지 용량\"; \"250 mL / 500 mL\"; \"TEXTURE\"; \"Gel · Lather · Clean\"; \"HOW TO USE\"; \"젖은 손에 적당량을 덜어 거품을 낸 뒤\n흐르는 물로 충분히 헹궈 주세요.\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-hand-wash-detail-4",
+      "destination": "img/buy-info/forest-veil-hand-wash-4.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new2.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Hand Wash product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Hand Wash reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Closing fragrance panel matching reference 2 palette. Actual product fully visible on stone in lower half beside cedar wood, cedar sprig and fig leaf, top has headings and three scent notes. Text: \"FOREST VEIL\"; \"숲의 향을 곁에\"; \"CEDAR\"; \"차분한 우디 향\"; \"FIG LEAF\"; \"싱그러운 초록의 향\"; \"WHITE MUSK\"; \"부드럽게 남는 잔향\"; \"숲을 닮은 향을 남기는 부드러운 핸드 워시\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-body-lotion-gallery-2",
+      "destination": "img/product-gallery/forest-veil-body-lotion-2.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Macro photograph of a small soft ivory lotion swipe on limestone with delicate folds. Reference lotion pump bottle blurred at edge. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-body-lotion-gallery-3",
+      "destination": "img/product-gallery/forest-veil-body-lotion-3.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Cedar wood and a fig leaf on oatmeal linen with muted sage leaf shadows, photographic texture; no packaging. Fragrance mood props only. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-body-lotion-gallery-4",
+      "destination": "img/product-gallery/forest-veil-body-lotion-4.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset type: ONE square 1024x1024 full bleed editorial product gallery photograph. Subject: Cropped adult hands gently smoothing a little lotion on a forearm, the exact reference rectangular pump lotion bottle fully visible beside them on limestone, realistic natural anatomy. No added text, no UI, no collages."
+    },
+    {
+      "key": "forest-veil-body-lotion-detail-1",
+      "destination": "img/buy-info/forest-veil-body-lotion-1.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Body Lotion reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Hero panel: product fully visible large on the right on limestone pedestal, heading and description on the left. Text: \"Aēsop Body Care\"; \"Forest Veil Body Lotion\"; \"피부에 머무는\n숲의 부드러운 감촉\"; \"피부를 유연하게 가꾸는 산뜻한 바디 로션\"; \"CEDAR · FIG LEAF · WHITE MUSK\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-body-lotion-detail-2",
+      "destination": "img/buy-info/forest-veil-body-lotion-2.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Body Lotion reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Ritual panel: large cropped adult hands applying lotion to forearm beside reference lotion bottle in the lower half, elegant title/copy upper half. Text: \"A MOMENT OF FOREST VEIL\"; \"샤워 뒤의 피부에\n차분한 휴식\"; \"피부를 유연하게 가꾸는 산뜻한 바디 로션\"; \"FOREST VEIL BODY LOTION\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-body-lotion-detail-3",
+      "destination": "img/buy-info/forest-veil-body-lotion-3.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-3.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Body Lotion reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Description and instructions panel. Reference image 3 is the layout structure ONLY: product top right beside small ivory lotion swipe, title top left, three numbered points middle, texture and instructions bottom. Text: \"PRODUCT DESCRIPTION\"; \"Forest Veil Body Lotion\"; \"피부를 유연하게 가꾸는 산뜻한 바디 로션\"; \"PRODUCT POINT\"; \"Point 01\"; \"몸을 위한 보습\"; \"피부를 유연하게 가꾸는 산뜻한 바디 로션\"; \"Point 02\"; \"숲을 닮은 향\"; \"CEDAR · FIG LEAF · WHITE MUSK\"; \"Point 03\"; \"두 가지 용량\"; \"250 mL / 500 mL\"; \"TEXTURE\"; \"Soft · Smooth · Silky\"; \"HOW TO USE\"; \"샤워 후 물기를 닦은 피부에 적당량을 덜어\n몸 전체에 부드럽게 펴 발라 주세요.\"; \"250 mL / 500 mL\"."
+    },
+    {
+      "key": "forest-veil-body-lotion-detail-4",
+      "destination": "img/buy-info/forest-veil-body-lotion-4.png",
+      "refs": [
+        "D:/함국주/kks/img/main/new3.jpg",
+        "D:/함국주/kks/img/buy-info/forest-veil-hand-cream-1.png"
+      ],
+      "prompt": "Use case: product-mockup. This is a finished image for a concept Korean ecommerce product page. Reference image 1 is the exact Forest Veil Body Lotion product. Preserve its label, sage color, container shape, black cap or black pump, and FOREST VEIL product type exactly. NO hand cream tubes or other products. High-end botanical photographic style, cream parchment / warm limestone / muted sage, soft morning daylight, realistic contact shadows, no watermark or borders. Asset: ONE tall complete ecommerce detail panel, 860x2000 portrait proportions. Reference image 2 is layout/color/type style ONLY: preserve its beige parchment, botanical light/shadow, dark serif English and elegant readable Korean type, replacing the hand cream tube with exact Forest Veil Body Lotion reference product. Do not use a hand cream tube. Generous margins, restrained luxury, full bleed. Text is verbatim below with real readable Korean. No extra marketing claims or ingredients.  Closing fragrance panel matching reference 2 palette. Actual product fully visible on stone in lower half beside cedar wood, cedar sprig and fig leaf, top has headings and three scent notes. Text: \"FOREST VEIL\"; \"숲의 향을 곁에\"; \"CEDAR\"; \"차분한 우디 향\"; \"FIG LEAF\"; \"싱그러운 초록의 향\"; \"WHITE MUSK\"; \"부드럽게 남는 잔향\"; \"피부를 유연하게 가꾸는 산뜻한 바디 로션\"; \"250 mL / 500 mL\"."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+﻿{
+    "reviewGroups":  [
+                         {
+                             "ids":  [
+                                         "new-1",
+                                         "new-2",
+                                         "new-3",
+                                         "new-4",
+                                         "new-6",
+                                         "new-7"
+                                     ],
+                             "group":  1
+                         },
+                         {
+                             "ids":  [
+                                         "new-8",
+                                         "new-9",
+                                         "new-10",
+                                         "new-11",
+                                         "new-12",
+                                         "reverence-hand-wash"
+                                     ],
+                             "group":  2
+                         },
+                         {
+                             "ids":  [
+                                         "fable-serum",
+                                         "purifying-cleanser",
+                                         "tacit-perfume",
+                                         "balancing-shampoo",
+                                         "immediate-mist",
+                                         "parsley-cream"
+                                     ],
+                             "group":  3
+                         },
+                         {
+                             "ids":  [
+                                         "forest-cleanser",
+                                         "forest-balm",
+                                         "forest-hand-wash",
+                                         "forest-serum",
+                                         "forest-set",
+                                         "citrus-oil"
+                                     ],
+                             "group":  4
+                         },
+                         {
+                             "ids":  [
+                                         "citrus-hand-wash",
+                                         "citrus-serum",
+                                         "citrus-balm",
+                                         "citrus-set",
+                                         "relaxing-balm",
+                                         "relaxing-spray"
+                                     ],
+                             "group":  5
+                         },
+                         {
+                             "ids":  [
+                                         "relaxing-candle",
+                                         "relaxing-diffuser",
+                                         "relaxing-set",
+                                         "forest-veil-perfume",
+                                         "forest-veil-hand-wash",
+                                         "forest-veil-body-lotion"
+                                     ],
+                             "group":  6
+                         },
+                         {
+                             "ids":  [
+                                         "forest-veil-hand-cream"
+                                     ],
+                             "group":  7
+                         }
+                     ],
+    "detailGroups":  [
+                         {
+                             "ids":  [
+                                         "new-1",
+                                         "new-2",
+                                         "new-3",
+                                         "new-4",
+                                         "new-6",
+                                         "new-7"
+                                     ],
+                             "group":  1
+                         },
+                         {
+                             "ids":  [
+                                         "new-8",
+                                         "new-9",
+                                         "new-10",
+                                         "new-11",
+                                         "new-12",
+                                         "reverence-hand-wash"
+                                     ],
+                             "group":  2
+                         },
+                         {
+                             "ids":  [
+                                         "fable-serum",
+                                         "purifying-cleanser",
+                                         "tacit-perfume",
+                                         "balancing-shampoo",
+                                         "immediate-mist",
+                                         "parsley-cream"
+                                     ],
+                             "group":  3
+                         },
+                         {
+                             "ids":  [
+                                         "forest-cleanser",
+                                         "forest-balm",
+                                         "forest-hand-wash",
+                                         "forest-serum",
+                                         "forest-set",
+                                         "citrus-oil"
+                                     ],
+                             "group":  4
+                         },
+                         {
+                             "ids":  [
+                                         "citrus-hand-wash",
+                                         "citrus-serum",
+                                         "citrus-balm",
+                                         "citrus-set",
+                                         "relaxing-balm",
+                                         "relaxing-spray"
+                                     ],
+                             "group":  5
+                         },
+                         {
+                             "ids":  [
+                                         "relaxing-candle",
+                                         "relaxing-diffuser",
+                                         "relaxing-set",
+                                         "forest-veil-perfume",
+                                         "forest-veil-hand-wash",
+                                         "forest-veil-body-lotion"
+                                     ],
+                             "group":  6
+                         },
+                         {
+                             "ids":  [
+                                         "forest-veil-hand-cream"
+                                     ],
+                             "group":  7
+                         }
+                     ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "purchase-browser-results.html",
+    "products": 38,
+    "passed": 38,
+    "failed": []
+  },
+  {
+    "file": "purchase-mobile-results.html",
+    "products": 38,
+    "passed": 38,
+    "failed": []
+  }
+]

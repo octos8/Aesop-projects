@@ -1,0 +1,10 @@
+/* 선릿 원본에는 적용되지 않는 상품 이미지 표시 규칙입니다. */
+body.has-catalog-detail-images .product-main-image img,
+body.has-catalog-detail-images .product-thumbnail img {
+    object-fit: contain;
+}
+
+body.has-catalog-detail-images .product-story-images img {
+    display: block;
+    height: auto;
+}

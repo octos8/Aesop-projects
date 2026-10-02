@@ -1,0 +1,20 @@
+[
+  {
+    "key": "new-1-ritual-heading-fix",
+    "destination": "img/buy-info/catalog/new-1-2.png",
+    "refs": [
+      "D:/함국주/kks/img/buy-info/catalog/new-1-2.png"
+    ],
+    "type": "detail-edit",
+    "prompt": "Edit this supplied finished ecommerce artwork. Change ONLY the tiny heading \"BATH RITUAL RITUAL\" to \"BATH RITUAL\". Keep all photographs, other Korean and English text, packaging, colors, spacing, aspect ratio and composition exactly unchanged. Do not add or remove anything else."
+  },
+  {
+    "key": "new-10-ritual-heading-fix",
+    "destination": "img/buy-info/catalog/new-10-2.png",
+    "refs": [
+      "D:/함국주/kks/img/buy-info/catalog/new-10-2.png"
+    ],
+    "type": "detail-edit",
+    "prompt": "Edit this supplied finished ecommerce artwork. Change ONLY the tiny heading \"BATH RITUAL RITUAL\" to \"BATH RITUAL\". Keep all photographs, other Korean and English text, packaging, colors, spacing, aspect ratio and composition exactly unchanged. Do not add or remove anything else."
+  }
+]

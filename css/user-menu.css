@@ -1,5 +1,10 @@
 .shop-dialog { position: fixed; inset: 0; margin: auto; width: min(560px, calc(100% - 32px)); max-height: 85dvh; padding: 42px 32px; border: 0; background: #f2eee5; color: #25251f; overflow: auto; box-shadow: 0 20px 80px #0003; }
 .shop-dialog::backdrop { background: #0006; }
+.shop-preparation-dialog { z-index: 10000; }
+.shop-preparation-dialog::backdrop { background: transparent; }
+.shop-preparation-dialog h2 { font-size: 22px; margin-bottom: 16px; }
+.shop-preparation-dialog h2 strong { font-weight: 700; }
+.shop-preparation-dialog p { font-size: 15px; line-height: 1.8; }
 .shop-dialog-open { overflow: hidden; }
 .shop-dialog h2, .account-card h1 { font-size: 26px; font-weight: 400; margin-bottom: 28px; }
 .shop-close { position: absolute; top: 10px; right: 16px; border: 0; background: transparent; font-size: 30px; cursor: pointer; }
@@ -10,6 +15,18 @@
 .shop-search-form label { display: block; margin-bottom: 16px; font-size: 14px; }
 .shop-search-form > div { display: flex; gap: 8px; }
 .shop-search-form input { min-width: 0; flex: 1; border: 1px solid #aaa69c; padding: 12px; background: transparent; }
+.shop-inline-search { padding: 24px 0; border-top: 1px solid #d8d3c9; background: #f2eee5; color: #25251f; }
+.shop-inline-search[hidden] { display: none; }
+.shop-inline-search .shop-search-form, .shop-inline-search .shop-search-results { max-width: 720px; margin: 0 auto; }
+.shop-inline-search .shop-search-results { max-height: 50dvh; overflow-y: auto; }
+.shop-inline-search :focus-visible { outline: 2px solid #bd7448; outline-offset: 3px; }
+@media (max-width: 1024px) {
+    .smart-header, .smart-overlay-menu-header { height: auto; }
+    .smart-header > .common-frame, .smart-overlay-menu-header > .common-frame { height: 4.5625rem; }
+}
+@media (max-width: 768px) {
+    .smart-header > .common-frame, .smart-overlay-menu-header > .common-frame { height: 6rem; }
+}
 .shop-empty { padding: 38px 0; line-height: 1.9; text-align: center; }
 .shop-empty span { color: #68685f; font-size: 14px; }
 .shop-search-result { display: flex; align-items: center; gap: 20px; padding: 16px 0; border-bottom: 1px solid #d8d3c9; }
@@ -31,14 +48,26 @@
 .account-page { background: #e9e4d9; color: #25251f; min-height: 100dvh; }
 .account-header { padding: 28px 6vw; display: flex; justify-content: space-between; border-bottom: 1px solid #d0cabe; }
 .account-brand { font-family: Georgia, serif; font-size: 32px; }
+.account-continue-shopping { display: flex; align-items: center; justify-content: space-between; gap: 24px; width: min(280px, 48vw); box-sizing: border-box; padding: 12px 20px; border: 1px solid #aaa69c; font-size: 14px; }
+.account-continue-shopping:hover { border-color: #33352d; }
 .account-card { width: min(460px, calc(100% - 40px)); margin: 64px auto; padding: 36px; background: #f2eee5; }
 .account-intro { font-size: 14px; line-height: 1.8; margin-bottom: 28px; }
 .account-tabs { display: flex; margin-bottom: 28px; border-bottom: 1px solid #ccc7bc; }
 .account-tabs button { flex: 1; padding: 12px; background: transparent; border: 0; cursor: pointer; }
 .account-tabs button[aria-selected="true"] { border-bottom: 2px solid #33352d; }
 .account-form label { display: block; font-size: 14px; margin-bottom: 20px; }
+.account-form [hidden] { display: none; }
 .account-form input:not([type="checkbox"]) { display: block; width: 100%; box-sizing: border-box; margin-top: 8px; padding: 12px; border: 1px solid #aaa69c; background: transparent; }
 .account-form .shop-primary { width: 100%; }
+.account-social-login { display: grid; gap: 10px; margin-top: 28px; }
+.account-social-heading { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; color: #68685f; font-size: 13px; }
+.account-social-heading::before, .account-social-heading::after { content: ''; flex: 1; height: 1px; background: #d0cabe; }
+.account-social-button { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; min-height: 46px; padding: 12px 44px; border: 1px solid transparent; font: inherit; font-size: 14px; cursor: pointer; }
+.account-social-icon { position: absolute; left: 18px; display: block; width: 22px; height: 22px; object-fit: contain; }
+.account-social-kakao { background: #fee500; color: #191919; }
+.account-social-naver { background: #03c75a; color: #fff; }
+.account-social-google { background: #fff; color: #25251f; border-color: #d0cabe; }
+.account-social-button:hover { filter: brightness(0.96); }
 .account-status { margin-top: 20px; font-size: 14px; line-height: 1.8; }
 .shop-dialog button:focus-visible, .shop-dialog a:focus-visible, .account-page :focus-visible { outline: 2px solid #bd7448; outline-offset: 3px; }
 @media (max-width: 480px) { .shop-dialog { padding: 40px 20px 28px; } .account-card { padding: 24px; box-sizing: border-box; margin-top: 32px; } }
