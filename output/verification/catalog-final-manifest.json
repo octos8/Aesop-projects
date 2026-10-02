@@ -1017,8 +1017,8 @@
       "./img/reviews/catalog/new-11-3.png"
     ],
     "new-12": [
-      "./img/product-gallery/new-12-2.png",
-      "./img/product-gallery/new-12-3.png",
+      "./img/reviews/catalog/new-12-1.png",
+      "./img/reviews/catalog/new-12-2.png",
       "./img/reviews/catalog/new-12-3.png"
     ],
     "reverence-hand-wash": [
@@ -1058,97 +1058,97 @@
     ],
     "forest-cleanser": [
       "./img/reviews/catalog/forest-cleanser-1.png",
-      "./img/product-gallery/forest-cleanser-3-v2.png",
+      "./img/reviews/catalog/forest-cleanser-2.png",
       "./img/reviews/catalog/forest-cleanser-3.png"
     ],
     "forest-balm": [
-      "./img/reviews/balm-use.png",
+      "./img/reviews/catalog/forest-balm-1.png",
       "./img/reviews/catalog/forest-balm-2.png",
       "./img/reviews/catalog/forest-balm-3.png"
     ],
     "forest-hand-wash": [
-      "./img/product-gallery/forest-hand-wash-2-v2.png",
-      "./img/product-gallery/forest-hand-wash-3-v2.png",
+      "./img/reviews/catalog/forest-hand-wash-1.png",
+      "./img/reviews/catalog/forest-hand-wash-2.png",
       "./img/reviews/catalog/forest-hand-wash-3.png"
     ],
     "forest-serum": [
-      "./img/product-gallery/forest-serum-2-v2.png",
-      "./img/product-gallery/forest-serum-3-v2.png",
+      "./img/reviews/catalog/forest-serum-1.png",
+      "./img/reviews/catalog/forest-serum-2.png",
       "./img/reviews/catalog/forest-serum-3.png"
     ],
     "forest-set": [
-      "./img/reviews/balm-unboxing.png",
-      "./img/product-gallery/forest-set-3-v2.png",
+      "./img/reviews/catalog/forest-set-1.png",
+      "./img/reviews/catalog/forest-set-2.png",
       "./img/reviews/catalog/forest-set-3.png"
     ],
     "citrus-oil": [
-      "./img/product-gallery/citrus-oil-2.png",
-      "./img/product-gallery/citrus-oil-3.png",
+      "./img/reviews/catalog/citrus-oil-1.png",
+      "./img/reviews/catalog/citrus-oil-2.png",
       "./img/reviews/catalog/citrus-oil-3.png"
     ],
     "citrus-hand-wash": [
-      "./img/reviews/hand-wash-use.png",
-      "./img/product-gallery/citrus-hand-wash-3.png",
+      "./img/reviews/catalog/citrus-hand-wash-1.png",
+      "./img/reviews/catalog/citrus-hand-wash-2.png",
       "./img/reviews/catalog/citrus-hand-wash-3.png"
     ],
     "citrus-serum": [
-      "./img/product-gallery/citrus-serum-2.png",
-      "./img/product-gallery/citrus-serum-3.png",
+      "./img/reviews/catalog/citrus-serum-1.png",
+      "./img/reviews/catalog/citrus-serum-2.png",
       "./img/reviews/catalog/citrus-serum-3.png"
     ],
     "citrus-balm": [
-      "./img/product-gallery/citrus-balm-2.png",
-      "./img/product-gallery/citrus-balm-3.png",
+      "./img/reviews/catalog/citrus-balm-1.png",
+      "./img/reviews/catalog/citrus-balm-2.png",
       "./img/reviews/catalog/citrus-balm-3.png"
     ],
     "citrus-set": [
-      "./img/reviews/balm-unboxing.png",
-      "./img/product-gallery/citrus-set-3.png",
+      "./img/reviews/catalog/citrus-set-1.png",
+      "./img/reviews/catalog/citrus-set-2.png",
       "./img/reviews/catalog/citrus-set-3.png"
     ],
     "relaxing-balm": [
-      "./img/product-gallery/relaxing-balm-2.png",
-      "./img/product-gallery/relaxing-balm-3.png",
+      "./img/reviews/catalog/relaxing-balm-1.png",
+      "./img/reviews/catalog/relaxing-balm-2.png",
       "./img/reviews/catalog/relaxing-balm-3.png"
     ],
     "relaxing-spray": [
-      "./img/product-gallery/relaxing-spray-2.png",
-      "./img/product-gallery/relaxing-spray-3.png",
+      "./img/reviews/catalog/relaxing-spray-1.png",
+      "./img/reviews/catalog/relaxing-spray-2.png",
       "./img/reviews/catalog/relaxing-spray-3.png"
     ],
     "relaxing-candle": [
-      "./img/reviews/home-unboxing.png",
-      "./img/product-gallery/relaxing-candle-3.png",
+      "./img/reviews/catalog/relaxing-candle-1.png",
+      "./img/reviews/catalog/relaxing-candle-2.png",
       "./img/reviews/catalog/relaxing-candle-3.png"
     ],
     "relaxing-diffuser": [
-      "./img/reviews/home-unboxing.png",
-      "./img/product-gallery/relaxing-diffuser-3.png",
+      "./img/reviews/catalog/relaxing-diffuser-1.png",
+      "./img/reviews/catalog/relaxing-diffuser-2.png",
       "./img/reviews/catalog/relaxing-diffuser-3.png"
     ],
     "relaxing-set": [
-      "./img/product-gallery/relaxing-set-2.png",
-      "./img/product-gallery/relaxing-set-3.png",
+      "./img/reviews/catalog/relaxing-set-1.png",
+      "./img/reviews/catalog/relaxing-set-2.png",
       "./img/reviews/catalog/relaxing-set-3.png"
     ],
     "forest-veil-perfume": [
-      "./img/product-gallery/forest-veil-perfume-2.png",
-      "./img/product-gallery/forest-veil-perfume-3.png",
+      "./img/reviews/catalog/forest-veil-perfume-1.png",
+      "./img/reviews/catalog/forest-veil-perfume-2.png",
       "./img/reviews/catalog/forest-veil-perfume-3.png"
     ],
     "forest-veil-hand-wash": [
-      "./img/product-gallery/forest-veil-hand-wash-2.png",
-      "./img/product-gallery/forest-veil-hand-wash-3.png",
+      "./img/reviews/catalog/forest-veil-hand-wash-1.png",
+      "./img/reviews/catalog/forest-veil-hand-wash-2.png",
       "./img/reviews/catalog/forest-veil-hand-wash-3.png"
     ],
     "forest-veil-body-lotion": [
-      "./img/product-gallery/forest-veil-body-lotion-2.png",
-      "./img/product-gallery/forest-veil-body-lotion-3.png",
+      "./img/reviews/catalog/forest-veil-body-lotion-1.png",
+      "./img/reviews/catalog/forest-veil-body-lotion-2.png",
       "./img/reviews/catalog/forest-veil-body-lotion-3.png"
     ],
     "forest-veil-hand-cream": [
-      "./img/product-gallery/forest-veil-hand-cream-2.png",
-      "./img/product-gallery/forest-veil-hand-cream-3.png",
+      "./img/reviews/catalog/forest-veil-hand-cream-1.png",
+      "./img/reviews/catalog/forest-veil-hand-cream-2.png",
       "./img/reviews/catalog/forest-veil-hand-cream-3.png"
     ]
   }
