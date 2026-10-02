@@ -1,24 +1,24 @@
 // 제품별 제형과 분위기를 표현하는 연출 사진입니다.
 const productGalleries = {
     "forest-veil-perfume": [
-        { src: "./img/product-gallery/forest-veil-perfume-2.png", alt: "포레스트 베일 오 드 퍼퓸의 맑은 향 분위기" },
-        { src: "./img/product-gallery/forest-veil-perfume-3.png", alt: "시더 우드와 무화과 잎의 향 분위기" },
-        { src: "./img/product-gallery/forest-veil-perfume-4.png", alt: "포레스트 베일 오 드 퍼퓸 보태니컬 연출 사진" }
+        { src: "./img/product-gallery/forest-veil-perfume-2-mood-v2.png", alt: "포레스트 베일 오 드 퍼퓸의 맑은 향 분위기" },
+        { src: "./img/product-gallery/forest-veil-perfume-3-mood-v2.png", alt: "시더 우드와 무화과 잎의 향 분위기" },
+        { src: "./img/product-gallery/forest-veil-perfume-4-mood-v2.png", alt: "포레스트 베일 오 드 퍼퓸 보태니컬 연출 사진" }
     ],
     "forest-veil-hand-wash": [
-        { src: "./img/product-gallery/forest-veil-hand-wash-2.png", alt: "포레스트 베일 핸드 워시의 젤 제형" },
-        { src: "./img/product-gallery/forest-veil-hand-wash-3.png", alt: "시더 우드와 무화과 잎의 차분한 분위기" },
-        { src: "./img/product-gallery/forest-veil-hand-wash-4.png", alt: "포레스트 베일 핸드 워시로 손을 씻는 장면" }
+        { src: "./img/product-gallery/forest-veil-hand-wash-2-mood-v2.png", alt: "포레스트 베일 핸드 워시의 젤 제형" },
+        { src: "./img/product-gallery/forest-veil-hand-wash-3-mood-v2.png", alt: "시더 우드와 무화과 잎의 차분한 분위기" },
+        { src: "./img/product-gallery/forest-veil-hand-wash-4-mood-v2.png", alt: "따뜻한 석재 위의 물과 부드러운 세정 거품" }
     ],
     "forest-veil-body-lotion": [
-        { src: "./img/product-gallery/forest-veil-body-lotion-2.png", alt: "포레스트 베일 바디 로션의 부드러운 로션 제형" },
-        { src: "./img/product-gallery/forest-veil-body-lotion-3.png", alt: "시더 우드와 무화과 잎의 자연스러운 분위기" },
-        { src: "./img/product-gallery/forest-veil-body-lotion-4.png", alt: "포레스트 베일 바디 로션을 팔에 바르는 장면" }
+        { src: "./img/product-gallery/forest-veil-body-lotion-2-mood-v2.png", alt: "포레스트 베일 바디 로션의 부드러운 로션 제형" },
+        { src: "./img/product-gallery/forest-veil-body-lotion-3-mood-v2.png", alt: "시더 우드와 무화과 잎의 자연스러운 분위기" },
+        { src: "./img/product-gallery/forest-veil-body-lotion-4-mood-v2.png", alt: "자연광과 식물 그림자가 드리운 로션 제형" }
     ],
     "forest-veil-hand-cream": [
-        { src: "./img/product-gallery/forest-veil-hand-cream-2.png", alt: "포레스트 베일 핸드 크림의 부드러운 크림 제형" },
-        { src: "./img/product-gallery/forest-veil-hand-cream-3.png", alt: "시더 우드와 무화과 잎의 보태니컬 향 분위기" },
-        { src: "./img/product-gallery/forest-veil-hand-cream-4.png", alt: "포레스트 베일 핸드 크림을 손에 바르는 사용 장면" }
+        { src: "./img/product-gallery/forest-veil-hand-cream-2-mood-v2.png", alt: "포레스트 베일 핸드 크림의 부드러운 크림 제형" },
+        { src: "./img/product-gallery/forest-veil-hand-cream-3-mood-v2.png", alt: "시더 우드와 무화과 잎의 보태니컬 향 분위기" },
+        { src: "./img/product-gallery/forest-veil-hand-cream-4-mood-v2.png", alt: "식물과 따뜻한 석재가 어우러진 크림 제형" }
     ],
     "forest-cleanser": [
         { src: "./img/product-gallery/forest-cleanser-2-v2.png", alt: "포레스트 캄 바디 클렌저 제형 또는 소재 연출 사진" },
