@@ -1,0 +1,159 @@
+{
+  "products": 38,
+  "passed": 38,
+  "failed": [],
+  "results": [
+    {
+      "id": "new-1",
+      "status": "passed"
+    },
+    {
+      "id": "new-2",
+      "status": "passed"
+    },
+    {
+      "id": "new-3",
+      "status": "passed"
+    },
+    {
+      "id": "new-4",
+      "status": "passed"
+    },
+    {
+      "id": "new-6",
+      "status": "passed"
+    },
+    {
+      "id": "new-7",
+      "status": "passed"
+    },
+    {
+      "id": "new-8",
+      "status": "passed"
+    },
+    {
+      "id": "new-9",
+      "status": "passed"
+    },
+    {
+      "id": "new-10",
+      "status": "passed"
+    },
+    {
+      "id": "new-11",
+      "status": "passed"
+    },
+    {
+      "id": "new-12",
+      "status": "passed"
+    },
+    {
+      "id": "reverence-hand-wash",
+      "status": "passed"
+    },
+    {
+      "id": "fable-serum",
+      "status": "passed"
+    },
+    {
+      "id": "purifying-cleanser",
+      "status": "passed"
+    },
+    {
+      "id": "tacit-perfume",
+      "status": "passed"
+    },
+    {
+      "id": "balancing-shampoo",
+      "status": "passed"
+    },
+    {
+      "id": "immediate-mist",
+      "status": "passed"
+    },
+    {
+      "id": "parsley-cream",
+      "status": "passed"
+    },
+    {
+      "id": "forest-cleanser",
+      "status": "passed"
+    },
+    {
+      "id": "forest-balm",
+      "status": "passed"
+    },
+    {
+      "id": "forest-hand-wash",
+      "status": "passed"
+    },
+    {
+      "id": "forest-serum",
+      "status": "passed"
+    },
+    {
+      "id": "forest-set",
+      "status": "passed"
+    },
+    {
+      "id": "citrus-oil",
+      "status": "passed"
+    },
+    {
+      "id": "citrus-hand-wash",
+      "status": "passed"
+    },
+    {
+      "id": "citrus-serum",
+      "status": "passed"
+    },
+    {
+      "id": "citrus-balm",
+      "status": "passed"
+    },
+    {
+      "id": "citrus-set",
+      "status": "passed"
+    },
+    {
+      "id": "relaxing-balm",
+      "status": "passed"
+    },
+    {
+      "id": "relaxing-spray",
+      "status": "passed"
+    },
+    {
+      "id": "relaxing-candle",
+      "status": "passed"
+    },
+    {
+      "id": "relaxing-diffuser",
+      "status": "passed"
+    },
+    {
+      "id": "relaxing-set",
+      "status": "passed"
+    },
+    {
+      "id": "forest-veil-perfume",
+      "status": "passed"
+    },
+    {
+      "id": "forest-veil-hand-wash",
+      "status": "passed"
+    },
+    {
+      "id": "forest-veil-body-lotion",
+      "status": "passed"
+    },
+    {
+      "id": "forest-veil-hand-cream",
+      "status": "passed"
+    },
+    {
+      "id": "new-5",
+      "status": "passed"
+    }
+  ]
+}

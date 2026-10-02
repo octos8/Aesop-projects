@@ -1162,6 +1162,8 @@ body.purchase-page .product-purchase {
 }
 
 /* 프로모션 원본에는 가로 사진도 있으므로 용기 전체가 보이게 합니다. */
+body.is-forest-veil-product .product-main-image img[src*="/main/new"],
+body.is-forest-veil-product .product-thumbnail img[src*="/main/new"],
 body.is-promotion-product .product-main-image img,
 body.is-promotion-product .product-thumbnail img {
     object-fit: contain;
@@ -1177,6 +1179,13 @@ body.is-promotion-product .product-thumbnail img[src*="promo-03-product-"] {
 /* 릴렉싱 세트도 정사각형 구매 영역에 여백 없이 맞춥니다. */
 body.is-promotion-product .product-main-image img[src*="promo-03-set"],
 body.is-promotion-product .product-thumbnail img[src*="promo-03-set"] {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* 가로 프로모션 사진도 구매 갤러리를 빈 여백 없이 채웁니다. */
+body.purchase-page.is-promotion-product .product-main-image img,
+body.purchase-page.is-promotion-product .product-thumbnail img {
     object-fit: cover;
     object-position: center;
 }

@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": "new-1",
+      "panels": 4
+    },
+    {
+      "id": "new-2",
+      "panels": 4
+    },
+    {
+      "id": "new-3",
+      "panels": 4
+    },
+    {
+      "id": "new-4",
+      "panels": 4
+    },
+    {
+      "id": "new-6",
+      "panels": 4
+    },
+    {
+      "id": "new-7",
+      "panels": 4
+    },
+    {
+      "id": "new-8",
+      "panels": 4
+    },
+    {
+      "id": "new-9",
+      "panels": 4
+    },
+    {
+      "id": "new-10",
+      "panels": 4
+    },
+    {
+      "id": "new-11",
+      "panels": 4
+    },
+    {
+      "id": "new-12",
+      "panels": 4
+    },
+    {
+      "id": "reverence-hand-wash",
+      "panels": 4
+    },
+    {
+      "id": "fable-serum",
+      "panels": 4
+    },
+    {
+      "id": "purifying-cleanser",
+      "panels": 4
+    },
+    {
+      "id": "tacit-perfume",
+      "panels": 4
+    },
+    {
+      "id": "balancing-shampoo",
+      "panels": 4
+    },
+    {
+      "id": "immediate-mist",
+      "panels": 4
+    },
+    {
+      "id": "parsley-cream",
+      "panels": 4
+    },
+    {
+      "id": "forest-cleanser",
+      "panels": 4
+    },
+    {
+      "id": "forest-balm",
+      "panels": 4
+    },
+    {
+      "id": "forest-hand-wash",
+      "panels": 4
+    },
+    {
+      "id": "forest-serum",
+      "panels": 4
+    },
+    {
+      "id": "forest-set",
+      "panels": 4
+    },
+    {
+      "id": "citrus-oil",
+      "panels": 4
+    },
+    {
+      "id": "citrus-hand-wash",
+      "panels": 4
+    },
+    {
+      "id": "citrus-serum",
+      "panels": 4
+    },
+    {
+      "id": "citrus-balm",
+      "panels": 4
+    },
+    {
+      "id": "citrus-set",
+      "panels": 4
+    },
+    {
+      "id": "relaxing-balm",
+      "panels": 4
+    },
+    {
+      "id": "relaxing-spray",
+      "panels": 4
+    },
+    {
+      "id": "relaxing-candle",
+      "panels": 4
+    },
+    {
+      "id": "relaxing-diffuser",
+      "panels": 4
+    },
+    {
+      "id": "relaxing-set",
+      "panels": 4
+    }
+  ],
+  "sunlitGuard": "passed without DOM access"
+}

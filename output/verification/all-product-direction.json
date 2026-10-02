@@ -1,0 +1,194 @@
+{
+  "products": 37,
+  "stories": [
+    {
+      "id": "new-1",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-2",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-3",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-4",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-6",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-7",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-8",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-9",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-10",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-11",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "new-12",
+      "panels": 4,
+      "imagePanels": 2
+    },
+    {
+      "id": "reverence-hand-wash",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "fable-serum",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "purifying-cleanser",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "tacit-perfume",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "balancing-shampoo",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "immediate-mist",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "parsley-cream",
+      "panels": 4,
+      "imagePanels": 4
+    },
+    {
+      "id": "forest-cleanser",
+      "panels": 4,
+      "imagePanels": 3
+    },
+    {
+      "id": "forest-balm",
+      "panels": 4,
+      "imagePanels": 1
+    },
+    {
+      "id": "forest-hand-wash",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "forest-serum",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "forest-set",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "citrus-oil",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "citrus-hand-wash",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "citrus-serum",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "citrus-balm",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "citrus-set",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "relaxing-balm",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "relaxing-spray",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "relaxing-candle",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "relaxing-diffuser",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "relaxing-set",
+      "panels": 4,
+      "imagePanels": 0
+    },
+    {
+      "id": "forest-veil-perfume",
+      "panels": 4,
+      "imagePanels": 2
+    },
+    {
+      "id": "forest-veil-hand-wash",
+      "panels": 4,
+      "imagePanels": 2
+    },
+    {
+      "id": "forest-veil-body-lotion",
+      "panels": 4,
+      "imagePanels": 2
+    },
+    {
+      "id": "forest-veil-hand-cream",
+      "panels": 4,
+      "imagePanels": 2
+    }
+  ],
+  "reviewCountPerProduct": 5,
+  "qnaCountPerProduct": 3,
+  "reviewPhotosPerProduct": 3,
+  "sunlit": "preserved"
+}

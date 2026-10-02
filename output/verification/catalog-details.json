@@ -1,0 +1,340 @@
+[
+  {
+    "id": "forest-veil-perfume",
+    "options": 2,
+    "prices": [
+      165000,
+      245000
+    ],
+    "detail": "4 image panels"
+  },
+  {
+    "id": "forest-veil-hand-wash",
+    "options": 2,
+    "prices": [
+      33000,
+      53000
+    ],
+    "detail": "4 image panels"
+  },
+  {
+    "id": "forest-veil-body-lotion",
+    "options": 2,
+    "prices": [
+      45000,
+      72000
+    ],
+    "detail": "4 image panels"
+  },
+  {
+    "id": "forest-veil-hand-cream",
+    "options": 2,
+    "prices": [
+      33000,
+      55000
+    ],
+    "detail": "4 image panels"
+  },
+  {
+    "id": "new-1",
+    "options": 3,
+    "prices": [
+      54150,
+      79800,
+      123500
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-2",
+    "options": 3,
+    "prices": [
+      55100,
+      93100,
+      155800
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-3",
+    "options": 3,
+    "prices": [
+      46550,
+      77900,
+      114950
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-4",
+    "options": 3,
+    "prices": [
+      55100,
+      93100,
+      155800
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-5",
+    "options": 2,
+    "prices": [
+      49400,
+      135000
+    ],
+    "detail": "original preserved"
+  },
+  {
+    "id": "new-6",
+    "options": 3,
+    "prices": [
+      40850,
+      68400,
+      115900
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-7",
+    "options": 3,
+    "prices": [
+      84550,
+      142500,
+      209000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-8",
+    "options": 3,
+    "prices": [
+      57950,
+      109250,
+      132050
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-9",
+    "options": 3,
+    "prices": [
+      37050,
+      50350,
+      62700
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-10",
+    "options": 3,
+    "prices": [
+      52250,
+      98800,
+      118750
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-11",
+    "options": 3,
+    "prices": [
+      55100,
+      93100,
+      155800
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "new-12",
+    "options": 3,
+    "prices": [
+      46550,
+      77900,
+      132050
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "reverence-hand-wash",
+    "options": 2,
+    "prices": [
+      52250,
+      26125
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "fable-serum",
+    "options": 2,
+    "prices": [
+      84550,
+      169100
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "purifying-cleanser",
+    "options": 2,
+    "prices": [
+      50350,
+      25175
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "tacit-perfume",
+    "options": 2,
+    "prices": [
+      166250,
+      332500
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "balancing-shampoo",
+    "options": 2,
+    "prices": [
+      56050,
+      28025
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "immediate-mist",
+    "options": 2,
+    "prices": [
+      44650,
+      22325
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "parsley-cream",
+    "options": 2,
+    "prices": [
+      74100,
+      148200
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "forest-cleanser",
+    "options": 1,
+    "prices": [
+      59000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "forest-balm",
+    "options": 1,
+    "prices": [
+      47000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "forest-hand-wash",
+    "options": 1,
+    "prices": [
+      53000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "forest-serum",
+    "options": 1,
+    "prices": [
+      39000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "forest-set",
+    "options": 1,
+    "prices": [
+      244000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "citrus-oil",
+    "options": 1,
+    "prices": [
+      53000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "citrus-hand-wash",
+    "options": 1,
+    "prices": [
+      38000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "citrus-serum",
+    "options": 1,
+    "prices": [
+      89000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "citrus-balm",
+    "options": 1,
+    "prices": [
+      49000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "citrus-set",
+    "options": 1,
+    "prices": [
+      194650
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "relaxing-balm",
+    "options": 1,
+    "prices": [
+      47000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "relaxing-spray",
+    "options": 1,
+    "prices": [
+      76000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "relaxing-candle",
+    "options": 1,
+    "prices": [
+      115000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "relaxing-diffuser",
+    "options": 1,
+    "prices": [
+      110000
+    ],
+    "detail": "4 product-specific panels"
+  },
+  {
+    "id": "relaxing-set",
+    "options": 1,
+    "prices": [
+      295000
+    ],
+    "detail": "4 product-specific panels"
+  }
+]

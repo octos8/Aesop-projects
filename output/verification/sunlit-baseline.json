@@ -1,0 +1,100 @@
+{
+  "files": [
+    {
+      "path": "js/product.js",
+      "sha256": "916b95a3a69f431c547308a1ad34d9681779dfb19a66fc4ea71afc32032880b1"
+    },
+    {
+      "path": "js/bestseller-products.js",
+      "sha256": "2087668a7dadb7f704c4f244227e2c35fbb50a2d01186d7357cade74702dfc00"
+    },
+    {
+      "path": "js/product-community.js",
+      "sha256": "ca15c0f4cdabce68fe0908a56cae895227905a2860f15d553433a0569be7efc1"
+    },
+    {
+      "path": "img/buy-info/1.jpg",
+      "sha256": "2401dbaab8cd8166ab45c5ad1a33fb60b953a0e34f3f04a600ef615f77fddc8d"
+    },
+    {
+      "path": "img/buy-info/2.jpg",
+      "sha256": "640ae3f0b87ddab663893f0015e4ec4c403dba5629378dd2f2d76caa30724aad"
+    },
+    {
+      "path": "img/buy-info/3.jpg",
+      "sha256": "9fb767dfb1bf2a4b55c3af3cffc397b56bc48e46d5ac7763a13ca2d4468cb5a1"
+    },
+    {
+      "path": "img/buy-info/4.jpg",
+      "sha256": "40f4f5f9061a7d3a2f65560acdc1d4f7c82b04253a7a522278bde560d41e7f9a"
+    },
+    {
+      "path": "img/buy-info/body.jpg",
+      "sha256": "81c170ad47658e5fd90c6540b7bc1085cdc0c63b6041ce05638f6fb193490a82"
+    },
+    {
+      "path": "img/buy-info/cream.jpg",
+      "sha256": "8a90be0b102c903429dd140bfb44101801542e9da533f09367d4f417487e302f"
+    },
+    {
+      "path": "img/buy-info/orenge.jpg",
+      "sha256": "c63eb31b8ae2c98d9edead0d8e7a7a08a9c05b0b4663b6d47993febe311ea32d"
+    },
+    {
+      "path": "img/buy-info/review1.jpg",
+      "sha256": "b443dc316ea19263cccc78fdcbce3bfe5ef0ebd8f441d99eaf6f31e15d3487b1"
+    },
+    {
+      "path": "img/buy-info/review2.jpg",
+      "sha256": "726aeed1a93e35238ab774d038849d7f26359bf909082286512f694a70906279"
+    },
+    {
+      "path": "img/buy-info/review3.jpg",
+      "sha256": "58d76787db98eefe46e89efd0a32d2c7a77e967262a6ea95682338a7799887cf"
+    },
+    {
+      "path": "img/buy-info/review4.jpg",
+      "sha256": "28a2b90957bf8865e61e80002f5ac80dc5c492e0db89694045186c0149254eae"
+    },
+    {
+      "path": "img/buy-info/review5.jpg",
+      "sha256": "3ea927c33ce8f040ec7986a64ca0029040253fceec8cb1751595cb87353acc07"
+    },
+    {
+      "path": "img/buy-info/tgt1.jpg",
+      "sha256": "894e6d057eaed7687d17a7d2c4a63b2a8b7dfb927c4dde59cdf4f42108ab6cac"
+    },
+    {
+      "path": "img/buy-info/tgt2.jpg",
+      "sha256": "8cc1a6e89be78615380f9ce049eb5f23c6763c3d8a9e48ada0624a9f65e69a54"
+    },
+    {
+      "path": "img/buy-info/tgt3.jpg",
+      "sha256": "a5da1ceb90c5ea22fc8a23942fa9a4b2fffcb44d4711e0eb90b08a6021512928"
+    },
+    {
+      "path": "img/buy-info/tree.jpg",
+      "sha256": "15dfa86577ff6348aade70678ec307a05d64c05942efb599bd6ae5e3f550a3d4"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "./img/buy-info/cream.jpg",
+      "alt": "크림 제형 연출 이미지"
+    },
+    {
+      "src": "./img/buy-info/orenge.jpg",
+      "alt": "오렌지 연출 이미지"
+    },
+    {
+      "src": "./img/buy-info/tree.jpg",
+      "alt": "우디한 분위기 연출 이미지"
+    }
+  ],
+  "catalog": {
+    "name": "선릿 보태니컬 바디 밤",
+    "id": "new-5",
+    "image": "./img/product-list/asset-05.png"
+  },
+  "storyMarkup": "<section class=\"product-story\" aria-labelledby=\"story-title\">\n            <h2 class=\"sr-only\" id=\"story-title\">선릿 보태니컬 바디 밤 상세 설명</h2>\n            <div class=\"product-story-images\">\n                <img src=\"./img/buy-info/1.jpg\" alt=\"햇살을 머금은 선릿 보태니컬 바디 밤 소개\">\n                <img src=\"./img/buy-info/2.jpg\" alt=\"햇빛 이후 피부를 위한 바디 리추얼\">\n                <img src=\"./img/buy-info/3.jpg\" alt=\"제품 설명, 주요 특징과 사용 방법\">\n                <img src=\"./img/buy-info/4.jpg\" alt=\"함께 사용하기 좋은 보태니컬 바디 케어 제품\" loading=\"lazy\">\n            </div>\n        </section>"
+}

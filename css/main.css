@@ -225,6 +225,17 @@
     mix-blend-mode: multiply;
 }
 
+.campaign-product-link {
+    display: block;
+    line-height: 0;
+    mix-blend-mode: multiply;
+}
+
+.campaign-product-link:focus-visible {
+    outline: 2px solid var(--forest);
+    outline-offset: 6px;
+}
+
 .campaign-product-blend {
     mix-blend-mode: multiply;
 }

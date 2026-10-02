@@ -64,6 +64,9 @@ if (openButton && closeButton && overlay) {
 
     openButton.addEventListener("click", openMenu);
     closeButton.addEventListener("click", closeMenu);
+    overlay.querySelectorAll('a[href="./shoppingLIst.html#products"]').forEach((link) => {
+        link.addEventListener('click', closeMenu);
+    });
 
     depthButtons.forEach((button) => {
         const menuItem = button.closest("li");

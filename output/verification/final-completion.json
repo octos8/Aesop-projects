@@ -1,0 +1,256 @@
+{
+  "products": 37,
+  "detailImages": 148,
+  "reviewPhotos": 111,
+  "missingProducts": [],
+  "missingAssets": [],
+  "sunlit": {
+    "protectedFiles": 19,
+    "changed": [],
+    "gallery": "unchanged",
+    "catalog": "unchanged",
+    "storyMarkup": "unchanged",
+    "community": "unchanged",
+    "catalogStories": 37,
+    "storyImages": 148,
+    "reviewPhotos": 111
+  },
+  "browser": [
+    {
+      "file": "purchase-browser-results.html",
+      "products": 38,
+      "passed": 38,
+      "failed": []
+    },
+    {
+      "file": "purchase-mobile-results.html",
+      "products": 38,
+      "passed": 38,
+      "failed": []
+    }
+  ],
+  "community": [
+    {
+      "id": "forest-veil-perfume",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-veil-hand-wash",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-veil-body-lotion",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-veil-hand-cream",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-1",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-2",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-3",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-4",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-6",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-7",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-8",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-9",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-10",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-11",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "new-12",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "reverence-hand-wash",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "fable-serum",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "purifying-cleanser",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "tacit-perfume",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "balancing-shampoo",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "immediate-mist",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "parsley-cream",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-cleanser",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-balm",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-hand-wash",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-serum",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "forest-set",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "citrus-oil",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "citrus-hand-wash",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "citrus-serum",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "citrus-balm",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "citrus-set",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "relaxing-balm",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "relaxing-spray",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "relaxing-candle",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "relaxing-diffuser",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    },
+    {
+      "id": "relaxing-set",
+      "reviews": 5,
+      "qna": 3,
+      "photos": 3
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "protectedFileCount": 19,
+  "changedProtectedFiles": [],
+  "galleryUnchanged": true,
+  "catalogUnchanged": true,
+  "storyMarkupUnchanged": true,
+  "prices": [
+    {
+      "size": "120mL",
+      "price": 49400,
+      "original": 52000
+    },
+    {
+      "size": "500mL",
+      "price": 135000,
+      "original": 135000
+    }
+  ]
+}

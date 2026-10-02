@@ -1,0 +1,52 @@
+/* 선릿의 소개 · 리추얼 · 특징/사용법 · 컬렉션 순서를 따릅니다. */
+.catalog-sunlit-panel {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 43 / 100;
+    overflow: hidden;
+    container-type: inline-size;
+    color: #414b3d;
+    background: radial-gradient(ellipse at 88% 7%, #d9d3ba80, transparent 52%), linear-gradient(135deg, #f4eddf, #eae1d0);
+    font-family: Georgia, "Times New Roman", serif;
+}
+.catalog-sunlit-panel p { font-size: 2.7cqw; line-height: 1.65; word-break: keep-all; }
+.catalog-sunlit-panel h3 { font-size: 7.3cqw; font-weight: 400; line-height: 1.1; }
+.catalog-sunlit-panel h4 { font-size: 4.3cqw; font-weight: 400; line-height: 1.4; white-space: pre-line; }
+.catalog-sunlit-panel .catalog-detail-label { width: fit-content; padding-bottom: 1.4cqw; border-bottom: 1px solid #7d7f6c; margin-bottom: 3.3cqw; font-size: 2cqw; letter-spacing: .05em; }
+.catalog-sunlit-panel .catalog-detail-main { position: absolute; object-fit: contain; mix-blend-mode: multiply; }
+.catalog-detail-intro { position: absolute; left: 8%; top: 17%; width: 52%; }
+.catalog-detail-intro h4 { margin-top: 7cqw; }
+.catalog-detail-intro > p { margin-top: 3cqw; }
+.catalog-detail-rule { width: 25%; height: 1px; margin-top: 5cqw; background: #7d7f6c; }
+.catalog-detail-stone { position: absolute; right: 0; bottom: 5%; width: 66%; height: 29%; background: linear-gradient(135deg, #ded3bb, #d0c3a9); box-shadow: -2cqw 3cqw 6cqw #7c74652b; }
+body.has-catalog-detail-images .catalog-sunlit-panel-1 .catalog-detail-main { right: 2%; bottom: 9%; width: 64%; height: 45%; }
+body.has-catalog-detail-images .catalog-sunlit-panel .catalog-detail-scene { position: absolute; top: 0; left: 0; width: 100%; height: 48%; object-fit: cover; }
+.catalog-detail-ritual { position: absolute; left: 7%; top: 52%; width: 47%; }
+.catalog-detail-ritual h3 { font-size: 7.5cqw; }
+.catalog-detail-ritual h4 { margin: 3cqw 0; }
+.catalog-detail-ritual > p { margin-top: 3cqw; }
+body.has-catalog-detail-images .catalog-sunlit-panel-2 .catalog-detail-main { right: 4%; top: 63%; width: 46%; height: 32%; }
+body.has-catalog-detail-images .catalog-sunlit-panel .catalog-detail-closeup { position: absolute; left: 7%; bottom: 0; width: 36%; height: 21%; object-fit: cover; }
+.catalog-detail-description { position: absolute; left: 7%; top: 7%; width: 50%; }
+.catalog-detail-description h3 { font-size: 6.8cqw; }
+.catalog-detail-description > p { margin-top: 3cqw; }
+body.has-catalog-detail-images .catalog-sunlit-panel-3 .catalog-detail-main { right: 4%; top: 6%; width: 42%; height: 25%; }
+.catalog-detail-points { position: absolute; left: 7%; top: 34%; width: 86%; }
+.catalog-detail-point { display: grid; grid-template-columns: 13% 1fr; align-items: center; gap: 4%; margin-top: 5cqw; }
+.catalog-detail-point > span { display: grid; aspect-ratio: 1; place-items: center; border: 1px solid #848773; border-radius: 50%; font-size: 3.3cqw; }
+.catalog-detail-point > div { border-left: 1px solid #c2beaa; padding-left: 4cqw; }
+.catalog-detail-point small { font-size: 2.1cqw; }
+.catalog-detail-point h4 { margin: 1.2cqw 0 .8cqw; font-size: 3.7cqw; }
+.catalog-detail-point p { font-size: 2.5cqw; }
+.catalog-detail-texture { position: absolute; left: 7%; top: 75%; width: 86%; }
+.catalog-detail-usage { position: absolute; left: 7%; top: 85%; width: 86%; }
+.catalog-detail-usage > p + p { margin-top: 2.5cqw; }
+.catalog-detail-collection-title { position: absolute; top: 8%; left: 6%; width: 88%; text-align: center; }
+.catalog-detail-collection-title .catalog-detail-label { margin-inline: auto; }
+.catalog-detail-collection-title h3 { font-size: 5.5cqw; line-height: 1.5; }
+.catalog-detail-collection-title > p:last-child { margin-top: 4cqw; }
+.catalog-detail-collection { position: absolute; display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); align-items: end; left: 4%; bottom: 3%; width: 92%; height: 58%; gap: 1%; }
+.catalog-detail-collection figure { position: relative; height: 94%; padding-inline: 1cqw; background: linear-gradient(135deg, #e3d7bd, #d5c7ae); }
+.catalog-detail-collection figure.is-current { height: 100%; background: linear-gradient(135deg, #ebdfc7, #d3c4a8); }
+body.has-catalog-detail-images .catalog-sunlit-panel .catalog-detail-companion { position: absolute; left: 0; bottom: 19%; width: 100%; height: 72%; object-fit: contain; mix-blend-mode: multiply; }
+.catalog-detail-collection figcaption { position: absolute; bottom: 7%; left: 4%; width: 92%; font-size: 2.4cqw; line-height: 1.4; text-align: center; }

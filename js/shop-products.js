@@ -1,5 +1,70 @@
 window.shopProducts = [
     {
+        "id": "forest-veil-perfume",
+        "name": "포레스트 베일 오 드 퍼퓸",
+        "englishName": "Forest Veil Eau de Parfum",
+        "image": "./img/main/new1.jpg",
+        "category": "퍼퓸",
+        "description": "숲의 결을 따라 번지는 부드러운 향",
+        "options": [
+            {
+                "size": "50mL",
+                "price": 165000
+            },
+            {
+                "size": "100mL",
+                "price": 245000
+            }
+        ]
+    },
+    {
+        "id": "forest-veil-hand-wash",
+        "name": "포레스트 베일 핸드 워시",
+        "englishName": "Forest Veil Hand Wash",
+        "image": "./img/main/new2.jpg",
+        "category": "핸드 & 립",
+        "description": "숲을 닮은 향을 남기는 부드러운 핸드 워시",
+        "options": [
+            {
+                "size": "250mL",
+                "price": 33000
+            },
+            {
+                "size": "500mL",
+                "price": 53000
+            }
+        ]
+    },
+    {
+        "id": "forest-veil-body-lotion",
+        "name": "포레스트 베일 바디 로션",
+        "englishName": "Forest Veil Body Lotion",
+        "image": "./img/main/new3.jpg",
+        "category": "바디 & 헤어",
+        "description": "피부를 유연하게 가꾸는 산뜻한 바디 로션",
+        "options": [
+            {
+                "size": "250mL",
+                "price": 45000
+            },
+            {
+                "size": "500mL",
+                "price": 72000
+            }
+        ]
+    },
+    {
+        "name": "포레스트 베일 핸드 크림",
+        "id": "forest-veil-hand-cream",
+        "image": "./img/main/new4.jpg",
+        "englishName": "Forest Veil Hand Cream",
+        "category": "핸드 & 립",
+        "options": [
+            { "size": "75mL", "price": 33000 },
+            { "size": "150mL", "price": 55000 }
+        ]
+    },
+    {
         "name":  "미네랄 배스 솔트",
         "id":  "new-1",
         "image":  "./img/product-list/asset-01.png"
